@@ -4,3 +4,4 @@ foundation of the physics of semiconductor devices. The basic theory of current-
 was then extended by Sah, Noyce, and Shockley3, and by Moll.4
 
 ## PN Junctions at Thermal Equilibrium
+## PN Junction Under Applied Voltage
