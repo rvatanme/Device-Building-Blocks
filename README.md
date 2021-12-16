@@ -1,2 +1,1 @@
-The earliest systematic investigation on metal-semiconductor rectifying systems is generally attributed to Braun, who in 1874 noted the dependence of the total resis-
-tance of a point contact on the polarity of the applied voltage and on the detailed surface conditions.
+p-n junctions are of great importance both in modern electronic applications and in understanding other semiconductor devices. The p-n junction theory serves as the foundation of the physics of semiconductor devices. The basic theory of current-voltage characteristics of p-n junctions was established by Shockley.
