@@ -103,5 +103,21 @@ The depletion-layer capacitance for a linearly graded junction is given by:
 ![](https://latex.codecogs.com/svg.latex?%5CLARGE%20C_D%20%3D%20%5Cfrac%7B%5Cepsilon%20_s%7D%7BW_D%7D%20%3D%20%5B%5Cfrac%7Bqa%5Cepsilon%20_s%5E2%7D%7B12%28%5Cpsi%20_%7Bbi%7D%20-%20V%29%7D%5D%5E%7B1/3%7D)
 
 
+In the case of any arbitray doping profile near the junction, the potenial on the n side and the total depletion-layer charge of a one-side pn junctioin is given by:
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20%5Cpsi%20_n%20%3D%20%5Cfrac%7Bq%7D%7B%5Cepsilon%20_s%7D%5Cint_%7B0%7D%5E%7BW_%7BDn%7D%7DxN_D%28x%29dx)
+
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20Q_D%20%3D%20q%5Cint_%7B0%7D%5E%7BW_%7BDn%7D%7DN_D%28x%29dx)
+
+Differentiating the above quantities with respect to the depletion width gives:
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20%5Cfrac%7BdV%7D%7BdW_D%7D%20%3D%20-%5Cfrac%7Bd%5Cpsi%20_n%7D%7BdW_D%7D%20%3D%20-%20%5Cfrac%7BqN_D%28W_D%29W_D%7D%7B%5Cepsilon%20_s%7D%20%5C%5C%5C%5C%5C%5C%20%5Cfrac%7BdQ_D%7D%7BdW_D%7D%20%3DqN_D%28W_D%29%20%5C%5C%5C%5C%5C%5C%20C_D%3D%7C%5Cfrac%7BdQ_D%7D%7BdW_D%7D%7C%3D%7C%5Cfrac%7BdQ_D%7D%7BdW_D%7D%5Cfrac%7BdW_D%7D%7BdV%7D%7C%3D%5Cfrac%7B%5Cepsilon%20_s%7D%7BdW_D%7D)
+
+Therefore, the general expression of ε<sub>s</sub>/W<sub>D</sub> is obtained and is applicable to depletion layer capacitance for any arbitrary doping profile. From this we can derive the following equation for a general nonuniform profile:
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20%5Cfrac%7Bd%281/C_D%5E2%29%7D%7BdV%7D%20%3D%20-%5Cfrac%7B2%7D%7Bq%5Cepsilon%20_sN_D%28W_D%29%7D)
+
+This C-V technique can be used to measure nonuniform doping profile. The 1/C<sub>D</sub><sup>2</sup>-V plot would deviate from a straight line if the doping is not constant.
 
 ## PN Junction Under Applied Voltage
