@@ -82,7 +82,25 @@ where a is the doping gradient in cm-4 unit. By integrating the above equation o
 ![](https://latex.codecogs.com/svg.latex?%5CLARGE%20%5Cpsi%20_i%28x%29%20%3D%20%5Cfrac%7Bqa%7D%7B6%5Cepsilon%20_s%7D%5B2%28%5Cfrac%7BW_D%7D%7B2%7D%29%5E3&plus;3%28%5Cfrac%7BW_D%7D%7B2%7D%29%5E2x-x%5E3%5D)
 
 
+![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/pn_junctions/ele_fie_gra.png)
 
+
+Using the above equation, maximum electric field and deplation width can be derived as a function of build in potential: 
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20%7C%5Cxi%20_m%7C%20%3D%20%5Cfrac%7BqaW_D%5E2%7D%7B8%5Cepsilon%20_s%7D%20%5C%5C%5C%5C%20W_D%20%3D%20%28%5Cfrac%7B12%5Cepsilon_s%5Cpsi%20_%7Bbi%7D%7D%7Bqa%7D%29%5E%7B1/3%7D)
+
+Since the values of the impurity concentrations at the edges of the depletion region (-W<sub>D</sub>/2 and W<sub>D</sub>/2) are the same and equal to aW<sub>D</sub>/2, the built-in potential for a linearly graded junction can be approximated by an expression:
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20%5Cpsi%20_%7Bbi%7D%20%5Capprox%20%5Cfrac%7BkT%7D%7Bq%7Dln%5B%5Cfrac%7B%28aW_D/2%29%28aW_D/2%29%7D%7Bn_i%5E2%7D%5D%20%5Capprox%20%5Cfrac%7B2kT%7D%7Bq%7Dln%5B%5Cfrac%7BaW_D%7D%7B2n_i%7D%5D)
+
+By plugging W<sub>D</sub> as a function of ψ<sub>bi</sub> in the above equation, the built-in potential can be calcu-
+lated explicitly by an expression as a gradient voltage V<sub>g</sub>:
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20V_g%20%3D%20%5Cfrac%7B2kT%7D%7B3q%7Dln%5B%5Cfrac%7Ba%5E2%5Cepsilon%20_skT%7D%7B8n_i%5E3q%5E2%7D%5D)
+
+The depletion-layer capacitance for a linearly graded junction is given by:
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20C_D%20%3D%20%5Cfrac%7B%5Cepsilon%20_s%7D%7BW_D%7D%20%3D%20%5B%5Cfrac%7Bqa%5Cepsilon%20_s%5E2%7D%7B12%28%5Cpsi%20_%7Bbi%7D%20-%20V%29%7D%5D%5E%7B1/3%7D)
 
 
 
