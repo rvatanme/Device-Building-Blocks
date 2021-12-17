@@ -63,4 +63,15 @@ Note that the semiconductor potential and the capacitance-voltage data are insen
 
 In another words, the bare Coulomb potential of an ionized impurity is exponentially screened by the medium, over a distance of the Debye length, therefore the effect of that impurity on the potential of a carrier is considerable only outside the Deby length. At thermal equilibrium the depletion-layer widths of abrupt junctions are about 8L<sub>D</sub>, for Si, and 10L<sub>D</sub>, for GaAs. For a doping density of 1E16 cm-3, the Debye length is 40 nm; for other dopings, L<sub>D</sub> will vary as N^-1/2, that is, a reduction by a factor of 3.16 per decade.
 
+
+Now let's consider a linearly graded pn junction. In this case, the form of Poisson equation is as follows:
+
+
+![]()
+
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20-%5Cfrac%7Bd%5E2%5Cpsi%20_i%7D%7Bdx%5E2%7D%20%3D%20%5Cfrac%7Bd%5Cxi%7D%7Bdx%7D%20%3D%20%5Cfrac%7Bq%7D%7B%5Cepsilon%20_s%7D%28p-n&plus;ax%29%20%5C%5C%5C%5C%5C%5C%20%5Capprox%20%5Cfrac%7Bqax%7D%7B%5Cepsilon%20_s%7D%20%5C%3B%5C%3B%5C%3B%5C%3B%5C%3B%5C%3B%20-%5Cfrac%7BW_D%7D%7B2%7D%20%5Cleq%20x%20%5Cleq%20%5Cfrac%7BW_D%7D%7B2%7D)
+
+
+where a is the doping gradient in cm-4 unit. 
 ## PN Junction Under Applied Voltage
