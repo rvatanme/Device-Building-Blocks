@@ -47,5 +47,6 @@ where ψ<sub>i</sub> is the potential. The electric field is then obtained by in
  The net potential at zero bias is near 0.8 V for Si and 1.3 V for GaAs. This net potential will be decreased under forward bias and increased
 under reverse bias. These results can also be used for GaAs since both Si and GaAs have approximately the same static dielectric constants. To obtain the depletion-layer width for other semiconductors such as Ge, one must multiply the results of Si by the (\epsilon_Ge / \epsilon_Si)^1/2 (= 1.16) factor. The simple model above can give adequate predictions for most abrupt p-n junctions.
 
-The depletion-layer capacitance per unit area is defined as C<sub>D</sub> = dQ<sub>D</sub>/dV = ε<sub>s</sub>/W<sub>D</sub>, where Q_D is the incremental change of depletion charge in each side of the junction upon the incremental change in the applied voltage. 
+The depletion-layer capacitance per unit area is defined as C<sub>D</sub> = dQ<sub>D</sub>/dV = ε<sub>s</sub>/W<sub>D</sub>, where Q<sub>D</sub> is the incremental change of depletion charge in each side of the junction upon the incremental change in the applied voltage.
+
 ## PN Junction Under Applied Voltage
