@@ -67,7 +67,7 @@ In another words, the bare Coulomb potential of an ionized impurity is exponenti
 Now let's consider a linearly graded pn junction. In this case, the form of Poisson equation is as follows:
 
 
-![]()
+![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/pn_junctions/graded_junc.png)
 
 
 ![](https://latex.codecogs.com/svg.latex?%5CLARGE%20-%5Cfrac%7Bd%5E2%5Cpsi%20_i%7D%7Bdx%5E2%7D%20%3D%20%5Cfrac%7Bd%5Cxi%7D%7Bdx%7D%20%3D%20%5Cfrac%7Bq%7D%7B%5Cepsilon%20_s%7D%28p-n&plus;ax%29%20%5C%5C%5C%5C%5C%5C%20%5Capprox%20%5Cfrac%7Bqax%7D%7B%5Cepsilon%20_s%7D%20%5C%3B%5C%3B%5C%3B%5C%3B%5C%3B%5C%3B%20-%5Cfrac%7BW_D%7D%7B2%7D%20%5Cleq%20x%20%5Cleq%20%5Cfrac%7BW_D%7D%7B2%7D)
