@@ -27,5 +27,5 @@ where ψ<sub>i</sub> is the potential. The electric field is then obtained by in
  
  where ξ is the electric field. Integrating from the above equation once again gives the potential distribution as follows:
  
- 
+ ![](https://latex.codecogs.com/svg.latex?%5Clarge%20%5Cpsi_i%20%28x%29%20%3D%20%5Cfrac%7BqN_A%7D%7B2%5Cepsilon_s%7D%28x&plus;W_%7BDp%7D%29%5E2%20%5C%3B%5C%3B%5C%3B%5C%3B%20for%20%5C%3B%5C%3B%20-W_%7BDp%7D%20%5Cleq%20x%20%5Cleq%200%20%5C%5C%5C%5C%20%5Cpsi_i%20%28x%29%20%3D%20%5Cpsi_i%20%280%29%20&plus;%20%5Cfrac%7BqN_D%7D%7B2%5Cepsilon_s%7D%28W_%7BDn%7D-%5Cfrac%7Bx%7D%7B2%7D%29x%20%5C%3B%5C%3B%5C%3B%5C%3B%20for%20%5C%3B%5C%3B%200%20%5Cleq%20x%20%5Cleq%20W_%7BDn%7D)
 ## PN Junction Under Applied Voltage
