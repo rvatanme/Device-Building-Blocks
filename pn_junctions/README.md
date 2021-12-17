@@ -47,6 +47,20 @@ where ψ<sub>i</sub> is the potential. The electric field is then obtained by in
  The net potential at zero bias is near 0.8 V for Si and 1.3 V for GaAs. This net potential will be decreased under forward bias and increased
 under reverse bias. These results can also be used for GaAs since both Si and GaAs have approximately the same static dielectric constants. To obtain the depletion-layer width for other semiconductors such as Ge, one must multiply the results of Si by the (\epsilon_Ge / \epsilon_Si)^1/2 (= 1.16) factor. The simple model above can give adequate predictions for most abrupt p-n junctions.
 
-The depletion-layer capacitance per unit area is defined as C<sub>D</sub> = dQ<sub>D</sub>/dV = ε<sub>s</sub>/W<sub>D</sub>, where Q<sub>D</sub> is the incremental change of depletion charge in each side of the junction upon the incremental change in the applied voltage.
+The depletion-layer capacitance per unit area is defined as C<sub>D</sub> = dQ<sub>D</sub>/dV = ε<sub>s</sub>/W<sub>D</sub>, where Q<sub>D</sub> is the incremental change of depletion charge in each side of the junction (total charge is zero) upon the incremental change of the applied voltage dV. By plugging the former derived expression for W<sub>D</sub> and rearranging the equation, depletion capacitance for a one-side abrupt junction is given by:
+
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%201/C_D%5E2%20%3D%20%5Cfrac%7B2%7D%7Bq%5Cepsilon%20_sN%7D%28%5Cpsi%20_%7Bbi%7D%20-%20V%20-%202kT/q%29)
+
+
+Therefore by plotting 1/C<sub>D</sub><sup>2</sup> versus a straight line should result from a one-sided abrupt junction (Fig. 3). The slope gives the impurity concentration of the substrate (N), and the extrapolation gives (ψ<sub>bi</sub> - 2kT/q). Note that, for the forward bias, a diffusion capacitance exists in addition to the depletion capacitance.
+
+Note that the semiconductor potential and the capacitance-voltage data are insensitive to changes in the doping profiles that occur in a distance less than a Debye length. The Debye length L, is a characteristic length for semiconductors and is defined as:
+
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20L_D%20%3D%20%5Csqrt%7B%5Cfrac%7BkT%5Cepsilon%20_s%7D%7Bq%5E2N%7D%7D%20%3D%20%5Csqrt%7B%5Cfrac%7B%5Cepsilon%20_s%7D%7BqN%5Cbeta%20_%7Bth%7D%7D%7D)
+
+
+At thermal equilibrium the depletion-layer widths of abrupt junctions are about 8L<sub>D</sub>, for Si, and lOL<sub>D</sub>, for GaAs. For a doping density of 1El6 cm-3, the Debye length is 40 nm; for other dopings, LD will vary as N^-1/2, that is, a reduction by a factor of 3.16 per decade.
 
 ## PN Junction Under Applied Voltage
