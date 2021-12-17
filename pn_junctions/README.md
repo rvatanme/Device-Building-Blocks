@@ -61,6 +61,6 @@ Note that the semiconductor potential and the capacitance-voltage data are insen
 ![](https://latex.codecogs.com/svg.latex?%5CLARGE%20L_D%20%3D%20%5Csqrt%7B%5Cfrac%7BkT%5Cepsilon%20_s%7D%7Bq%5E2N%7D%7D%20%3D%20%5Csqrt%7B%5Cfrac%7B%5Cepsilon%20_s%7D%7BqN%5Cbeta%20_%7Bth%7D%7D%7D)
 
 
-At thermal equilibrium the depletion-layer widths of abrupt junctions are about 8L<sub>D</sub>, for Si, and 10L<sub>D</sub>, for GaAs. For a doping density of 1El6 cm-3, the Debye length is 40 nm; for other dopings, LD will vary as N^-1/2, that is, a reduction by a factor of 3.16 per decade.
+In another words, the bare Coulomb potential of an ionized doping impurity is exponentially screened by the medium, over a distance of the Debye length, therefore its effect on the potential of a carrier can not feel inside the Deby length. At thermal equilibrium the depletion-layer widths of abrupt junctions are about 8L<sub>D</sub>, for Si, and 10L<sub>D</sub>, for GaAs. For a doping density of 1El6 cm-3, the Debye length is 40 nm; for other dopings, LD will vary as N^-1/2, that is, a reduction by a factor of 3.16 per decade.
 
 ## PN Junction Under Applied Voltage
