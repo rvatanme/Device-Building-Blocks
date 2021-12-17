@@ -73,5 +73,17 @@ Now let's consider a linearly graded pn junction. In this case, the form of Pois
 ![](https://latex.codecogs.com/svg.latex?%5CLARGE%20-%5Cfrac%7Bd%5E2%5Cpsi%20_i%7D%7Bdx%5E2%7D%20%3D%20%5Cfrac%7Bd%5Cxi%7D%7Bdx%7D%20%3D%20%5Cfrac%7Bq%7D%7B%5Cepsilon%20_s%7D%28p-n&plus;ax%29%20%5C%5C%5C%5C%5C%5C%20%5Capprox%20%5Cfrac%7Bqax%7D%7B%5Cepsilon%20_s%7D%20%5C%3B%5C%3B%5C%3B%5C%3B%5C%3B%5C%3B%20-%5Cfrac%7BW_D%7D%7B2%7D%20%5Cleq%20x%20%5Cleq%20%5Cfrac%7BW_D%7D%7B2%7D)
 
 
-where a is the doping gradient in cm-4 unit. 
+where a is the doping gradient in cm-4 unit. By integrating the above equation once and twice, the electric field and potential is obtained as follows:
+
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20%5Cxi%28x%29%20%3D%20-%5Cfrac%7Bqa%7D%7B2%5Cepsilon%7D%5B%7B%28%5Cfrac%7BW_D%7D%7B2%7D%29%5E2%7D-x%5E2%5D)
+
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20%5Cpsi%20_i%28x%29%20%3D%20%5Cfrac%7Bqa%7D%7B6%5Cepsilon%20_s%7D%5B2%28%5Cfrac%7BW_D%7D%7B2%7D%29%5E3&plus;3%28%5Cfrac%7BW_D%7D%7B2%7D%29%5E2x-x%5E3%5D)
+
+
+
+
+
+
 ## PN Junction Under Applied Voltage
