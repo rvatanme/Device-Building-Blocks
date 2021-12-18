@@ -219,7 +219,7 @@ The experimental results in general can be represented by an empirical form:
 ![](https://latex.codecogs.com/svg.latex?%5CLARGE%20J_F%20%5Cpropto%20exp%28%5Cfrac%7BqV%7D%7B%5Ceta%20kT%7D%29)
 
 
-where the ideality factor 7 equals 2 when the recombination current dominates and 7 equals 1 when the diffusion current dominates. When both currents are comparable, 7 has a value between 1 and 2.
+where the ideality factor η equals 2 when the recombination current dominates and η equals 1 when the diffusion current dominates. When both currents are comparable, η has a value between 1 and 2.
 
 At high current densities (under the forward-bias condition) such that the injected minority-carrier density is comparable to the majority concentration, both drift and diffusion current components must be considered.
 
