@@ -155,3 +155,39 @@ Using the continuity equations for both electrons and holes for the steady-state
 ![](https://latex.codecogs.com/svg.latex?%5CLARGE%20J_p%28W_%7BDn%7D%29%3D%5Cfrac%7BqD_pp_%7Bn0%7D%7D%7BL_n%7D%5Bexp%28%5Cfrac%7BqV%7D%7BkT%7D%29-1%5D%20%5C%5C%5C%5C%5C%5C%20J_n%28-W_%7BDp%7D%29%3D%5Cfrac%7BqD_nn_%7Bp0%7D%7D%7BL_p%7D%5Bexp%28%5Cfrac%7BqV%7D%7BkT%7D%29-1%5D)
 
 
+It is interesting to note that the hole current is due to injection of holes from thep-side to the n-side, but the magnitude is determined by the properties in the n-side only (Dp, Lp, pn0). The analogy holds for the electron current. The total current is given by the sum of above equations:
+
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20J%20%3D%20J_p%20&plus;%20J_n%20%3D%20J_0%5Bexp%28%5Cfrac%7BqV%7D%7BkT%7D%29-1%5D%2C%20%5C%5C%5C%5C%5C%5C%20J_0%20%5Cequiv%20%5Cfrac%7BqD_pp_%7Bn0%7D%7D%7BL_n%7D%20&plus;%20%5Cfrac%7BqD_nn_%7Bp0%7D%7D%7BL_p%7D)
+
+
+The above equation is the well-known Shockley equation, which is the ideal diode law. In the forward direction (positive bias on the p-side) for
+V > 3kT/q, the rate of current rise is constant (Fig. lob); at 300 K for every decade change of current, the voltage changes by only 0.06 V (= 2.3kT/q). In the reverse direction, the current density saturates at -J0. The saturation current density depends on temperature as follows:
+
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20J_0%20%5Cpropto%20T%5E%7B%283&plus;%5Cgamma%20/2%29%7Dexp%28%5Cfrac%7B-E_g%7D%7BkT%7D%29)
+
+
+Therefore the slope of a plot J, versus l/T is determined mainly by the energy gap Eg. It is expected that in the reverse direction, where |JR| = J0, the current will increase approximately as exp(-Eg/kT) with temperature; and in the forward direction, where JF = J0exp(qV/kT), the current will increase approximately as exp[-(Eg - qV)/kT] with temperature. 
+
+The Shockley equation adequately predicts the current-voltage characteristics of germanium p-n junctions at low current densities. For Si and GaAs p-n junctions, however, the ideal equation can only give qualitative agreement. The departures from the ideal are mainly due to: (1) the generation and recombination of carriers in the depletion layer, (2) the high-injection condition that may occur even at relatively small forward bias, (3) the parasitic IR drop due to series resistance, (4) the tunneling of carriers between states in the bandgap, and (5) the surface effects. In addition, under sufficiently larger field in the reverse direction, the junction will breakdown as a result, for example, of avalanche multiplication.
+
+We first consider the generation current under the reverse-bias condition. Because of the reduction in carrier concentration under reverse bias (pn << n<sub>i</sub><sup>2</sup>) the dominant generation processes are those of trap assisted emission. With n << n<sub>i</sub> and p << n<sub>i</sub> condition, the generation rate is given by:
+
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20U%20%3D%20-%5C%7B%5Cfrac%7B%5Csigma%20_n%20%5Csigma%20_p%20%5Cnu%20_%7Bth%7DN_t%7D%7B%5Csigma%20_nexp%5B%28E_t-E_i%29/kT%5D&plus;%5Csigma%20_pexp%5B%28E_i-E_t%29/kT%5D%7D%5C%7Dn_i%3D%20%5C%5C-%5Cfrac%7Bn_i%7D%7B%5Ctau%20_g%7D)
+
+
+The current due to generation in the depletion region is thus given by:
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20J_%7Bge%7D%20%3D%20%5Cint_%7B0%7D%5E%7BW_D%7Dq%7CU%7Cdx%5Capprox%20%5Cfrac%7Bqn_iW_D%7D%7B%5Ctau%20_g%7D)
+
+At a given temperature, J<sub>ge</sub> is proportional to the depletion-layer width, which in turn is dependent on the applied reverse bias. It is thus expected that:
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20J_%7Bge%7D%20%5Cpropto%20%28%5Cpsi%20_%7Bbi%7D%20&plus;%20V%29%5E%7B1/2%7D%20%5C%3B%5C%3B%5C%3B%5C%3B%20for%5C%3Babrupt%5C%3Bjunction%20%5C%5C%5C%5C%20J_%7Bge%7D%20%5Cpropto%20%28%5Cpsi%20_%7Bbi%7D%20&plus;%20V%29%5E%7B1/3%7D%20%5C%3B%5C%3B%5C%3B%5C%3B%20for%5C%3Blinearly%5C%3Bjunction)
+
+The total reverse current (for pn0 >> np0 and |V| > 3kT/q) can be approximated by the sum of the diffusion component in the neutral region and the generation current in the depletion region:
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20J_R%20%3D%20q%5Csqrt%7B%5Cfrac%7BD_p%7D%7B%5Ctau_p%7D%7D%5Cfrac%7Bn_i%5E2%7D%7BN_D%7D%20&plus;%20%5Cfrac%7Bqn_iW_D%7D%7B%5Ctau%20_g%7D)
+
+For semiconductors with large values of ni (such as Ge), the diffusion component will dominate at room temperature and the reverse current will follow the Shockley equation; but if yli is small (such as for Si), the generation current may dominate.
