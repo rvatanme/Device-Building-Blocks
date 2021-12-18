@@ -131,4 +131,4 @@ where n and p are the electron and hole concentration in any region of interest 
 
 ![](https://latex.codecogs.com/svg.latex?%5CLARGE%20pn%20%3D%20n_i%5E2exp%28%5Cfrac%7BE_%7BFn%7D-E_%7BFp%7D%7D%7BkT%7D%29)
 
-where for a forward bias pn > n<sub>i</sub><sup>2</sup> and for a reverse bias pn > n<sub>i</sub><sup>2</sup>, inside the depletion layer and near its boundary.  
+where for a forward bias pn > n<sub>i</sub><sup>2</sup> and for a reverse bias pn < n<sub>i</sub><sup>2</sup>, inside the depletion layer and near its boundary.  
