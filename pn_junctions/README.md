@@ -191,3 +191,42 @@ The total reverse current (for pn0 >> np0 and |V| > 3kT/q) can be approximated b
 ![](https://latex.codecogs.com/svg.latex?%5CLARGE%20J_R%20%3D%20q%5Csqrt%7B%5Cfrac%7BD_p%7D%7B%5Ctau_p%7D%7D%5Cfrac%7Bn_i%5E2%7D%7BN_D%7D%20&plus;%20%5Cfrac%7Bqn_iW_D%7D%7B%5Ctau%20_g%7D)
 
 For semiconductors with large values of ni (such as Ge), the diffusion component will dominate at room temperature and the reverse current will follow the Shockley equation; but if yli is small (such as for Si), the generation current may dominate.
+
+At forward bias, where the major recombination-generation processes in the depletion region are the capture processes, we have a recombination current J,, in addition to the diffusion current. In this case, under the assumption Et = Ei and σp = σn = σ and Ei = (EFn+EPn)/2 and V > kT/q, the recommbination rate is as follows:
+
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20U%20%5Capprox%20%5Cfrac%7B1%7D%7B2%7D%5Csigma%20%5Cnu%20_%7Bth%7DN_tn_iexp%28%5Cfrac%7BqV%7D%7BkT%7D%29)
+
+
+Then the recommbination current density is given by:
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20J_%7Bge%7D%20%3D%20%5Cint_%7B0%7D%5E%7BW_D%7Dq%7CU%7Cdx%5Capprox%20%5Cfrac%7Bqn_iW_D%7D%7B2%5Ctau%7Dexp%28%5Cfrac%7BqV%7D%7B2kT%7D%29)
+
+
+The above approximation assumes that most part of the depletion layer has this maximum recombination rate, and Jre is thus somewhat an overestimate. A more rigorous derivation gives:
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20J_%7Bge%7D%20%3D%20%5Cint_%7B0%7D%5E%7BW_D%7Dq%7CU%7Cdx%20%3D%20%5Csqrt%7B%5Cfrac%7B%5Cpi%7D%7B2%7D%7D%20%5Cfrac%7BkTn_i%7D%7B2%5Ctau%20%5Cxi%20_0%7Dexp%28%5Cfrac%7BqV%7D%7B2kT%7D%29%20%5C%5C%5C%5C%5C%5C%20%5Cxi%20_0%20%3D%20%5Csqrt%7B%5Cfrac%7BqN%282%5Cpsi%20_%7Bbi%7D-V%29%7D%7B%5Cepsilon%20_s%7D%7D)
+
+Similar to the generation current in reverse bias, the recombination current in forward bias is also proportional to ni. The total forward current can be approximated by the sum of diffusion and recommbination current. For a p+-n junction (pn0 >> np0) and V >> kT/q:
+
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20J_F%20%3D%20q%5Csqrt%7B%5Cfrac%7BD_p%7D%7B%5Ctau_p%7D%7D%5Cfrac%7Bn_i%5E2%7D%7BN_D%7Dexp%28%5Cfrac%7BqV%7D%7BkT%7D%29%20&plus;%20%5Csqrt%7B%5Cfrac%7B%5Cpi%7D%7B2%7D%7D%20%5Cfrac%7BkTn_i%7D%7B2%5Ctau%20%5Cxi%20_0%7Dexp%28%5Cfrac%7BqV%7D%7B2kT%7D%29)
+
+
+The experimental results in general can be represented by an empirical form:
+
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20J_F%20%5Cpropto%20exp%28%5Cfrac%7BqV%7D%7B%5Ceta%20kT%7D%29)
+
+
+where the ideality factor 7 equals 2 when the recombination current dominates and 7 equals 1 when the diffusion current dominates. When both currents are comparable, 7 has a value between 1 and 2.
+
+At high current densities (under the forward-bias condition) such that the injected minority-carrier density is comparable to the majority concentration, both drift and diffusion current components must be considered.
+
+The depletion-layer capacitance considered previously accounts for most of the junction capacitance when the junction is reverse-biased. When forward-biased, there is, in addition, a significant contribution to junction capacitance from the rearrangement of minority carrier density, the so-called diffusion capacitance. In other words, the latter is due to the injected charge, while the former to the depletion-layer charge.
+When a small ac signal is applied to a junction that is forward-biased at a dc voltage V0 and current density J0 the total voltage and current are defined by.
+
+This diffusion capacitance is proportional to the forward current. For an n+-p one-sided junction, it can shown that:
+
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20C_%7Bd0%7D%3D%5Cfrac%7BqL_n%5E2%7D%7B2kTD_n%7DJ_F)
