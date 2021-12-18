@@ -121,7 +121,7 @@ Therefore, the general expression of ε<sub>s</sub>/W<sub>D</sub> is obtained an
 This C-V technique can be used to measure nonuniform doping profile. The 1/C<sub>D</sub><sup>2</sup>-V plot would deviate from a straight line if the doping is not constant.
 
 ## PN Junction Under Bias
-Let's first consider an ideal case where the following conditions hold: 1) deplation-layer approximation which states that a build in potential at the junction exists due to the presence of a bipolar double layer, outside this double layer electric field is zero 2) Boltzmann equation is valid 3) low injection regime holds 4) no generation and recombination takes place in the depletion region.
+Let's first consider an ideal case where the following conditions hold: 1) deplation-layer approximation which states that all the drop potential happens in depletion layer and therefore electric field is zero outside the depletion layer 2) Boltzmann equation is valid 3) low injection regime holds 4) no generation and recombination takes place in the depletion region.
 
 We first define the quasi-Fermi levels as follows:
 
@@ -132,3 +132,26 @@ where n and p are the electron and hole concentration in any region of interest 
 ![](https://latex.codecogs.com/svg.latex?%5CLARGE%20pn%20%3D%20n_i%5E2exp%28%5Cfrac%7BE_%7BFn%7D-E_%7BFp%7D%7D%7BkT%7D%29)
 
 where for a forward bias pn > n<sub>i</sub><sup>2</sup> and for a reverse bias pn < n<sub>i</sub><sup>2</sup>, inside the depletion layer and near its boundary.  
+
+
+![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/pn_junctions/ideal_diod.png)
+Inside the depletion region, E<sub>Fn</sub> and E<sub>Fp</sub> remain relatively constant. This comes about because the injected carrier concentrations are relatively much higher inside the depletion region, but since the currents remain fairly constant, the gradients of the quasi-Fermi levels have to be
+small. In addition, the depletion width is typically much shorter than the diffusion length, so the total drop of quasi-Fermi levels inside the depletion width is not significant. With these arguments, it follows that within the depletion region:
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20qV%20%3D%20E_%7BFn%7D-E_%7BFp%7D)
+
+The above equations can be combined to give the electron density at the boundary of the depletion-layer region on the p-side and the hole density at the boundary of the depletion-layer region on the n-side:
+
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20n_p%28-W_%7BDp%7D%29%20%3D%20%5Cfrac%7Bn_i%5E2%7D%7Bp_p%7Dexp%28%5Cfrac%7BqV%7D%7BkT%7D%29%5Capprox%20n_%7Bp0%7Dexp%28%5Cfrac%7BqV%7D%7BkT%7D%29%20%5C%5C%5C%5C%5C%5C%20p_n%28W_%7BDn%7D%29%20%3D%20p_%7Bn0%7Dexp%28%5Cfrac%7BqV%7D%7BkT%7D%29)
+
+
+Using the continuity equations for both electrons and holes for the steady-state condition in the n-side of the junction and assuming that there is no electric field outside the depletion region and only a net recommbination happens outside the depletion region, the following electron and hole current densities are obtained for an ideal diode:
+
+
+![]()
+
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20J_p%28W_%7BDn%7D%29%3D%5Cfrac%7BqD_pp_%7Bn0%7D%7D%7BL_n%7D%5Bexp%28%5Cfrac%7BqV%7D%7BkT%7D%29-1%5D%20%5C%5C%5C%5C%5C%5C%20J_n%28-W_%7BDp%7D%29%3D%5Cfrac%7BqD_nn_%7Bp0%7D%7D%7BL_p%7D%5Bexp%28%5Cfrac%7BqV%7D%7BkT%7D%29-1%5D)
+
+
