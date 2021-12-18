@@ -120,4 +120,15 @@ Therefore, the general expression of ε<sub>s</sub>/W<sub>D</sub> is obtained an
 
 This C-V technique can be used to measure nonuniform doping profile. The 1/C<sub>D</sub><sup>2</sup>-V plot would deviate from a straight line if the doping is not constant.
 
-## PN Junction Under Applied Voltage
+## PN Junction Under Bias
+Let's first consider an ideal case where the following conditions hold: 1) deplation-layer approximation which states that a build in potential at the junction exists due to the presence of a bipolar double layer, outside this double layer electric field is zero 2) Boltzmann equation is valid 3) low injection regime holds 4) no generation and recombination takes place in the depletion region.
+
+We first define the quasi-Fermi levels as follows:
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20E_%7BFn%7D%20%5Cequiv%20E_i%20&plus;%20kTln%28%5Cfrac%7Bn%7D%7Bn_i%7D%29%20%5C%5C%5C%5C%20E_%7BFp%7D%20%5Cequiv%20E_i%20-%20kTln%28%5Cfrac%7Bp%7D%7Bn_i%7D%29)
+
+where n and p are the electron and hole concentration in any region of interest in the pn junction, under bias. Therefore the product of pn, unlike thermal equilibrium, is not n<sub>i</sub><sup>2</sup>:
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20pn%20%3D%20n_i%5E2exp%28%5Cfrac%7BE_%7BFn%7D-E_%7BFp%7D%7D%7BkT%7D%29)
+
+where for a forward bias pn > n<sub>i</sub><sup>2</sup> and for a reverse bias pn > n<sub>i</sub><sup>2</sup>, inside the depletion layer and near its boundary.  
