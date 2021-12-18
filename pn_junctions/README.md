@@ -149,7 +149,7 @@ The above equations can be combined to give the electron density at the boundary
 Using the continuity equations for both electrons and holes for the steady-state condition in the n-side of the junction and assuming that there is no electric field outside the depletion region and only a net recommbination happens outside the depletion region, the following electron and hole current densities are obtained for an ideal diode:
 
 
-![]()
+![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/pn_junctions/contiuity.png)
 
 
 ![](https://latex.codecogs.com/svg.latex?%5CLARGE%20J_p%28W_%7BDn%7D%29%3D%5Cfrac%7BqD_pp_%7Bn0%7D%7D%7BL_n%7D%5Bexp%28%5Cfrac%7BqV%7D%7BkT%7D%29-1%5D%20%5C%5C%5C%5C%5C%5C%20J_n%28-W_%7BDp%7D%29%3D%5Cfrac%7BqD_nn_%7Bp0%7D%7D%7BL_p%7D%5Bexp%28%5Cfrac%7BqV%7D%7BkT%7D%29-1%5D)
