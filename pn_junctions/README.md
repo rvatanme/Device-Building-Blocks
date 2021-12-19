@@ -232,7 +232,7 @@ At high current densities (under the forward-bias condition) such that the injec
 Following figure shows the energey band diagram of a p+n junction at three different current densities 10 (a), 1000 (b), 10000 (c) A/cm2. At 10 A/cm2 the diode is in the low-injection regime. Almost all of the potential drop occurs across the junction. The hole concentration in the n-side is small compared to the electron concentration. At l000 A/cm2 the electron concentration near the junction exceeds the donor concentration appreciably (bear in mind that from charge neutrality, injected carriers Ap = An). An ohmic potential drop appears on the n-side. At l0000 A/cm2 we have very high injection; the potential drop across the junction is insignificant compared to ohmic drops on both sides of the neutral regions.
 
 
-![]()
+![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/pn_junctions/High_injection.png)
 
 
 The depletion-layer capacitance considered previously accounts for most of the junction capacitance when the junction is reverse-biased. When forward-biased, there is, in addition, a significant contribution to junction capacitance from the rearrangement of minority carrier density, the so-called diffusion capacitance. In other words, the latter is due to the injected charge, while the former to the depletion-layer charge.
