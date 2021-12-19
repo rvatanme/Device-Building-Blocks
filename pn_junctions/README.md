@@ -11,6 +11,9 @@ At thermal equilibrium under no bias, Boltzmann statistics and Poisson equation 
 ![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/pn_junctions/biuld_in.png)
 
 
+![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/pn_junctions/pn_diagram.png)
+
+
 ![](https://latex.codecogs.com/svg.latex?%5CLARGE%20%5Cpsi_%7Bbi%7D%20%3D%20%5Cfrac%7BkT%7D%7Bq%7Dln%28%5Cfrac%7BN_DN_A%7D%7Bn_i%5E2%7D%29)
  
  
