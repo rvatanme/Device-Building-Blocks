@@ -224,7 +224,16 @@ The experimental results in general can be represented by an empirical form:
 
 where the ideality factor η equals 2 when the recombination current dominates and η equals 1 when the diffusion current dominates. When both currents are comparable, η has a value between 1 and 2.
 
-At high current densities (under the forward-bias condition) such that the injected minority-carrier density is comparable to the majority concentration, both drift and diffusion current components must be considered.
+At high current densities (under the forward-bias condition) such that the injected minority-carrier density is comparable to the majority concentration, both drift and diffusion current components must be considered. Since Jp, q, μp, and p are positive, the quasi-Fermi level for holes E increases monotonically to the right as shown in Fp following figure. Similarly, the quasi-Fermi level for electrons EF,, decreases monotonically to the left. Thus, everywhere the separation of the two quasi-Fermi levels must be equal to or less than the applied voltage, and therefore:
+
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20pn%20%5Cleq%20n_i%5E2exp%28%5Cfrac%7BqV%7D%7BkT%7D%29)
+
+Following figure shows the energey band diagram of a p+n junction at three different current densities 10 (a), 1000 (b), 10000 (c) A/cm2. At 10 A/cm2 the diode is in the low-injection regime. Almost all of the potential drop occurs across the junction. The hole concentration in the n-side is small compared to the electron concentration. At l000 A/cm2 the electron concentration near the junction exceeds the donor concentration appreciably (bear in mind that from charge neutrality, injected carriers Ap = An). An ohmic potential drop appears on the n-side. At l0000 A/cm2 we have very high injection; the potential drop across the junction is insignificant compared to ohmic drops on both sides of the neutral regions.
+
+
+![]()
+
 
 The depletion-layer capacitance considered previously accounts for most of the junction capacitance when the junction is reverse-biased. When forward-biased, there is, in addition, a significant contribution to junction capacitance from the rearrangement of minority carrier density, the so-called diffusion capacitance. In other words, the latter is due to the injected charge, while the former to the depletion-layer charge.
 When a small ac signal is applied to a junction that is forward-biased at a dc voltage V0 and current density J0 the total voltage and current are defined by.
