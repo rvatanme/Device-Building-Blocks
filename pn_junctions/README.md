@@ -257,6 +257,10 @@ Substituting p<sub>n</sub>(t) in the continuity equation and assuming that Gp = 
 
 ![](https://latex.codecogs.com/svg.latex?%5CLARGE%20J%20%3D%20qp_%7Bn0%7D%5Csqrt%7B%5Cfrac%7BD_p%7D%7B%5Ctau%20_p%5E*%7D%7D&plus;qn_%7Bp0%7D%5Csqrt%7B%5Cfrac%7BD_n%7D%7B%5Ctau%20_n%5E*%7D%7D%5Bexp%28qV_0/kT%29%5D%5B1&plus;%5Cfrac%7BqV_1%7D%7BkT%7Dexp%28j%5Comega%20t%29%5D)
 
+with the ac component being:
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20J_1%20%3D%20%5B%5Cfrac%7Bqp_%7Bn0%7DD_p%5Csqrt%7B1&plus;j%5Comega%20%5Ctau%20_p%7D%7D%7BL_p%7D&plus;%5Cfrac%7Bqn_%7Bp0%7DD_n%5Csqrt%7B1&plus;j%5Comega%20%5Ctau%20_n%7D%7D%7BL_n%7D%5Dexp%28%5Cfrac%7BqV_0%7D%7BkT%7D%29%5Cfrac%7BqV_1%7D%7BkT%7D)
+
 This diffusion capacitance is proportional to the forward current. For an n+-p one-sided junction, it can shown that:
 
 ![](https://latex.codecogs.com/svg.latex?%5CLARGE%20C_%7Bd0%7D%3D%5Cfrac%7BqL_n%5E2%7D%7B2kTD_n%7DJ_F)
