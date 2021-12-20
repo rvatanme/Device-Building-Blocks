@@ -313,3 +313,20 @@ where Mp is the multiplication factor of holes and is defined as I<sub>p</sub>(W
 In GaAs, the ionization rates and thus breakdown voltage depend on crystal orientations, besides doping concentration (refer to Chapter 1).I6 At a doping concentration of around 1El6 /cm3, the breakdown voltages are essentially independent of orientations. At lower dopings, V<sub>BD</sub> in <111> becomes the largest whereas at higher dopings, V<sub>BD</sub> in <100> is the largest. For the Si abrupt junctions, the maximum field at breakdown and breakdown voltage can be expressed as:
 
 ![](https://latex.codecogs.com/svg.latex?%5CLARGE%20%5Cxi%20_m%20%3D%20%5Cfrac%7B4%5Ctimes10%5E5%7D%7B1%20-%20%281/3%29log_%7B10%7D%28N/1E16%29%7D%20%5C%3B%5C%3B%5C%3B%5C%3B%20V/cm%20%5C%5C%5C%5C%5C%5C%20V_%7BBD%7D%20%3D%2060%28%5Cfrac%7BE_g%7D%7B1.1%7D%29%5E%7B3/2%7D%28%5Cfrac%7BN%7D%7B10%5E%7B16%7Dcm%5E%7B-3%7D%7D%29%5E%7B-3/4%7D%20%5C%3B%5C%3B%5C%3B%5C%3B%20V%20%5C%3B%5C%3B%20Abrupt%20%5C%5C%5C%5C%5C%5C%20V_%7BBD%7D%20%3D%2060%28%5Cfrac%7BE_g%7D%7B1.1%7D%29%5E%7B6/5%7D%28%5Cfrac%7Ba%7D%7B3%5Ctimes10%5E%7B20%7Dcm%5E%7B-4%7D%7D%29%5E%7B-2/5%7D%20%5C%3B%5C%3B%5C%3B%5C%3B%20V%20%5C%3B%5C%3B%20Graded)
+
+
+If, the semiconductor layer W is smaller than W<sub>Dm</sub>, the device will be punched through (i.e., the depletion layer reaches the n+ substrate) prior to breakdown. As the reverse bias increases further, the depletion width cannot continue to expand and the device will break down prematurely. he reduced
+breakdown voltage V<sub>BD</sub><sup>'</sup> for the punched-through diode, compared to a regular device with V<sub>BD</sub> for the same doping, can be given by:
+
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20%5Cfrac%7BV_%7BBD%7D%5E%7B%27%7D%7D%7BV_%7BBD%7D%7D%20%3D%28%5Cfrac%7BW%7D%7BW_%7BDm%7D%7D%29%282-%5Cfrac%7BW%7D%7BW_%7BDm%7D%7D%29)
+
+
+The results shown so far are for avalanche breakdowns at room temperature. At higher temperatures the breakdown voltage increases. A qualitative explanation of this increase is that hot carriers passing through the depletion layer under a high field lose part of their energy to optical phonons via scattering, resulting in a smaller ionization rate.
+
+
+For junctions formed by a planar process, a very important junction curvature effect at the perimeter should be considered as shown in the following figure. Note that at the perimeter, the depletion region is narrower and the field is higher. Since the cylindrical and/or spherical regions of
+the junction have a higher field intensity, the avalanche breakdown voltage is determined by these regions. 
+
+
+![]()
