@@ -261,6 +261,12 @@ with the ac component being:
 
 ![](https://latex.codecogs.com/svg.latex?%5CLARGE%20J_1%20%3D%20%5B%5Cfrac%7Bqp_%7Bn0%7DD_p%5Csqrt%7B1&plus;j%5Comega%20%5Ctau%20_p%7D%7D%7BL_p%7D&plus;%5Cfrac%7Bqn_%7Bp0%7DD_n%5Csqrt%7B1&plus;j%5Comega%20%5Ctau%20_n%7D%7D%7BL_n%7D%5Dexp%28%5Cfrac%7BqV_0%7D%7BkT%7D%29%5Cfrac%7BqV_1%7D%7BkT%7D)
 
-This diffusion capacitance is proportional to the forward current. For an n+-p one-sided junction, it can shown that:
+From J1/Vl, both Gd and Cd can be found and they are frequency dependent. For relatively low frequencies (ωτ<sub>n</sub>, ωτ<sub>p</sub> << l), the diffusion conductance GdO is given by:
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20G_%7Bd0%7D%20%3D%20%5B%5Cfrac%7Bqp_%7Bn0%7DD_p%7D%7BL_p%7D&plus;%5Cfrac%7Bqn_%7Bp0%7DD_n%7D%7BL_n%7D%5Dexp%28%5Cfrac%7BqV_0%7D%7BkT%7D%29%5Cfrac%7Bq%7D%7BkT%7D)
+
+The low-frequency diffusion capacitance Cdo can be obtained by using the approximation (1+jωτ)^0.5= (1 + 0.5jωτ). This diffusion capacitance is proportional to the forward current. For an n+-p one-sided junction, it can shown that:
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20C_%7Bd0%7D%20%3D%20%5Cfrac%7Bq%5E2%7D%7B2kT%7D%28p_%7Bn0%7DL_p&plus;n_%7Bp0%7DL_n%29exp%28%5Cfrac%7BqV_0%7D%7BkT%7D%29)
 
 ![](https://latex.codecogs.com/svg.latex?%5CLARGE%20C_%7Bd0%7D%3D%5Cfrac%7BqL_n%5E2%7D%7B2kTD_n%7DJ_F)
