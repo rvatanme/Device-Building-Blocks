@@ -348,3 +348,6 @@ The calculated results for Si one-sided abrupt junctions at 300 K for cylindrica
 ![](https://latex.codecogs.com/svg.latex?%5CLARGE%20%5Cfrac%7BV_%7BCY%7D%7D%7BV_%7BBD%7D%7D%20%3D%20%5Cfrac%7B1%7D%7B2%7D%28%5Ceta%20%5E2%20&plus;%20%5Ceta%20%5E%7B6/7%7D%29ln%281&plus;2%5Ceta%20%5E%7B-8/7%7D%29%20-%20%5Ceta%20%5E%7B6/7%7D%20%5C%5C%5C%5C%20%5Cfrac%7BV_%7BSP%7D%7D%7BV_%7BBD%7D%7D%20%3D%20%5Ceta%20%5E2%20&plus;%202.14%5Ceta%20%5E%7B6/7%7D%20&plus;%20%28%5Ceta%20%5E3%20&plus;%202.14%5Ceta%20%5E%7B13/7%7D%29%20%5E%7B2/3%7D)
 
 
+## TRANSIENT BEHAVIOR AND NOISE
+
+For switching applications the transitions from forward bias to reverse bias and vice versa must be nearly abrupt and the transient time short. For ap-n junction, while the latter is reasonably fast, the response from forward to reverse is limited by minority-carrier charge storage.
