@@ -240,12 +240,23 @@ At high-current levels we should consider another effect associated with the fin
 
 
 The depletion-layer capacitance considered previously accounts for most of the junction capacitance when the junction is reverse-biased. When forward-biased, there is, in addition, a significant contribution to junction capacitance from the rearrangement of minority carrier density, the so-called diffusion capacitance. In other words, the latter is due to the injected charge, while the former to the depletion-layer charge.
-When a small ac signal is applied to a junction that is forward-biased at a dc voltage V0 and current density J0 the total voltage and current are defined by.
+When a small ac signal is applied to a junction that is forward-biased at a dc voltage V0 and current density J0 the total voltage and current are defined by:
 
-This diffusion capacitance is proportional to the forward current. For an n+-p one-sided junction, it can shown that:
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20V%20%3D%20V_0%20&plus;%20V_1exp%28j%5Comega%20t%29%20%5C%5C%5C%5C%20J%20%3D%20J_0%20&plus;%20J_1exp%28j%5Comega%20t%29)
 
+where V1 and J1 are the small-signal voltage and current density, respectively. The real and imaginary parts of the admittance J/V will give the diffusion conductance and diffuision capacitance:
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20Y%5Cequiv%20%5Cfrac%7BJ%7D%7BV%7D%20%5Cequiv%20G_d%20&plus;%20j%5Comega%20C_d)
+
+The electron and hole densities at the depletion region boundaries can be obtained from the master equation by using [V0 + V1exp(jwt)] instead of V. We obtain for the n-side of the junction and Vl << V0,
+
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20p_n%28W_%7BDn%7D%29%20%3D%20p_%7Bn0%7Dexp%5B%5Cfrac%7Bq%28V_0&plus;V_1exp%28j%5Comega%20t%29%29%20%7D%7BkT%7D%5D%20%5C%5C%5C%5C%5C%5C%20%5Capprox%20p_%7Bn0%7Dexp%5B%5Cfrac%7BqV_0%7D%7BkT%7D%5D%20&plus;%20%5Cfrac%7Bp_%7Bn0%7DqV_1%7D%7BkT%7Dexp%5B%5Cfrac%7BqV_0%7D%7BkT%7D%5Dexp%28j%5Comega%20t%29%20%5C%5C%5C%5C%5C%5C%20%5Capprox%20p_%7Bn0%7Dexp%5B%5Cfrac%7BqV_0%7D%7BkT%7D%5D%20&plus;%20%5Ctilde%7Bp_n%7D%28t%29)
+
+Substituting p<sub>n</sub>(t) and assuming that Gp = E = dE/dx = 0, we can then obtain the alternating current density as:
 
 ![](https://latex.codecogs.com/svg.latex?%5CLARGE%20J%20%3D%20qp_%7Bn0%7D%5Csqrt%7B%5Cfrac%7BD_p%7D%7B%5Ctau%20_p%5E*%7D%7D&plus;qn_%7Bp0%7D%5Csqrt%7B%5Cfrac%7BD_n%7D%7B%5Ctau%20_n%5E*%7D%7D%5Bexp%28qV_0/kT%29%5D%5B1&plus;%5Cfrac%7BqV_1%7D%7BkT%7Dexp%28j%5Comega%20t%29%5D)
 
+This diffusion capacitance is proportional to the forward current. For an n+-p one-sided junction, it can shown that:
 
 ![](https://latex.codecogs.com/svg.latex?%5CLARGE%20C_%7Bd0%7D%3D%5Cfrac%7BqL_n%5E2%7D%7B2kTD_n%7DJ_F)
