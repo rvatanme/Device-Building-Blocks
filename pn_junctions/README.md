@@ -296,3 +296,18 @@ We first derive the basic ionization integral which determines the breakdown con
 I<sub>n</sub>(W<sub>Dm</sub>) = 0 to I<sub>n</sub>(0) = I - I<sub>p0</sub>, where the total current I = I<sub>p</sub> + I<sub>n</sub>) is constant at steady state. According to the continuity equation, the incremental hole current is equal to the number of electron-hole pairs generated per second in the distance dx:
 
 ![](https://latex.codecogs.com/svg.latex?%5CLARGE%20dI_p%20%3D%20%5Calpha_pI_pdx&plus;%5Calpha_nI_ndx)
+
+
+where α<sub>n</sub> and α<sub>p</sub> are the electron and hole impact ionization rates, respectively. The solution of above differential equation with the boundary condition of I = I<sub>p</sub>(W<sub>Dm</sub>) = M<sub>p</sub>I<sub>p0</sub> at the x = W<sub>Dm</sub> is given by:
+
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%201%20&plus;%20%5Cfrac%7B1%7D%7BM_p%7D%3D%5Cint_%7B0%7D%5E%7BW_%7BDm%7D%7D%5Calpha%20_p%5B-%5Cint_%7B0%7D%5E%7Bx%7D%28%5Calpha%20_p%20-%20%5Calpha%20_n%29dx%5E%7B%27%7D%5Ddx)
+
+
+where Mp is the multiplication factor of holes and is defined as I<sub>p</sub>(W<sub>Dm</sub>)/I<sub>p</sub>(0) or I/I<sub>p0</sub>. The avalanche breakdown voltage is defined as the voltage where Mp approaches infinity. Hence the breakdown condition is given by the ionization integral:
+
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20%5Cint_%7B0%7D%5E%7BW_%7BDm%7D%7D%5Calpha%20_p%5B-%5Cint_%7B0%7D%5E%7Bx%7D%28%5Calpha%20_p%20-%20%5Calpha%20_n%29dx%5E%7B%27%7D%5Ddx%20%3D%201)
+
+
+In GaAs, the ionization rates and thus breakdown voltage depend on crystal orientations, besides doping concentration (refer to Chapter 1).I6 At a doping concentration of around 1El6 /cm3, the breakdown voltages are essentially independent of orientations. At lower dopings, V<sub>BD</sub> in <111> becomes the largest whereas at higher dopings, V<sub>BD</sub> in <100> is the largest.
