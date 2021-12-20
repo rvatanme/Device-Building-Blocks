@@ -253,7 +253,7 @@ The electron and hole densities at the depletion region boundaries can be obtain
 
 ![](https://latex.codecogs.com/svg.latex?%5CLARGE%20p_n%28W_%7BDn%7D%29%20%3D%20p_%7Bn0%7Dexp%5B%5Cfrac%7Bq%28V_0&plus;V_1exp%28j%5Comega%20t%29%29%20%7D%7BkT%7D%5D%20%5C%5C%5C%5C%5C%5C%20%5Capprox%20p_%7Bn0%7Dexp%5B%5Cfrac%7BqV_0%7D%7BkT%7D%5D%20&plus;%20%5Cfrac%7Bp_%7Bn0%7DqV_1%7D%7BkT%7Dexp%5B%5Cfrac%7BqV_0%7D%7BkT%7D%5Dexp%28j%5Comega%20t%29%20%5C%5C%5C%5C%5C%5C%20%5Capprox%20p_%7Bn0%7Dexp%5B%5Cfrac%7BqV_0%7D%7BkT%7D%5D%20&plus;%20%5Ctilde%7Bp_n%7D%28t%29)
 
-Substituting p<sub>n</sub>(t) and assuming that Gp = E = dE/dx = 0, we can then obtain the alternating current density as:
+Substituting p<sub>n</sub>(t) in the continuity equation and assuming that Gp = E = dE/dx = 0, we can then obtain the alternating current density as:
 
 ![](https://latex.codecogs.com/svg.latex?%5CLARGE%20J%20%3D%20qp_%7Bn0%7D%5Csqrt%7B%5Cfrac%7BD_p%7D%7B%5Ctau%20_p%5E*%7D%7D&plus;qn_%7Bp0%7D%5Csqrt%7B%5Cfrac%7BD_n%7D%7B%5Ctau%20_n%5E*%7D%7D%5Bexp%28qV_0/kT%29%5D%5B1&plus;%5Cfrac%7BqV_1%7D%7BkT%7Dexp%28j%5Comega%20t%29%5D)
 
