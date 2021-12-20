@@ -329,4 +329,22 @@ For junctions formed by a planar process, a very important junction curvature ef
 the junction have a higher field intensity, the avalanche breakdown voltage is determined by these regions. 
 
 
-![]()
+![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/pn_junctions/edge_effe.png)
+
+
+The potential ψ(r) and the electric field ξ(r) in a cylindricalor spherical p-n junction can be calculated from Poisson equation:
+
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20%5Cfrac%7B1%7D%7Br%5En%7D%5Cfrac%7Bd%7D%7Bdr%7D%5Br%5En%5Cxi%20%28r%29%5D%20%3D%20%5Cfrac%7B%5Crho%28r%29%7D%7B%5Cepsilon%20_s%7D)
+
+
+where n equals 1 for the cylindrical junction, and 2 for the spherical junction. The solution for ξ(r) can be obtained from this equation and is given by:
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20%5Cxi%20%28r%29%20%3D%20%5Cfrac%7B1%7D%7B%5Cepsilon%20_sr%5En%7D%5Cint_%7Br_j%7D%5E%7Br%7D%5B%5Crho%28r%29r%5En%5Ddr%20&plus;%20%5Cfrac%7BC_1%7D%7Br%5En%7D)
+
+The calculated results for Si one-sided abrupt junctions at 300 K for cylindrical and spherical junctions can be expressed by simple equations:
+
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20%5Cfrac%7BV_%7BCY%7D%7D%7BV_%7BBD%7D%7D%20%3D%20%5Cfrac%7B1%7D%7B2%7D%28%5Ceta%20%5E2%20&plus;%20%5Ceta%20%5E%7B6/7%7D%29ln%281&plus;2%5Ceta%20%5E%7B-8/7%7D%29%20-%20%5Ceta%20%5E%7B6/7%7D%20%5C%5C%5C%5C%20%5Cfrac%7BV_%7BSP%7D%7D%7BV_%7BBD%7D%7D%20%3D%20%5Ceta%20%5E2%20&plus;%202.14%5Ceta%20%5E%7B6/7%7D%20&plus;%20%28%5Ceta%20%5E3%20&plus;%202.14%5Ceta%20%5E%7B13/7%7D%29%20%5E%7B2/3%7D)
+
+
