@@ -279,3 +279,8 @@ Breakdown occurs only in the reverse-bias regime because high voltage can be app
 
 Breakdown due to thermal instability is responsible for the maximum dielectric strength in most insulators at room temperature, and is also a major effect in semiconductors with relatively small bandgaps (e.g., Ge). Because of the heat dissipation caused by the reverse current at high reverse voltage, the junction temperature increases. This temperature increase, in turn, increases the reverse current in comparison with its value at lower voltages. This positive feedback is responsible for breakdown.
 
+
+It is well known that carriers can tunnel through a potential barrier if this barrier is sufficiently thin, induced by a large field as shown in the following figure. In this particular case, the barrier has a triangular shape with the maximum height given by the energy gap. The tunneling current is given by:
+
+
+![]()
