@@ -270,3 +270,12 @@ The low-frequency diffusion capacitance Cdo can be obtained by using the approxi
 ![](https://latex.codecogs.com/svg.latex?%5CLARGE%20C_%7Bd0%7D%20%3D%20%5Cfrac%7Bq%5E2%7D%7B2kT%7D%28p_%7Bn0%7DL_p&plus;n_%7Bp0%7DL_n%29exp%28%5Cfrac%7BqV_0%7D%7BkT%7D%29)
 
 ![](https://latex.codecogs.com/svg.latex?%5CLARGE%20C_%7Bd0%7D%3D%5Cfrac%7BqL_n%5E2%7D%7B2kTD_n%7DJ_F)
+
+
+Cd is especially important at low frequencies and under forward-bias conditions.
+
+##JUNCTION BREAKDOWN
+Breakdown occurs only in the reverse-bias regime because high voltage can be applied resulting in high field. There are basically three breakdown mechanisms: (1) thermal instability, (2) tunneling, and (3) avalanche multiplication.
+
+Breakdown due to thermal instability is responsible for the maximum dielectric strength in most insulators at room temperature, and is also a major effect in semiconductors with relatively small bandgaps (e.g., Ge). Because of the heat dissipation caused by the reverse current at high reverse voltage, the junction temperature increases. This temperature increase, in turn, increases the reverse current in comparison with its value at lower voltages. This positive feedback is responsible for breakdown.
+
