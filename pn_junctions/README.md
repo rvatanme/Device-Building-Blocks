@@ -235,6 +235,10 @@ Following figure shows the energey band diagram of a p+n junction at three diffe
 ![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/pn_junctions/High_injection.png)
 
 
+For the case b and c, since n and p carreir concentrations are comparable (n=p), by substituting this condition in the above equation p(x=W<sub>D</sub>) = n<sub>i</sub>exp(qV/2kT). Therefore in the high injection condition, the current density is roughly proportional to exp(qV/2kT). 
+At high-current levels we should consider another effect associated with the finite resistivity in the quasi-neutral regions. This resistance absorbs an appreciable amount of the applied voltage between the diode terminals. One can estimate the series resistance from comparing the experimental curve to the ideal curve (AV= IR). The series resistance effect can be substantially reduced by the use of epitaxial materials (p+-n-n+).
+
+
 The depletion-layer capacitance considered previously accounts for most of the junction capacitance when the junction is reverse-biased. When forward-biased, there is, in addition, a significant contribution to junction capacitance from the rearrangement of minority carrier density, the so-called diffusion capacitance. In other words, the latter is due to the injected charge, while the former to the depletion-layer charge.
 When a small ac signal is applied to a junction that is forward-biased at a dc voltage V0 and current density J0 the total voltage and current are defined by.
 
