@@ -48,4 +48,6 @@ The C-V measurement can also be used to study deep impurity levels. the followin
 
 The barrier heights of metal-semiconductor systems are, in general, determined by both the metal work function and the interface states. A general expression of the barrier height can be obtained on the basis of the following two assumptions: 1) with intimate contact between the metal and the semiconductor, and with an interfacia1 layer of atomic dimensions, this layer will be transparent to electrons but can withstand potential across it, and (2) the interface states per unit area per energy at the interface are a property of the semiconductor surface and are independent of the metal. A more detailed energy-band diagram of a practical metal-n-semiconductor contact is shown in the following figure. 
 
-![]()
+![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/MS_Contacts/Detail_Band_diag.png)
+
+The first quantity of interest in the above figure is the energy level qφ<sub>0</sub> above E , at the semiconductor surface. It is called the neutral level above which the states are of acceptor type (neutral when empty, negatively charged when full) and below which the states are of donor type (neutral when full of electrons, positively charged when empty). Consequently, when the Fermi level at the surface coincides with this neutral level, the net interface-trap charge is zero. This energy level also tends to pin the semiconductor Fermi level at the surface before the metal contact was formed.
