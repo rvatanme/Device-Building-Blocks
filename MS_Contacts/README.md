@@ -24,3 +24,7 @@ In practice, however, simple expressions for the barrier heights as given by abo
 states. Furthermore, the barrier height can be modified due to image-force lowering. These effects will be discussed in the following sections.
 
 The depletion layer of a metal-semiconductor contact is similar to that of the one-sided abrupt (e.g., p<sup>+</sup>-n) junction. The energy-band diagrams for metals on both n-type and p-type materials are shown, under different biasing conditions, in the following figure.
+
+![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/MS_Contacts/MS_bias.png)
+
+For contacts on n-type semiconductors, under the abrupt approximation that ρ = qN<sub>D</sub>, for x < W<sub>D</sub>, ρ = 0 and ξ(x) = 0 for x > W<sub>D</sub>, where WD is the depletion width, we obtain:
