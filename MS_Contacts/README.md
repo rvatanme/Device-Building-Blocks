@@ -12,4 +12,4 @@ Let's first consider an ideal metal-semiconductor (MS) contact where there is no
 
 ![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/MS_Contacts/Band_diag_MS.png)
 
-The potential difference between the two work functions φ<sub>m<\sub> - (χ+φ<sub>n<\sub>) is called the contact potential. As the gap distance Gdecreases, the electric field in the gap increases and an increasing negative charge is built up at the metal surface.
+The potential difference between the two work functions φ<sub>m</sub> - (χ+φ<sub>n</sub>) is called the contact potential. As the gap distance Gdecreases, the electric field in the gap increases and an increasing negative charge is built up at the metal surface.
