@@ -7,3 +7,7 @@ device in order to pass current in and out of the device.
 When metal makes contact with a semiconductor, a barrier is formed at the metal- semiconductor interface. This barrier is responsible for 
 controlling the current conduction as well as its capacitance behavior. In this section, we consider the basic energy-band diagrams leading to 
 the formation of the barrier height and some effects that can modify the value of this barrier.
+
+Let's first consider an ideal metal-semiconductor (MS) contact where there is no surface states or any other abnomalis it its junction. If a high work functioin metal and n-type semiconductor are allowed to communicate with each other, charge will follow from the semiconductor to the metal and thermal equilibrium will be estabilished whose peoperties depends on the physical gap between the metal and semiconductor as shown in the following figure.
+
+
