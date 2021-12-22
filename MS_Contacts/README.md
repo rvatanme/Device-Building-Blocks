@@ -35,3 +35,13 @@ where the term kT/q arises from the contribution of the majority-carrier distrib
 strength which occurs at x = 0:
 
 ![](https://latex.codecogs.com/svg.latex?%5CLARGE%20%5Cxi%20_m%20%3D%20%5Cxi%20%28x%3D0%29%20%3D%20%5Csqrt%7B%5Cfrac%7B2qN_D%7D%7B%5Cepsilon%20_s%7D%28%5Cpsi%20_%7Bbi%7D%20-%20V%20-%20kT/q%29%7D%20%3D%20%5C%5C%20%5Cfrac%7B2%28%5Cpsi%20_%7Bbi%7D%20-%20V%20-%20kT/q%29%7D%7BW_D%7D)
+
+The space charge Q<sub>sc</sub>, per unit area of the semiconductor and the depletion-layer capacitance C, per unit area are given by:
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20C_D%20%5Cequiv%20%5Cfrac%7B%5Cepsilon%20_s%7D%7BW_D%7D%20%5C%5C%5C%5C%5C%5C%20%5Cfrac%7B1%7D%7BC_D%5E2%7D%20%3D%20%5Cfrac%7B2%28%5Cpsi%20_%7Bbi%7D%20-%20V%20-%20kT/q%29%7D%7BqN_D%5Cepsilon%20_s%7D%20%5C%5C%5C%5C%5C%5C%20N_D%20%3D%20%5Cfrac%7Bq%5Cepsilon_s%7D%7B2%7D%5B-%5Cfrac%7B1%7D%7Bd%281/C%5E2%29/dV%7D%5D)
+
+If N<sub>D</sub> is constant throughout the depletion region, one should obtain a straight line by plotting 1/C<sup>2</sup> versus voltage. If N<sub>D</sub> is not a constant, the differential capacitance method can be used to determine the doping profile from deferential form of above equation.  
+
+The C-V measurement can also be used to study deep impurity levels. the following figure shows a semiconductor with one shallow donor level and one deep donor. While all the shallow donors above the Fermi level will be ionized, only deep impurities near the surface are above the Fermi level and ionized, giving a higher effective doping concentration near the interface. In a C-V measurement where a small ac signal is superimposed on the dc bias, there will be a frequency dependence on capacitance since the deep impurities can only follow slow signals, i.e. dNT/dV is absent at high frequencies. Comparing C-V measurements at various frequencies can reveal the properties of these deep-level impurities.
+
+![]()
