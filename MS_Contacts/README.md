@@ -44,4 +44,8 @@ If N<sub>D</sub> is constant throughout the depletion region, one should obtain 
 
 The C-V measurement can also be used to study deep impurity levels. the following figure shows a semiconductor with one shallow donor level and one deep donor. While all the shallow donors above the Fermi level will be ionized, only deep impurities near the surface are above the Fermi level and ionized, giving a higher effective doping concentration near the interface. In a C-V measurement where a small ac signal is superimposed on the dc bias, there will be a frequency dependence on capacitance since the deep impurities can only follow slow signals, i.e. dNT/dV is absent at high frequencies. Comparing C-V measurements at various frequencies can reveal the properties of these deep-level impurities.
 
+![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/MS_Contacts/CV_imp.png)
+
+The barrier heights of metal-semiconductor systems are, in general, determined by both the metal work function and the interface states. A general expression of the barrier height can be obtained on the basis of the following two assumptions: 1) with intimate contact between the metal and the semiconductor, and with an interfacia1 layer of atomic dimensions, this layer will be transparent to electrons but can withstand potential across it, and (2) the interface states per unit area per energy at the interface are a property of the semiconductor surface and are independent of the metal. A more detailed energy-band diagram of a practical metal-n-semiconductor contact is shown in the following figure. 
+
 ![]()
