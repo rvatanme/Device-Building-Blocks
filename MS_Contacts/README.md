@@ -12,4 +12,10 @@ Let's first consider an ideal metal-semiconductor (MS) contact where there is no
 
 ![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/MS_Contacts/Band_diag_MS.png)
 
-The potential difference between the two work functions φ<sub>m</sub> - (χ+φ<sub>n</sub>) is called the contact potential. As the gap distance Gdecreases, the electric field in the gap increases and an increasing negative charge is built up at the metal surface.
+The potential difference between the two work functions φ<sub>m</sub> - (χ+φ<sub>n</sub>) is called the contact potential. As the gap distance δ decreases, the electric field in the gap increases and an increasing negative charge is built up at the metal surface. The potential variation within the depletion layer is similar to that in one side of a p-n junction. When δ is small enough to be comparable to the inter-atomic distances, the gap becomes transparent to electrons and the barrier hight is given by:
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20q%5Cphi%20_%7BBn0%7D%20%3D%20q%28%5Cphi%20_m%20-%20%5Cchi%29)
+
+Conversely, for an ideal contact between a metal and ap-type semiconductor, the barrier height qφ<sub>Bp0</sub> is given by:
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20q%5Cphi%20_%7BBp0%7D%20%3D%20E_g%20-%20q%28%5Cphi%20_m%20-%20%5Cchi%29)
