@@ -19,3 +19,8 @@ The potential difference between the two work functions φ<sub>m</sub> - (χ+φ<
 Conversely, for an ideal contact between a metal and ap-type semiconductor, the barrier height qφ<sub>Bp0</sub> is given by:
 
 ![](https://latex.codecogs.com/svg.latex?%5CLARGE%20q%5Cphi%20_%7BBp0%7D%20%3D%20E_g%20-%20q%28%5Cphi%20_m%20-%20%5Cchi%29)
+
+In practice, however, simple expressions for the barrier heights as given by above equations are never realized experimentally. The main deviations of experimental barrier heights from the ideal condition are: (1) an unavoidable interface layer, δ is not exactly zero, and (2) the presence of interface
+states. Furthermore, the barrier height can be modified due to image-force lowering. These effects will be discussed in the following sections.
+
+The depletion layer of a metal-semiconductor contact is similar to that of the one-sided abrupt (e.g., p<sup>+</sup>-n) junction. The energy-band diagrams for metals on both n-type and p-type materials are shown, under different biasing conditions, in the following figure.
