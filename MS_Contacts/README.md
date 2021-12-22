@@ -28,3 +28,10 @@ The depletion layer of a metal-semiconductor contact is similar to that of the o
 ![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/MS_Contacts/MS_bias.png)
 
 For contacts on n-type semiconductors, under the abrupt approximation that ρ = qN<sub>D</sub>, for x < W<sub>D</sub>, ρ = 0 and ξ(x) = 0 for x > W<sub>D</sub>, where WD is the depletion width, we obtain:
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20W_D%20%3D%20%5Csqrt%7B%5Cfrac%7B2%5Cepsilon%20_s%7D%7BqN_D%7D%28%5Cpsi%20_%7Bbi%7D%20-%20V%20-%20kT/q%29%7D%20%5C%5C%5C%5C%5C%5C%20%7C%5Cxi%20%28x%29%7C%20%3D%20%5Cfrac%7BqN_D%7D%7B%5Cepsilon%20_s%7D%28W_D-x%29%3D%7C%5Cxi%20_m%7C%20-%20%5Cfrac%7BqN_Dx%7D%7B%5Cepsilon%20_s%7D%20%5C%5C%5C%5C%5C%5C%20E_c%28x%29%20%3D%20q%5Cphi%20_%7BBn0%7D%20-%20%5Cfrac%7Bq%5E2N_D%7D%7B%5Cepsilon%20_s%7D%28W_Dx%20-%20%5Cfrac%7Bx%7D%7B2%7D%29)
+
+where the term kT/q arises from the contribution of the majority-carrier distribution tail (electrons in n-side) and ξ<sub>m</sub> is the maximum field
+strength which occurs at x = 0:
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20%5Cxi%20_m%20%3D%20%5Cxi%20%28x%3D0%29%20%3D%20%5Csqrt%7B%5Cfrac%7B2qN_D%7D%7B%5Cepsilon%20_s%7D%28%5Cpsi%20_%7Bbi%7D%20-%20V%20-%20kT/q%29%7D%20%3D%20%5C%5C%20%5Cfrac%7B2%28%5Cpsi%20_%7Bbi%7D%20-%20V%20-%20kT/q%29%7D%7BW_D%7D)
