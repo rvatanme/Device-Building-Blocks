@@ -170,3 +170,7 @@ Using exp(E<sup>C</sup>(x)/kT) as an itegrating factor and considering the follo
 ![](https://latex.codecogs.com/svg.latex?%5CLARGE%20E_C%280%29%20%3D%20q%5Cphi%20_%7BBn%7D%20%5C%3B%5C%3B%5C%3B%5C%3B%20E_C%28W_D%29%20%3D%20q%28%5Cphi%20_n%20&plus;%20V%29%20%5C%5C%5C%5C%20n%280%29%20%3D%20N_Cexp%5B-%5Cfrac%7BE_C%280%29-E_%7BFn%7D%280%29%7D%7BkT%7D%5D%20%3D%20N_Cexp%28-%5Cfrac%7Bq%5Cphi_%7BBn%7D%7D%7BkT%7D%29%20%5C%5C%5C%5C%20n%28W_D%29%20%3D%20N_D%20%3D%20N_Cexp%28-%5Cfrac%7Bq%5Cphi_%7BBn%7D%7D%7BkT%7D%29%20%5C%5C%5C%5C%20J_n%3Dq%5Cmu_nN_C%5Cxi_mexp%28-%5Cfrac%7Bq%5Cphi_%7BBn%7D%7D%7BkT%7D%29%5Bexp%28%5Cfrac%7BqV%7D%7BkT%7D%29-1%5D)
 
 Thermionic-emission-diffusion theory is derived from the boundary condition of a thermionic recombination velocity ν<sub>R</sub> near the metal-semiconductor interface. Since the diffusion of carriers is strongly affected by the potential configuration in the region through which the diffusion occurs, we consider the electron potential energy [or E(x)] versus distance incorporating the Schottky lowering effect as shown in the following figure. 
+
+![]()
+
+
