@@ -122,5 +122,11 @@ For Si and GaAs Schottky barriers with background doping n<sub>2</sub> of the or
 For nla = 1El2 and 1E13 cm-2, the corresponding lowerings are 0.045 and 0.14 V, respectively. Although the image-force lowering contributes to the barrier reduction, generally the tunneling effect is more significant. For a given application, the parameters nl and a should be properly chosen so that
 in the forward direction the larger Schottky-barrier lowering and the added tunneling current will not substantially degrade the ideality factor η. And in the reverse direction, they will not cause large leakage current in the required bias range.
 
-## Current Transport Proccesses
+## Current Transport Processes
+The current transport in metal-semiconductor contacts is due mainly to majority carriers, in contrast to p-n junctions where the minority carriers are responsible. The following figure shows five basic transport processes under forward bias (the inverse processes occur under reverse bias).
 
+![]()
+
+These five processes are (1) emission of electrons from the semiconductor over the potential barrier into the metal [the dominant process for Schottky diodes with moderately doped semiconductors (e.g., Si with ND < lE17 cm-3) operated at moderate temperatures (e.g., 300 K)], (2) quantum-mechanical tunneling of electrons through the barrier (important for heavily doped semiconductors and responsible for most ohmic contacts) (3) recombination in the
+space-charge region (identical to the recombination process in a p-n junction) (4) diffusion of electrons in the depletion region, and (5) holes injected
+from the metal that diffuse into the semiconductor (equivalent to recombination in the neutral region). 
