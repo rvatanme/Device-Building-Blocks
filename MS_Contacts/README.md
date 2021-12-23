@@ -125,7 +125,7 @@ in the forward direction the larger Schottky-barrier lowering and the added tunn
 ## Current Transport Processes
 The current transport in metal-semiconductor contacts is due mainly to majority carriers, in contrast to p-n junctions where the minority carriers are responsible. The following figure shows five basic transport processes under forward bias (the inverse processes occur under reverse bias).
 
-![]()
+![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/MS_Contacts/Transport.png)
 
 These five processes are (1) emission of electrons from the semiconductor over the potential barrier into the metal [the dominant process for Schottky diodes with moderately doped semiconductors (e.g., Si with ND < lE17 cm-3) operated at moderate temperatures (e.g., 300 K)], (2) quantum-mechanical tunneling of electrons through the barrier (important for heavily doped semiconductors and responsible for most ohmic contacts) (3) recombination in the
 space-charge region (identical to the recombination process in a p-n junction) (4) diffusion of electrons in the depletion region, and (5) holes injected
