@@ -105,4 +105,6 @@ Note that inside a device such as metal-semiconductor contact, the field is not 
 
 In a practical Schottky-barrier diode, the electric field is not constant with distance, and the maximum value at the surface based on the depletion approximation can be used:
 
+![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/MS_Contacts/image_lower.png)
+
 ![](https://latex.codecogs.com/svg.latex?%5CLARGE%20%5Cxi%20_m%20%3D%20%5Csqrt%7B%5Cfrac%7B2qN_D%7C%5Cpsi%20_s%7C%7D%7B%5Cepsilon_s%7D%7D%20%5C%5C%5C%5C%20%7C%5Cpsi%20_s%7C%20%3D%20%5Cphi%20_%7BBn0%7D%20-%20%5Cphi%20_n%20&plus;%20V_R%20%5C%5C%5C%5C%20%5CDelta%20%5Cphi%20%3D%20%5Csqrt%7B%5Cfrac%7Bq%5Cxi%20_m%7D%7B4%5Cpi%5Cepsilon_s%7D%7D%3D%5B%5Cfrac%7Bq%5E3N_D%7C%5Cpsi_s%7C%7D%7B8%5Cpi%5E2%5Cepsilon_s%5E3%7D%5D%5E%7B1/4%7D)
