@@ -87,4 +87,20 @@ Note the comparison of S to c2 (= dφ<sub>Bn0</sub>/dφ<sub>m</sub>). We can als
 
 For technological applications in silicon integrated circuits, an important class of Schottky barrier contacts has been developed in which a chemical reaction between the metal and the underlying silicon is induced to form silicides. The formation of metal silicides by solid-solid metallurgical reaction provides more reliable and reproducible Schottky barriers, because the interface chemical reactions are well defined and can be maintained under good control. It is thought that since the silicide interfacial properties depends on the eutectic temperature, there should be a correlation between the barrier height and the eutectic temperature.
 
+The image-force lowering, also known as the Schottky effect or Schottky-barrier lowering, is the image-force-induced lowering of the barrier energy for charge carrier emission, in the presence of an electric field. When an electron is at a distance x from the metal, a positive charge will be induced on the metal surface. The force of attraction between the electron and the induced positive charge is equivalent to the force that would exist between the electron and an equal positive charge at distance -x. This positive charge is referred to as the image charge. The attractive force toward the metal, called the image force, and The work done to an electron in the course of its transfer from infinity to the point x is given by:
 
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20F%20%3D%20%5Cfrac%7B-q%5E2%7D%7B4%5Cpi%20%5Cepsilon%20_s%282x%29%5E2%7D%20%3D%20%5Cfrac%7B-q%5E2%7D%7B16%5Cpi%20%5Cepsilon%20_sx%5E2%7D%20%5C%5C%5C%5C%5C%5C%20PE%28x%29%20%3D%20%5Cint_%7B%5Cinfty%7D%5E%7Bx%7DFdx%20%3D%20%5Cfrac%7B-q%5E2%7D%7B16%5Cpi%20%5Cepsilon%20_sx%7D)
+
+When an external field 8 is applied (in this example in the -x direction), the total potential energy PE as a function of distance is given by the sum:
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20PE%28x%29%20%3D%20-%5Cfrac%7Bq%5E2%7D%7B16%5Cpi%20%5Cepsilon%20_sx%7D%20-%20q%7C%5Cxi%7Cx)
+
+This equation has a maximum value. The image-force lowering Δφ is maximum at x<sub>m</sub> and is given by:
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20x_m%20%3D%20%5Csqrt%7B%5Cfrac%7Bq%7D%7B16%5Cpi%20%5Cepsilon%20_s%7C%5Cxi%7C%7D%7D%20%5C%5C%5C%5C%5C%5C%20%5CDelta%20%5Cphi%20%3D%20%5Csqrt%7B%5Cfrac%7Bq%7C%5Cxi%7C%7D%7B4%5Cpi%20%5Cepsilon%20_s%7D%7D%3D%202%7C%5Cxi%7Cx_m)
+
+From the above equations, we obtain Δφ = 0.12 V and x<sub>m</sub> = 6 nm for χ = lE5 V/cm; and Δφ = 1.2 V and x<sub>m</sub> = 1 nm for χ = lE7 V/cm. Thus at high fields the Schottky barrier is considerably lowered, and the effective metal work hnction for thermionic emission (qφ<sub>B</sub>) is reduced. 
+
+Note that inside a device such as metal-semiconductor contact, the field is not zero even without bias due to the built-in potential. Although the barrier lowering is small under no bias or forward bias, it does have a profound effect on current transport processes in metal-semi- conductor systems.
+
+In a practical Schottky-barrier diode, the electric field is not constant with distance, and the maximum value at the surface based on the depletion approximation can be used,
