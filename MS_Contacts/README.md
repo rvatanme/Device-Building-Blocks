@@ -160,4 +160,13 @@ where ν<sub>ave</sub> is the average thermal velocity,
 
 By combining the above equations, the former discussed TE current is obtained.
 
+The diffusion theory by Schottkf is derived from the assumptions that (1) the barrier height is much larger than kT, (2) the effect of electron collisions within the depletion region, i.e., diffusion, is included, (3) the carrier concentrations at x = 0 and x = W<sub>D</sub>, are unaffected by the current flow (i.e., they have their equilibrium values), and (4) the impurity concentration of the semiconductor is nondegenerate. 
+Since the current in the depletion region depends on the local field and the concentration gradient, we must use the current density equation:
 
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20J_x%20%3D%20J_n%20%3D%20q%28n%5Cmu%5Cxi%20&plus;%20D_n%5Cfrac%7Bdn%7D%7Bdx%7D%29%5C%5C%5C%5C%20%3DqD_n%28%5Cfrac%7Bn%7D%7BkT%7D%5Cfrac%7BdE_C%7D%7Bdx%7D&plus;%5Cfrac%7Bdn%7D%7Bdx%7D%29)
+
+Using exp(E<sup>C</sup>(x)/kT) as an itegrating factor and considering the following boundary conditions, the driffusion current is derived as:
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20E_C%280%29%20%3D%20q%5Cphi%20_%7BBn%7D%20%5C%3B%5C%3B%5C%3B%5C%3B%20E_C%28W_D%29%20%3D%20q%28%5Cphi%20_n%20&plus;%20V%29%20%5C%5C%5C%5C%20n%280%29%20%3D%20N_Cexp%5B-%5Cfrac%7BE_C%280%29-E_%7BFn%7D%280%29%7D%7BkT%7D%5D%20%3D%20N_Cexp%28-%5Cfrac%7Bq%5Cphi_%7BBn%7D%7D%7BkT%7D%29%20%5C%5C%5C%5C%20n%28W_D%29%20%3D%20N_D%20%3D%20N_Cexp%28-%5Cfrac%7Bq%5Cphi_%7BBn%7D%7D%7BkT%7D%29%20%5C%5C%5C%5C%20J_n%3Dq%5Cmu_nN_C%5Cxi_mexp%28-%5Cfrac%7Bq%5Cphi_%7BBn%7D%7D%7BkT%7D%29%5Bexp%28%5Cfrac%7BqV%7D%7BkT%7D%29-1%5D)
+
+Thermionic-emission-diffusion theory is derived from the boundary condition of a thermionic recombination velocity ν<sub>R</sub> near the metal-semiconductor interface. Since the diffusion of carriers is strongly affected by the potential configuration in the region through which the diffusion occurs, we consider the electron potential energy [or E(x)] versus distance incorporating the Schottky lowering effect as shown in the following figure. 
