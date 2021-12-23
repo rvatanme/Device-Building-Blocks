@@ -119,4 +119,8 @@ For Si and GaAs Schottky barriers with background doping n<sub>2</sub> of the or
 
 ![](https://latex.codecogs.com/svg.latex?%5CLARGE%20%7C%5Cxi_m%7C%5Capprox%20%5Cfrac%7Bqn_1a%7D%7B%5Cepsilon%20_s%7D%20%5C%3B%5C%3B%5C%3B%5C%3B%5C%3B%5C%3B%20%5CDelta%20%5Cphi%20%3D%20%5Cfrac%7Bq%7D%7B%5Cepsilon_s%7D%5Csqrt%7B%5Cfrac%7Bn_1a%7D%7B4%5Cpi%7D%7D)
 
-For nla = 1El2 and 1E13 cm-2, the corresponding lowerings are 0.045 and 0.14 V, respectively.
+For nla = 1El2 and 1E13 cm-2, the corresponding lowerings are 0.045 and 0.14 V, respectively. Although the image-force lowering contributes to the barrier reduction, generally the tunneling effect is more significant. For a given application, the parameters nl and a should be properly chosen so that
+in the forward direction the larger Schottky-barrier lowering and the added tunneling current will not substantially degrade the ideality factor η. And in the reverse direction, they will not cause large leakage current in the required bias range.
+
+## Current Transport Proccesses
+
