@@ -113,4 +113,10 @@ In a practical Schottky-barrier diode, the electric field is not constant with d
 
 By introducing a thin layer (= 10 nm or less) of controllable number of dopants on a semiconductor surface (e.g., by ion implantation), the effective barrier height for a given metal-semiconductor contact can be varied according to the image force lowers (shown in the following figure). This approach is particularly useful in order to select a metal having the most desirable metallurgical properties required for reliable device operation and at the same time to be able to adjust the effective barrier height between this metal and the semiconductor in a controlled manner.
 
-![]()
+![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/MS_Contacts/Adjust_Barrier.png)
+
+For Si and GaAs Schottky barriers with background doping n<sub>2</sub> of the order of 1El6 cm-3 or less, the zero-bias value of n<sub>2</sub>(W-a) is about 1E11 cm-2 where a is the thickness of the inserted thin layer for adjusting the barrier hight. Therefore, if n<sub>1</sub>a is made sufficiently larger than 1E11 cm-2 where n1 is the doping of the thin layer, then the reduced barrier hight is given by:
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20%7C%5Cxi_m%7C%5Capprox%20%5Cfrac%7Bqn_1a%7D%7B%5Cepsilon%20_s%7D%20%5C%3B%5C%3B%5C%3B%5C%3B%5C%3B%5C%3B%20%5CDelta%20%5Cphi%20%3D%20%5Cfrac%7Bq%7D%7B%5Cepsilon_s%7D%5Csqrt%7B%5Cfrac%7Bn_1a%7D%7B4%5Cpi%7D%7D)
+
+For nla = 1El2 and 1E13 cm-2, the corresponding lowerings are 0.045 and 0.14 V, respectively.
