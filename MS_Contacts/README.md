@@ -119,7 +119,7 @@ For Si and GaAs Schottky barriers with background doping n<sub>2</sub> of the or
 
 ![](https://latex.codecogs.com/svg.latex?%5CLARGE%20%7C%5Cxi_m%7C%5Capprox%20%5Cfrac%7Bqn_1a%7D%7B%5Cepsilon%20_s%7D%20%5C%3B%5C%3B%5C%3B%5C%3B%5C%3B%5C%3B%20%5CDelta%20%5Cphi%20%3D%20%5Cfrac%7Bq%7D%7B%5Cepsilon_s%7D%5Csqrt%7B%5Cfrac%7Bn_1a%7D%7B4%5Cpi%7D%7D)
 
-For nla = 1El2 and 1E13 cm-2, the corresponding lowerings are 0.045 and 0.14 V, respectively. Although the image-force lowering contributes to the barrier reduction, generally the tunneling effect is more significant. For a given application, the parameters nl and a should be properly chosen so that
+For n<sub>1</sub>a = 1E12 and 1E13 cm-2, the corresponding lowerings are 0.045 and 0.14 V, respectively. Although the image-force lowering contributes to the barrier reduction, generally the tunneling effect is more significant. For a given application, the parameters nl and a should be properly chosen so that
 in the forward direction the larger Schottky-barrier lowering and the added tunneling current will not substantially degrade the ideality factor η. And in the reverse direction, they will not cause large leakage current in the required bias range.
 
 ## Current Transport Processes
@@ -171,6 +171,20 @@ Using exp(E<sup>C</sup>(x)/kT) as an itegrating factor and considering the follo
 
 Thermionic-emission-diffusion theory is derived from the boundary condition of a thermionic recombination velocity ν<sub>R</sub> near the metal-semiconductor interface. Since the diffusion of carriers is strongly affected by the potential configuration in the region through which the diffusion occurs, we consider the electron potential energy [or E(x)] versus distance incorporating the Schottky lowering effect as shown in the following figure. 
 
-![]()
+![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/MS_Contacts/therm-diff-theory.png)
 
+We consider the case where the barrier height is large enough that the charge density between the metal surface x = 0 and x = W<sub>D</sub> is essentially that of the ionized donors (i.e., depletion approximation). As drawn, the applied voltage V between the metal and the semiconductor bulk would give rise to a flow of electrons toward the metal. Throughout the region between x<sub>m</sub>, and W<sub>D</sub>, the current is given by:
 
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20J_n%20%3D%20n%5Cmu_n%5Cfrac%7BdE_%7BFn%7D%7D%7Bdx%7D%20%5C%5C%5C%5C%20n%20%28x%29%20%3D%20N_Cexp%5B-%5Cfrac%7BE_C%28x%29-E_%7BFn%7D%28x%29%7D%7BkT%7D%5D)
+
+We will assume that the region between x<sub>m</sub>, and W<sub>D</sub> is isothermal and that the electron temperature T is equal to the lattice temperature. If the portion of the barrier between x , and the interface (x = 0) acts as a sink for electrons, we can describe the current flow in terms of an effective recombination velocity ν<sub>R</sub>, at the potential energy maximum x<sub>m</sub>:
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20J%20%3D%20q%28n_m%20-%20n_0%29%5Cnu%20_R)
+
+By considering the following boundary conditions and defining ν<sub>D</sub> parameters, the TED current is derived as:
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20n%28x_m%29%20%3D%20N_Cexp%5B%5Cfrac%7BE_%7BFn%7D%28x_m%29-E_C%28x_m%29%7D%7BkT%7D%5D%20%3D%20N_Cexp%5B%5Cfrac%7BE_%7BFn%7D%28x_m%29-%5Cphi_%7BBn%7D%7D%7BkT%7D%5D%20%5C%5C%5C%5C%20n_0%20%3D%20N_Cexp%28-%5Cfrac%7B%5Cphi_%7BBn%7D%7D%7BkT%7D%29%20%5C%3B%5C%3B%5C%3B%5C%3B%5C%3B%5C%3B%20E_%7BFn%7D%28W_D%29%3DqV%20%5C%5C%5C%5C%20%5Cnu_D%20%5Cequiv%20D_nexp%28%5Cfrac%7B%5Cphi_%7BBn%7D%7D%7BkT%7D%29/%5Cint_%7Bx_m%7D%5E%7BW_D%7Dexp%28%5Cfrac%7BE_C%7D%7BkT%7D%29dx)
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20J%20%3D%20%5Cfrac%7BqN_C%5Cnu_R%7D%7B1&plus;%28%5Cnu_R/%5Cnu_D%29%7Dexp%28-%5Cfrac%7B%5Cphi_%7BBn%7D%7D%7BkT%7D%29%5Bexp%28%5Cfrac%7BqV%7D%7BkT%7D%29-1%5D)
+
+In this equation, the relative values of ν<sub>R</sub>, and ν<sub>D</sub> determines the relative contribution of thermionic emission versus diffusion.
