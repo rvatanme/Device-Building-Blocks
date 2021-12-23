@@ -108,3 +108,9 @@ In a practical Schottky-barrier diode, the electric field is not constant with d
 ![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/MS_Contacts/image_lower.png)
 
 ![](https://latex.codecogs.com/svg.latex?%5CLARGE%20%5Cxi%20_m%20%3D%20%5Csqrt%7B%5Cfrac%7B2qN_D%7C%5Cpsi%20_s%7C%7D%7B%5Cepsilon_s%7D%7D%20%5C%5C%5C%5C%20%7C%5Cpsi%20_s%7C%20%3D%20%5Cphi%20_%7BBn0%7D%20-%20%5Cphi%20_n%20&plus;%20V_R%20%5C%5C%5C%5C%20%5CDelta%20%5Cphi%20%3D%20%5Csqrt%7B%5Cfrac%7Bq%5Cxi%20_m%7D%7B4%5Cpi%5Cepsilon_s%7D%7D%3D%5B%5Cfrac%7Bq%5E3N_D%7C%5Cpsi_s%7C%7D%7B8%5Cpi%5E2%5Cepsilon_s%5E3%7D%5D%5E%7B1/4%7D)
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20%5Cphi%20_%7BBn%7D%20%3D%20%5Cphi%20_%7BBn0%7D%20-%20%5CDelta%5Cphi)
+
+By introducing a thin layer (= 10 nm or less) of controllable number of dopants on a semiconductor surface (e.g., by ion implantation), the effective barrier height for a given metal-semiconductor contact can be varied according to the image force lowers (shown in the following figure). This approach is particularly useful in order to select a metal having the most desirable metallurgical properties required for reliable device operation and at the same time to be able to adjust the effective barrier height between this metal and the semiconductor in a controlled manner.
+
+![]()
