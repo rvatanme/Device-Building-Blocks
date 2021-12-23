@@ -133,10 +133,31 @@ from the metal that diffuse into the semiconductor (equivalent to recombination 
 
 Schottky diode behavior is to some extent electrically similar to a one-sided abrupt p-n junction, and yet the Schottky diode can be operated as a majority-carrier device with inherent fast response. Thus, the terminal functions of a p-n junctio diode can general be performed by a Schottky diode with one exception as a charge-storage diode. This is because the charge-storage time in a majority-carrier device is extremely small. Another difference is the larger current density in a Schottky diode due to the smaller built-in potential as well as the nature of thermionic emission compared to diffusion. This results in a much smaller forward voltage drop. By the same token, the disadvantage is the larger reverse current in the Schottky diode and a lower breakdown voltage.
 
-The Thermionic-emission theory is derived from three assumptions: 1) the barrier hight φ<sub>Bn</sub> is much larger than kT 2) thermal equilibrium is established at the plane that determines emission, and (3) the existence of a net current flow does not affect this equilibrium so that one can superimpose two current fluxes-one from metal to semiconductor, the other from semiconductor to metal, each with a different quasi Fermi level. If thermionic emission is the limiting mechanism, then E<sub>Fn</sub is flat throughout the depletion region.  Because of these assumptions, the shape of the barrier profile is immaterial and the current flow depends solely on the barrier is then given by height. The current density from the semiconductor to the metal J<sub>s->m</sub> the concentration of electrons with energies sufficient to overcome the potential barrier and traversing in the x-direction:
+The Thermionic-emission theory is derived from three assumptions: 1) the barrier hight φ<sub>Bn</sub> is much larger than kT 2) thermal equilibrium is established at the plane that determines emission, and (3) the existence of a net current flow does not affect this equilibrium so that one can superimpose two current fluxes-one from metal to semiconductor, the other from semiconductor to metal, each with a different quasi Fermi level. If thermionic emission is the limiting mechanism, then E<sub>Fn</sub> is flat throughout the depletion region.  Because of these assumptions, the shape of the barrier profile is immaterial and the current flow depends solely on the barrier is then given by height. The current density from the semiconductor to the metal J<sub>s->m</sub> the concentration of electrons with energies sufficient to overcome the potential barrier and traversing in the x-direction:
 
 ![](https://latex.codecogs.com/svg.latex?%5CLARGE%20J_%7Bs%5Crightarrow%20m%7D%20%3D%20%5Cint_%7BE_%7BFn%7D&plus;%5Cphi%20_%7BBn%7D%7D%5E%7B%5Cinfty%7D%20q%5Cnu%20_xdn%20%5C%3B%5C%3B%5C%3B%5C%3B%5C%3B%5C%3B%20dn%20%3D%20N%28E%29F%28E%29dE)
 
-where N(E) and F(E) are the density of states and the distribution function, respectively. If we postulate that the distribution function can be given by Boltzmann distribution, all the energy of electrons in the conduction band is kinetic energy E-Ec=m*ν<sup>2</sup>/2, and the minimum kinitic energy of electrons is q(ψ<sub>bi</sub>-V), then J<sub>s->m</sub> yields:
+where N(E) and F(E) are the density of states and the distribution function, respectively. If we postulate that the distribution function can be given by Boltzmann distribution, all the energy of electrons in the conduction band is kinetic energy E-Ec=m*ν<sup>2</sup>/2, and the minimum kinitic energy of electrons in the x-direction is m*ν<sub>0x</sub><sup>2</sup>=q(ψ<sub>bi</sub>-V), then J<sub>s->m</sub> yields:
 
-![]()
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20J_%7Bs%5Crightarrow%20m%7D%20%3D%20A%5E*T%5E2exp%28%5Cfrac%7B-q%5Cphi_%7BBn%7D%7D%7BkT%7D%29exp%28%5Cfrac%7BqV%7D%7BkT%7D%29%20%5C%5C%5C%5C%20A%5E*%20%3D%20%5Cfrac%7B4%5Cpi%20m%5E*qk%5E2%7D%7Bh%5E3%7D)
+
+where A* is the effective Richardson constant for thermionic emission, neglecting the effects of optical-phonon scattering and quantum mechanical reflection. Since the barrier height for electrons moving from the metal into the semiconductor remains the same under bias, the current flowing into the semiconductor is thus unaffected by the applied voltage. It must therefore be equal to the current flowing from the semiconductor into the metal when thermal equilibrium prevails (i.e., when V = 0). This corresponding current density is obtained from Eq. 52 by setting V = 0, and therefore the total current is given by:
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20J_%7Bm%5Crightarrow%20s%7D%20%3D%20A%5E*T%5E2exp%28%5Cfrac%7B-q%5Cphi_%7BBn%7D%7D%7BkT%7D%29%20%5C%5C%5C%5C%20J_%7Bn%7D%20%3D%20J_%7BTE%7D%5Bexp%28%5Cfrac%7BqV%7D%7BkT%7D%29-1%5D%5C%3B%2C%20%5C%5C%5C%5C%20J_%7BTE%7D%3DA%5E*T%5E2exp%28%5Cfrac%7B-q%5Cphi_%7BBn%7D%7D%7BkT%7D%29)
+
+An alternative approach to derive the thermionic-emission current is the following. Without decomposing the velocity components, only electrons with energy
+above the barrier will contribute to the forward current. This number of electrons above the barrier is given by:
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20n%20%3D%20N_Cexp%5B%5Cfrac%7B-q%28%5Cphi%20_%7BBn%7D-V%29%7D%7BkT%7D%5D)
+
+It is known that for a Maxwellian distribution of velocities, the current from random motion of carriers across a plane is given by:
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20J%20%3D%20nq%5Cfrac%7B%5Cnu_%7Bave%7D%7D%7B4%7D)
+
+where ν<sub>ave</sub> is the average thermal velocity,
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20%5Cnu_%7Bave%7D%3D%5Csqrt%7B%5Cfrac%7B8kT%7D%7B%5Cpi%20m%5E*%7D%7D)
+
+By combining the above equations, the former discussed TE current is obtained.
+
+
