@@ -187,4 +187,14 @@ By considering the following boundary conditions and defining ν<sub>D</sub> par
 
 ![](https://latex.codecogs.com/svg.latex?%5CLARGE%20J%20%3D%20%5Cfrac%7BqN_C%5Cnu_R%7D%7B1&plus;%28%5Cnu_R/%5Cnu_D%29%7Dexp%28-%5Cfrac%7B%5Cphi_%7BBn%7D%7D%7BkT%7D%29%5Bexp%28%5Cfrac%7BqV%7D%7BkT%7D%29-1%5D)
 
-In this equation, the relative values of ν<sub>R</sub>, and ν<sub>D</sub> determines the relative contribution of thermionic emission versus diffusion.
+In this equation, the relative values of ν<sub>R</sub>, and ν<sub>D</sub> determines the relative contribution of thermionic emission versus diffusion. The parameter ν<sub>D</sub> can be evaluated as the Dawson’s integral and can be approximated by ν<sub>D</sub> = μξ<sub>m</sub>, in this case of depletion region. If the electron distribution is Maxwellian for x > x<sub>m</sub>, and if no electrons return from the metal other than those associated with the current density qn<sub>0</sub>ν<sub>R</sub>, the semiconductor acts as a thermionic emitter. Then ν<sub>R</sub>, is the thermal velocity given by:
+
+![](![image](https://user-images.githubusercontent.com/49259131/147317630-5e03869f-0f8b-4763-99da-235230d89420.png)
+
+where A* is the effective Richardson constant. At 300 K, ν<sub>R</sub> is 5.2E6 cm/s and 1E7 cm/s for (111) n-type Si and n-type GaAs respectively. It can be seen that if ν<sub>D</sub> >> ν<sub>R</sub>, the pre-exponential term in the above current equation is dominated by ν<sub>R</sub> and the thermionic-emission theory applies (JTED = JTE). If, however, ν<sub>D</sub> << ν<sub>R</sub>, the difhsion process is the limiting factor (JTED = JD).
+
+In summary, jTED equation gives a result that is a synthesis of Schottky’s diffusion theory and Bethe’s thermionic-emission theory, and it predicts currents in essential agreement with the thermionic-emission theory if μξ(x<sub>m</sub>) > ν<sub>R</sub>. The latter criterion is more rigorous than Bethe’s condition ξ(x<sub>m</sub>) > qkT/λ, where λ is the carrier mean free path. At room temperature in the electric field range of lE4 to about lE5 V/cm, the current transport mechanism in most Si and GaAs Schottky-barrier diodes is mainly due to thermionic emission of majority carriers.
+
+In the preceding section a recombination velocity ν<sub>R</sub> associated with thermionic emission was introduced as a boundary condition to describe the collecting action of the metal in a Schottky barrier. In many cases an appreciable probability exists that an electron which crosses the potential energy maximum will be back-scattered by electron optical-phonon scattering. As a first approximation the probability of electron emission over the potential maximum can be given by& = exp(x<sub>m</sub>/λ).
+
+
