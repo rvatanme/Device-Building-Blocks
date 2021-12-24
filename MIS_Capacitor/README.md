@@ -15,4 +15,4 @@ The energy-band diagram of an ideal MIS structure without bias is shown in the f
 
 ![](https://latex.codecogs.com/svg.latex?%5Cinline%20%5CLARGE%20%5Cphi%20_%7Bms%7D%20%5Cequiv%20%5Cphi_m%20-%20%28%5Cchi%20&plus;%20%5Cfrac%7BE_g%7D%7B2q%7D%20-%20%5Cpsi_%7BBn%7D%29%20%3D%20%5Cphi_m%20-%20%28%5Cchi&plus;%5Cphi_n%29%20%3D%200%20%5C%5C%5C%5C%20%5Cphi%20_%7Bms%7D%20%5Cequiv%20%5Cphi_m%20-%20%28%5Cchi%20&plus;%20%5Cfrac%7BE_g%7D%7B2q%7D%20&plus;%20%5Cpsi_%7BBp%7D%29%20%3D%20%5Cphi_m%20-%20%28%5Cchi&plus;%5Cfrac%7BE_g%7D%7Bq%7D-%5Cphi_p%29%20%3D%200)
 
-where χ and χ<sub>i<\sub> are the electron affinities for the semiconductor and insulator respectively, and ψ<sub>Bn<\sub>, ψ<sub>Bp<\sub>, φ<sub>n<\sub>, φ<sub>p<\sub> are the Fermi potentials with respect to the midgap and band edges.
+where χ and χ<sub>i</sub> are the electron affinities for the semiconductor and insulator respectively, and ψ<sub>Bn</sub>, ψ<sub>Bp</sub>, φ<sub>n</sub>, φ<sub>p</sub> are the Fermi potentials with respect to the midgap and band edges.
