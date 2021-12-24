@@ -21,3 +21,7 @@ applied voltage.
 When an ideal MIS capacitor is biased with positive or negative voltages, basically three cases may exist at the semiconductor surface shown in the following figure. Consider the p-type semiconductor first. When a negative voltage (V < 0) is applied to the metal plate, the valence-band edge E , bends upward near the surface and is closer to the Fermi level. For an ideal MIS capacitor, no current flows in the structure so the Fermi level remains flat in the semiconductor. 
 
 ![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/MIS_Capacitor/mis-bias.png)
+
+Since the carrier density depends exponentially on the energy difference ( E<sub>F</sub>- E<sub>V</sub>), this band bending causes an accumulation of majority carriers (holes) near the semiconductor surface. This is the accumulation case. When a small positive voltage (V>0) is applied, the bands bend downward, and the majority carriers are depleted. This is the depletion case. When a larger positive voltage is applied, the bands bend even more
+downward so that the intrinsic level E<sub>i</sub> at the surface crosses over the Fermi level. At this point the number of electrons (minority carriers) at the surface is larger than that of the holes, the surface is thus inverted and this is the inversion case. Similar results can be obtained for the n-type semiconductor. The polarity of the voltage, however, should be changed for the n-type semiconductor.
+
