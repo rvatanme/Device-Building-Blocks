@@ -20,4 +20,4 @@ applied voltage.
 
 When an ideal MIS capacitor is biased with positive or negative voltages, basically three cases may exist at the semiconductor surface shown in the following figure. Consider the p-type semiconductor first. When a negative voltage (V < 0) is applied to the metal plate, the valence-band edge E , bends upward near the surface and is closer to the Fermi level. For an ideal MIS capacitor, no current flows in the structure so the Fermi level remains flat in the semiconductor. 
 
-![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/MIS_Capacitor/MIS-no-bias.png)
+![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/MIS_Capacitor/mis-bias.png)
