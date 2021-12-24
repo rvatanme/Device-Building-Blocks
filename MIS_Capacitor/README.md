@@ -5,4 +5,7 @@ the help of MIS capacitors is of great importance to device operations. Here, we
 This system has been extensively studied because it is directly related to most silicon planar devices and integrated circuits.
 
 ## Ideal MIS Capacitor
-The metal-insulator-semiconductor (MIS) structure is shown in Fig. 1, where d is the thickness of the insulator and Vis the applied voltage. Here, we use the convention that the voltage Vis positive when the metal plate is positively biased with respect to the semiconductor body.
+The metal-insulator-semiconductor (MIS) structure is shown in the following figure, where d is the thickness of the insulator and Vis the applied voltage. Here, we use the convention that the voltage Vis positive when the metal plate is positively biased with respect to the semiconductor body.
+
+![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/MIS_Capacitor/MIS.png)
+
