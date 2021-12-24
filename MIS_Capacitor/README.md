@@ -9,3 +9,4 @@ The metal-insulator-semiconductor (MIS) structure is shown in the following figu
 
 ![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/MIS_Capacitor/MIS.png)
 
+The energy-band diagram of an ideal MIS structure without bias is shown in the following figure. An ideal MIS capacitor is defined as follows: 1) The only charges that can exist in the structure under any biasing conditions are those in the semiconductor and those, with an equal but opposite sign, on the metal surface adjacent to the insulator 2) There is no carrier transport through the insulator under dc biasing conditions. For the sake of simplicity we assume the metal is chosen such that the difference between the metal work function and the semiconductor work function is zero.
