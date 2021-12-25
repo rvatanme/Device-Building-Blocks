@@ -50,4 +50,13 @@ The potential ψ<sub>p</sub>(x) as a function of distance can be obtained by usi
 
 Integrating the above equation from the surface to the bulk and defining the following parameters, the total space charge per unit area is derived as:
 
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20Q_s%20%3D%20-%5Cepsilon%20_s%5Cxi%20_s%3D%20%5Cpm%20%5Cfrac%7B%5Csqrt%7B2%7D%5Cepsilon%20_skT%7D%7BqL_D%7DF%28%5Cbeta%5Cpsi_s%2C%5Cfrac%7Bn_%7Bp0%7D%7D%7Bp_%7Bp0%7D%7D%29%20%5C%5C%5C%5C%5C%5C%20L_D%20%5Cequiv%20%5Csqrt%7B%5Cfrac%7B%5Cepsilon%20_s%7D%7Bqp_%7Bp0%7D%5Cbeta%7D%7D)
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20F%28%5Cbeta%5Cpsi_p%2C%5Cfrac%7Bn_%7Bp0%7D%7D%7Bp_%7Bp0%7D%7D%29%20%5Cequiv%20%5Cpm%20%5Csqrt%7B%5Bexp%28-%5Cbeta%5Cpsi_p%29&plus;%5Cbeta%5Cpsi_p-1%5D&plus;%5Cfrac%7Bn_%7Bp0%7D%7D%7Bp_%7Bp0%7D%7D%5Bexp%28%5Cbeta%5Cpsi_p%29-%5Cbeta%5Cpsi_p-1%5D%7D)
+
+A typical variation of the space-charge density Q<sub>s</sub>, as a function of the surface potential ψ<sub>s</sub>, is shown in the following figure, for a p-type silicon with NA = 4E15 cm-3 at room temperature. Also note that the strong inversion begins at a surface potential:
+
 ![]()
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20%5Cpsi_s%5Capprox%202%5Cpsi_%7BBp%7D%5Capprox%20%5Cfrac%7B2kT%7D%7Bq%7Dln%5Cfrac%7BN_A%7D%7Bn_i%7D)
+
