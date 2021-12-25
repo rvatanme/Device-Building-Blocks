@@ -30,3 +30,11 @@ The following figure shows a more detailed band diagram at the surface of a p-ty
 ![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/MIS_Capacitor/MIS_Diag.png)
 
 ![](https://latex.codecogs.com/svg.latex?%5CLARGE%20%5Cpsi%20_p%28x%29%20%5Cequiv%20-%5Cfrac%7BE_i%28x%29-E_i%28%5Cinfty%29%7D%7Bq%7D%20%5C%3B%5C%3B%5C%3B%5C%3B%5C%3B%5C%3B%20%5Cpsi%20_p%280%29%20%5Cequiv%20%5Cpsi%20_s)
+
+where ψ<sub>s</sub> is called the surface potential. The electron and hole concentrations are given by the following relations:
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20n_p%28x%29%20%3D%20n_%7Bp0%7Dexp%28%5Cfrac%7Bq%5Cpsi_p%7D%7BkT%7D%29%20%3D%20n_%7Bp0%7Dexp%28%5Cbeta%5Cpsi_p%29%20%5C%5C%5C%5C%20p_p%28x%29%20%3D%20p_%7Bp0%7Dexp%28-%5Cfrac%7Bq%5Cpsi_p%7D%7BkT%7D%29%20%3D%20p_%7Bp0%7Dexp%28-%5Cbeta%5Cpsi_p%29%20%5C%5C%5C%5C%20n_p%280%29%20%3D%20n_%7Bp0%7Dexp%28%5Cbeta%5Cpsi_s%29%20%5C%3B%5C%3B%5C%3B%5C%3B%20p_p%280%29%20%3D%20p_%7Bp0%7Dexp%28-%5Cbeta%5Cpsi_s%29)
+
+where n<sub>p</sub>(0) and p<sub>p</sub>(0) are the densities of electrons and holes at the surface.  
+
+
