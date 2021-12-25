@@ -37,11 +37,11 @@ where ψ<sub>s</sub> is called the surface potential. The electron and hole conc
 
 where n<sub>p</sub>(0) and p<sub>p</sub>(0) are the densities of electrons and holes at the surface. From the equations, the following regions can be distinguished:
 
-    ψ<sub>s</sub> < 0    Accumilation of holes (upward band bending)
-    ψ<sub>s</sub> = 0    Flat-band condition
-    ψ<sub>Bp</sub> > ψ<sub>s</sub> > 0  Depletion of holes (bands bending downward)
-    ψ<sub>s</sub> = ψ<sub>Bp</sub>      Fermi level at midgap, E<sub>i</sub>(0) = E<sub>F</sub>, n<sub>p</sub>(0) = p<sub>p</sub>(0) = n<sub>i</sub>
-    2ψ<sub>Bp</sub> > ψ<sub>s</sub> > ψ<sub>Bp</sub> Weak inversion [electron enhancment, n<sub>p</sub>(0) > p<sub>p</sub>(0)]
-    ψ<sub>s</sub> > 2ψ<sub>Bp</sub>     Strong inversion [n<sub>p</sub>(0) > p<sub>p</sub>(0) or N<sub>A</sub>]
+1) ψ<sub>s</sub> < 0    Accumilation of holes (upward band bending)
+2) ψ<sub>s</sub> = 0    Flat-band condition
+3) ψ<sub>Bp</sub> > ψ<sub>s</sub> > 0  Depletion of holes (bands bending downward)
+4) ψ<sub>s</sub> = ψ<sub>Bp</sub>      Fermi level at midgap, E<sub>i</sub>(0) = E<sub>F</sub>, n<sub>p</sub>(0) = p<sub>p</sub>(0) = n<sub>i</sub>
+5) 2ψ<sub>Bp</sub> > ψ<sub>s</sub> > ψ<sub>Bp</sub> Weak inversion [electron enhancment, n<sub>p</sub>(0) > p<sub>p</sub>(0)]
+6) ψ<sub>s</sub> > 2ψ<sub>Bp</sub>     Strong inversion [n<sub>p</sub>(0) > p<sub>p</sub>(0) or N<sub>A</sub>]
 
 
