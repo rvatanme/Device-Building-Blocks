@@ -44,4 +44,10 @@ where n<sub>p</sub>(0) and p<sub>p</sub>(0) are the densities of electrons and h
 5) 2ψ<sub>Bp</sub> > ψ<sub>s</sub> > ψ<sub>Bp</sub>------------Weak inversion [electron enhancment, n<sub>p</sub>(0) > p<sub>p</sub>(0)]
 6) ψ<sub>s</sub> > 2ψ<sub>Bp</sub>------------Strong inversion [n<sub>p</sub>(0) > p<sub>p</sub>(0) or N<sub>A</sub>]
 
+The potential ψ<sub>p</sub>(x) as a function of distance can be obtained by using the one-dimensional Poisson equation:
 
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20%5Cfrac%7Bd%5E2%5Cpsi_p%7D%7Bd%5E2x%7D%20%3D%20-%20%5Cfrac%7B%5Crho%28x%29%7D%7B%5Cepsilon_s%7D%20%5C%5C%5C%5C%20%5Crho%28x%29%20%3D%20q%28N_D%5E&plus;-N_A%5E&plus;&plus;p_p-n_p%29%20%5C%5C%5C%5C%20N_D%5E&plus;-N_A%5E&plus;%20%3D%20n_%7Bp0%7D%20-%20p_%7Bp0%7D)
+
+Integrating the above equation from the surface to the bulk and defining the following parameters, the total space charge per unit area is derived as:
+
+![]()
