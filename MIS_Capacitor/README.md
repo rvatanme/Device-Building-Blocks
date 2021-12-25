@@ -56,7 +56,7 @@ Integrating the above equation from the surface to the bulk and defining the fol
 
 A typical variation of the space-charge density Q<sub>s</sub>, as a function of the surface potential ψ<sub>s</sub>, is shown in the following figure, for a p-type silicon with NA = 4E15 cm-3 at room temperature. Also note that the strong inversion begins at a surface potential:
 
-![]()
+![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/MIS_Capacitor/space_charge.png)
 
 ![](https://latex.codecogs.com/svg.latex?%5CLARGE%20%5Cpsi_s%5Capprox%202%5Cpsi_%7BBp%7D%5Capprox%20%5Cfrac%7B2kT%7D%7Bq%7Dln%5Cfrac%7BN_A%7D%7Bn_i%7D)
 
