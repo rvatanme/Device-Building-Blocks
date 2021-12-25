@@ -27,4 +27,6 @@ downward so that the intrinsic level E<sub>i</sub> at the surface crosses over t
 
 The following figure shows a more detailed band diagram at the surface of a p-type semiconductor. The potential in the semiconductor side is defined as:
 
-![]()
+![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/MIS_Capacitor/MIS_Diag.png)
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20%5Cpsi%20_p%28x%29%20%5Cequiv%20-%5Cfrac%7BE_i%28x%29-E_i%28%5Cinfty%29%7D%7Bq%7D%20%5C%3B%5C%3B%5C%3B%5C%3B%5C%3B%5C%3B%20%5Cpsi%20_p%280%29%20%5Cequiv%20%5Cpsi%20_s)
