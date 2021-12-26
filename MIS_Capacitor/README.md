@@ -80,3 +80,11 @@ For a given insulator thickness d, the value of C<sub>i</sub>, is constant and c
 
 Weak inversion begins at ψ<sub>s</sub> = ψ<sub>Bp</sub>, and the onset of strong inversion occurs at ψ<sub>s</sub> = 2ψ<sub>Bp</sub>. The minimum low-
 frequency capacitance C<sub>min</sub> occurs in between these two points.
+
+The capacitance of the semiconductor depletion layer is obtained by differentiating the total static charge in the semiconductor side with respect to the semiconductor surface potential:
+
+1[](https://latex.codecogs.com/svg.latex?%5CLARGE%20C_D%20%5Cequiv%20%5Cfrac%7BdQ_s%7D%7Bd%5Cpsi%20_s%7D%20%3D%20%5Cfrac%7B%5Cepsilon%20_s%7D%7B%5Csqrt%7B2%7DL_D%7D%5Cfrac%7B1-exp%28-%5Cbeta%5Cpsi_s%29&plus;n_%7Bp0%7D/p_%7Bp0%7D%5Bexp%28%5Cbeta%5Cpsi_s%29-1%5D%7D%7BF%28%5Cbeta%5Cpsi_s%2Cn_%7Bp0%7D/p_%7Bp0%7D%29%7D)
+
+Combination of the following equation gives the complete description of the ideal low-frequency C-V curve as shown in the following figure, curve (a).
+
+![]()
