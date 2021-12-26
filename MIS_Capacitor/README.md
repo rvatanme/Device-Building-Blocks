@@ -62,6 +62,6 @@ A typical variation of the space-charge density Q<sub>s</sub>, as a function of 
 
 The following figure shows the band diagram of a MIS in strong inversion regime. For charge neutrality of the system, it is required that:
 
-![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/MIS_Capacitor/strong-diag.png)
+![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/MIS_Capacitor/strong-diag1.png)
 
 ![](https://latex.codecogs.com/svg.latex?%5CLARGE%20Q_M%20%3D%20-%28Q_n&plus;qN_AW_D%29%20%3D%20-Q_s)
