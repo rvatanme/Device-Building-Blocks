@@ -128,7 +128,7 @@ Complete ideal C-V curves of the metal-SiO2-Si system have been computed for var
 The critical parameters C<sub>FB</sub>, C<sub>min</sub>, C<sub>min</sub>', V<sub>T</sub>, and V<sub>min</sub> are calculated and plotted in the following figure. These ideal MIS curves will be used to compare with experimental results and to understand practical MIS systems. The conversion to
 n-type silicon is achieved simply by changing the sign of the voltage axes. Converting to other insulators requires scaling the oxide thickness with the ratio of the permittivities of SiO2, and the other insulator:
 
-![]()
+![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/MIS_Capacitor/C_thickness.png)
 
 ![](https://latex.codecogs.com/svg.latex?%5CLARGE%20d_c%20%3D%20d_i%5Cfrac%7B%5Cepsilon%28SiO_2%29%7D%7B%5Cepsilon%28insulator%29%7D)
 
