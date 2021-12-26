@@ -60,3 +60,8 @@ A typical variation of the space-charge density Q<sub>s</sub>, as a function of 
 
 ![](https://latex.codecogs.com/svg.latex?%5CLARGE%20%5Cpsi_s%5Capprox%202%5Cpsi_%7BBp%7D%5Capprox%20%5Cfrac%7B2kT%7D%7Bq%7Dln%5Cfrac%7BN_A%7D%7Bn_i%7D)
 
+The following figure shows the band diagram of a MIS in strong inversion regime. For charge neutrality of the system, it is required that:
+
+![]()
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20Q_M%20%3D%20-%28Q_n&plus;qN_AW_D%29%20%3D%20-Q_s)
