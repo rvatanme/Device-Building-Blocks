@@ -65,3 +65,15 @@ The following figure shows the band diagram of a MIS in strong inversion regime.
 ![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/MIS_Capacitor/strong-diag1.png)
 
 ![](https://latex.codecogs.com/svg.latex?%5CLARGE%20Q_M%20%3D%20-%28Q_n&plus;qN_AW_D%29%20%3D%20-Q_s)
+
+In the absence of any work-function difference, the applied voltage will partly appear across the insulator (V<sub>i</sub>) and partly across the semiconductor. Thus:
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20v%20%3D%20V_i%20&plus;%20%5Cpsi%20_s%20%5C%5C%5C%5C%20V_i%20%3D%20%5Cxi%20d%20%3D%20%5Cfrac%7B%7CQ_s%7Cd%7D%7B%5Cepsilon%20_i%7D%20%3D%20%5Cfrac%7B%7CQ_s%7C%7D%7BC_i%7D)
+
+The total capacitance C of the system is a series combination of the insulator capacitance and the semiconductor depletion-layer capacitance CD:
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20C_i%20%3D%20%5Cfrac%7B%5Cepsilon%20_i%7D%7Bd%7D%20%5C%3B%5C%3B%5C%3B%5C%3B%5C%3B%5C%3B%20C%20%3D%20%5Cfrac%7BC_iC_D%7D%7BC_i&plus;C_D%7D)
+
+For a given insulator thickness d, the value of C<sub>i</sub>, is constant and corresponds to the maximum capacitance of the system. But the semiconductor capacitance C<sub>D</sub>, not only depends on the bias (or ψ<sub>s</sub>), it is also a function of the measurement frequency. The following figure illustrates the vastly different characteristics of C- V curves measured at different frequencies and sweep rates. The difference mainly occurs at the inversion regime, especially strong inversion.
+
+![]()
