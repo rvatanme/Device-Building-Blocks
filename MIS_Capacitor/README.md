@@ -120,3 +120,7 @@ This phenomena of maximum depletion width is unique to the MIS structure, and it
 Note that even though the slow-varying quiescent voltage puts the additional charge at the surface inversion layer, the high-frequency small signal is too fast for the minority carriers and the incremental charge is put at the edge of the depletion region. The depletion capacitance is simply given by ε<sub>i</sub>/W<sub>D</sub>, with a minimum value corresponding to the maximum depletion width W<sub>Dm</sub>:
 
 ![](https://latex.codecogs.com/svg.latex?%5CLARGE%20C_%7Bmin%7D%27%3D%5Cfrac%7B%5Cepsilon_i%5Cepsilon_s%7D%7B%5Cepsilon_sd&plus;%5Cepsilon_iW_%7BDm%7D%7D)
+
+Complete ideal C-V curves of the metal-SiO2-Si system have been computed for various oxide thicknesses and semiconductor doping densities. The following figure shows typical ideal C-V curves for p-type silicon. Note that as the oxide film becomes thinner, larger variation of the capacitance is obtained. Also the curves are sharper, reducing the threshold voltage V<sub>T</sub>. The figure shows the dependence of ψ<sub>s</sub>, on the applied voltage for the same systems. Similarly, modulation of ψ<sub>s</sub> is more effective with thinner oxides.
+
+![]()
