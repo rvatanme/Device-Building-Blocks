@@ -85,4 +85,18 @@ The capacitance of the semiconductor depletion layer is obtained by differentiat
 
 ![](https://latex.codecogs.com/svg.latex?%5CLARGE%20C_D%20%5Cequiv%20%5Cfrac%7BdQ_s%7D%7Bd%5Cpsi%20_s%7D%20%3D%20%5Cfrac%7B%5Cepsilon%20_s%7D%7B%5Csqrt%7B2%7DL_D%7D%5Cfrac%7B1-exp%28-%5Cbeta%5Cpsi_s%29&plus;n_%7Bp0%7D/p_%7Bp0%7D%5Bexp%28%5Cbeta%5Cpsi_s%29-1%5D%7D%7BF%28%5Cbeta%5Cpsi_s%2Cn_%7Bp0%7D/p_%7Bp0%7D%29%7D)
 
-Combination of the following equation gives the complete description of the ideal low-frequency C-V curve as shown in the above figure, curve (a).
+Combination of the following equation gives the complete description of the ideal low-frequency C-V curve as shown in the above figure, curve (a). In describing this low-frequency curve we begin at the left side (negative voltage and ψ<sub>s</sub>), where we have an accumulation of holes and therefore a high differential capacitance of the semiconductor. As a result the total capacitance is close to the insulator capacitance. As the negative voltage is reduced to zero, we have the flat-band condition, that is, ψ<sub>s</sub> = 0. Since the function F approaches zero, C<sub>D</sub>, has to be obtained from the above equation by expanding the exponential terms into series, and we obtain:
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20C_D%28flat%5C%3Bband%29%20%3D%20%5Cfrac%7B%5Cepsilon%20_s%7D%7BL_D%7D%20%5C%5C%5C%5C%20C_%7BFB%7D%28%5Cpsi%20_s%20%3D%200%29%20%3D%20%5Cfrac%7B%5Cepsilon_i%5Cepsilon_s%7D%7B%5Cepsilon_sd%20&plus;%20%5Cepsilon_iL_D%7D%20%3D%20%5Cfrac%7B%5Cepsilon_i%5Cepsilon_s%7D%7B%5Cepsilon_sd%20&plus;%20%5Cepsilon_i%5Csqrt%7BkT%5Cepsilon_s/q%5E2N_A%7D%7D)
+
+It can be shown that under depletion and weak inversion conditions, i.e. 2 ψ<sub>Bp</sub> > ψ<sub>s</sub> > kT/q, the function F and consequently Qs can be simplified to:
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20F%20%5Capprox%20%5Csqrt%7B%5Cbeta%5Cpsi_s%7D%20%5C%3B%5C%3B%5C%3B%5C%3B%5C%3B%20Q_s%20%3D%20%5Csqrt%7B2%5Cepsilon_sqp_%7Bp0%7D%5Cpsi_s%7D%20%3D%20qN_AW_Dv)
+
+We then can express the depletion width as a function of the terminal voltages. The quadratic equation gives a solution of:
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20W_D%20%3D%20%5Csqrt%7B%5Cfrac%7B%5Cepsilon%20_s%5E2%7D%7BC_%7Box%7D%5E2%7D&plus;%5Cfrac%7B2%5Cepsilon_sV%7D%7BqN_A%7D%7D%20-%20%5Cfrac%7B%5Cepsilon_s%7D%7BC_%7Box%7D%7D)
+
+Once W<sub>D</sub>, is known, C<sub>D</sub> and ψ<sub>s</sub> are deduced. The depletion capacitance can be estimated by:
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20C_D%20%3D%20%5Csqrt%7B%5Cfrac%7B%5Cepsilon_sqp_%7Bp0%7D%7D%7B2%5Cpsi_s%7D%7D%20%3D%20%5Cfrac%7B%5Cepsilon_s%7D%7BW_D%7D)
