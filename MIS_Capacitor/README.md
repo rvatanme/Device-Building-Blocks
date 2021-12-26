@@ -123,4 +123,15 @@ Note that even though the slow-varying quiescent voltage puts the additional cha
 
 Complete ideal C-V curves of the metal-SiO2-Si system have been computed for various oxide thicknesses and semiconductor doping densities. The following figure shows typical ideal C-V curves for p-type silicon. Note that as the oxide film becomes thinner, larger variation of the capacitance is obtained. Also the curves are sharper, reducing the threshold voltage V<sub>T</sub>. The figure shows the dependence of ψ<sub>s</sub>, on the applied voltage for the same systems. Similarly, modulation of ψ<sub>s</sub> is more effective with thinner oxides.
 
+![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/MIS_Capacitor/CV_Volt.png)
+
+The critical parameters C<sub>FB</sub>, C<sub>min</sub>, C<sub>min</sub>', V<sub>T</sub>, and V<sub>min</sub> are calculated and plotted in the following figure. These ideal MIS curves will be used to compare with experimental results and to understand practical MIS systems. The conversion to
+n-type silicon is achieved simply by changing the sign of the voltage axes. Converting to other insulators requires scaling the oxide thickness with the ratio of the permittivities of SiO2, and the other insulator:
+
 ![]()
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20d_c%20%3D%20d_i%5Cfrac%7B%5Cepsilon%28SiO_2%29%7D%7B%5Cepsilon%28insulator%29%7D)
+
+where d<sub>c</sub>, is the equivalent SiO<sub>2</sub>, thickness to be used in these curves, d<sub>i</sub> and ε<sub>i</sub> are the thickness and permittivity of the new insulator. 
+
+At high frequency and with a fast sweeping ramp in the direction toward strong inversion, the semiconductor does not have enough time to come to equilibrium even with the large-signal variation. Deep depletion is said to occur when the depletion width is wider than the maximum value at equilibrium. This is the condition which CCDs are operated under when they are driven with large bias pulses. At even higher voltages, impact ionization can occur in the semiconductor. Under light illumination, however, extra minority carriers can be generated quickly and curve (d) will collapse to curve (c).
