@@ -76,4 +76,7 @@ The total capacitance C of the system is a series combination of the insulator c
 
 For a given insulator thickness d, the value of C<sub>i</sub>, is constant and corresponds to the maximum capacitance of the system. But the semiconductor capacitance C<sub>D</sub>, not only depends on the bias (or ψ<sub>s</sub>), it is also a function of the measurement frequency. The following figure illustrates the vastly different characteristics of C- V curves measured at different frequencies and sweep rates. The difference mainly occurs at the inversion regime, especially strong inversion.
 
-![]()
+![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/MIS_Capacitor/CV_curve_freq.png)
+
+Weak inversion begins at ψ<sub>s</sub> = ψ<sub>Bp</sub>, and the onset of strong inversion occurs at ψ<sub>s</sub> = 2ψ<sub>Bp</sub>. The minimum low-
+frequency capacitance C<sub>min</sub> occurs in between these two points.
