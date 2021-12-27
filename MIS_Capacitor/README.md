@@ -164,6 +164,6 @@ This is the concept used to determine Dit experimentally-from the change of Q<su
 The basic equivalent circuit incorporating the interface-trap effect is shown in the following figure a. C<sub>it</sub>, and R<sub>it</sub>, are the capacitance and resistance associated with the interface traps and, thus, are also functions of energy. The product C<sub>it</sub>R<sub>it</sub>, is
 defined as the interface-trap lifetime τ<sub>it</sub>, which determines the frequency behavior of the interface traps. The parallel branch of the equivalent circuit in Fig. 14a can be converted into a frequency-dependent capacitance C<sub>p</sub> in parallel with a frequency-dependent conductance G<sub>p</sub>, as shown in the following figure b, where:
 
-![]()
+![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/MIS_Capacitor/equivalent_circuit.png)
 
 ![](https://latex.codecogs.com/svg.latex?%5CLARGE%20C_P%20%3D%20C_D%20&plus;%20%5Cfrac%7BC_%7Bit%7D%7D%7B1&plus;%5Comega%5E2%20%5Ctau%20_%7Bit%7D%5E2%7D%20%5C%5C%5C%5C%5C%5C%20%5Cfrac%7BG_p%7D%7B%5Comega%7D%20%3D%20%5Cfrac%7BC_%7Bit%7D%5Comega%20%5Ctau%20_%7Bit%7D%7D%7B1&plus;%5Comega%5E2%20%5Ctau%20_%7Bit%7D%5E2%7D)
