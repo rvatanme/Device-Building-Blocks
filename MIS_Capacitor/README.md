@@ -150,3 +150,20 @@ Similar to bulk impurities, an interface trap is considered a donor if it is neu
 where FSD, FSA, and Et are distribution fuction for donor type trap states, distribution function for acceptor type trap states, and the energy of trap stated, respectively. Here the degeneracy for donors gD is 2 and for acceptors gA is 4. Presumably every insulater-semiconductor interface has both kinds of traps. A convenient notation is to interpret the sum of these by an equivalent Dit, distribution, with an energy level called neutral level E0 above which the states are of acceptor type, and below which are of donor type, as shown in the following figure.
 
 ![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/MIS_Capacitor/Accep_dono_trap.png)
+
+When EF is above (below) E0, net charge is - (+). To calculate the trapped charge, it can also be assumed that at room temperature, the occupancy takes on the value of 0 and 1 above and below EF With these assumptions, the interface-trapped charge can now be easily calculated by:
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20Q_%7Bit%7D%20%3D%20-q%20%5Cint_%7BE_0%7D%5E%7BE_F%7DD_%7Bit%7DdE%20%5C%3B%5C%3B%5C%3B%5C%3B%5C%3B%5C%3B%20for%20%5C%3B%20E_F%20%5C%3B%20above%20%5C%3BE_0%2C%20%5C%5C%5C%5C%20%3D%20&plus;q%20%5Cint_%7BE_0%7D%5E%7BE_F%7DD_%7Bit%7DdE%20%5C%3B%5C%3B%5C%3B%5C%3B%5C%3B%5C%3B%20for%20%5C%3B%20E_F%20%5C%3B%20below%20%5C%3BE_0%2C)
+
+The foregoing charges are the effective net charges per unit area (i.e. C/cm2). Because interface-trap levels are distributed across the energy bandgap, they are characterized by an interface-trap density distribution:
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20D_%7Bit%7D%20%3D%20%5Cfrac%7B1%7D%7Bq%7D%5Cfrac%7BdQ_%7Bit%7D%7D%7BdE%7D%20%5C%3B%5C%3B%5C%3B%5C%3B%5C%3B%5C%3B%20Number%5C%3Bof%5C%3Btraps%20%28/cm2.eV%29)
+
+This is the concept used to determine Dit experimentally-from the change of Q<sub>it</sub>, in response to the change of E<sub>F</sub> or surface potential ψ<sub>s</sub>. On the other hand, the above equation cannot distinguish whether the interface traps are of donor type or acceptor type but only determine the magnitude of Di<sub>it</sub>.
+
+The basic equivalent circuit incorporating the interface-trap effect is shown in the following figure a. C<sub>it</sub>, and R<sub>it</sub>, are the capacitance and resistance associated with the interface traps and, thus, are also functions of energy. The product C<sub>it</sub>R<sub>it</sub>, is
+defined as the interface-trap lifetime τ<sub>it</sub>, which determines the frequency behavior of the interface traps. The parallel branch of the equivalent circuit in Fig. 14a can be converted into a frequency-dependent capacitance C<sub>p</sub> in parallel with a frequency-dependent conductance G<sub>p</sub>, as shown in the following figure b, where:
+
+![]()
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20C_P%20%3D%20C_D%20&plus;%20%5Cfrac%7BC_%7Bit%7D%7D%7B1&plus;%5Comega%5E2%20%5Ctau%20_%7Bit%7D%5E2%7D%20%5C%5C%5C%5C%5C%5C%20%5Cfrac%7BG_p%7D%7B%5Comega%7D%20%3D%20%5Cfrac%7BC_%7Bit%7D%5Comega%20%5Ctau%20_%7Bit%7D%7D%7B1&plus;%5Comega%5E2%20%5Ctau%20_%7Bit%7D%5E2%7D)
