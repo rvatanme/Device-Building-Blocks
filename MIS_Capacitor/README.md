@@ -167,3 +167,7 @@ defined as the interface-trap lifetime τ<sub>it</sub>, which determines the fre
 ![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/MIS_Capacitor/equivalent_circuit.png)
 
 ![](https://latex.codecogs.com/svg.latex?%5CLARGE%20C_P%20%3D%20C_D%20&plus;%20%5Cfrac%7BC_%7Bit%7D%7D%7B1&plus;%5Comega%5E2%20%5Ctau%20_%7Bit%7D%5E2%7D%20%5C%5C%5C%5C%5C%5C%20%5Cfrac%7BG_p%7D%7B%5Comega%7D%20%3D%20%5Cfrac%7BC_%7Bit%7D%5Comega%20%5Ctau%20_%7Bit%7D%7D%7B1&plus;%5Comega%5E2%20%5Ctau%20_%7Bit%7D%5E2%7D)
+
+Also of particular interest are the equivalent circuits in the low-frequency and high-frequency limits, included in the above figure c and d. In the low-frequency limit, R<sub>it</sub>, is set to zero and C<sub>D</sub>, is in parallel to C<sub>it</sub>. In the high-frequency limit, the C<sub>it</sub>-R<sub>it</sub> branch is ignored or open. Physically it means that the traps are not fast enough to respond to the fast signal. The total terminal capacitance for these two cases (low-frequency C<sub>LF</sub>, and high-frequency C<sub>HF</sub>) are:
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20C_%7BLF%7D%20%3D%20%5Cfrac%7BC_%7Bi%7D%28C_D&plus;C_%7Bit%7D%29%7D%7BC_i&plus;C_D&plus;C_%7Bit%7D%7D%20%5C%5C%5C%5C%5C%5C%20C_%7BLF%7D%20%3D%20%5Cfrac%7BC_%7Bi%7DC_D%7D%7BC_i&plus;C_D%7D)
