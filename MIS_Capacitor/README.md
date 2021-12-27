@@ -191,4 +191,16 @@ Next we will derive the stretch out of the ψ<sub>s</sub>-V curve in relationshi
 
 In the high frequancy capacitance method, first the total capacitance (CHF) of MOS is measured and since the equivalent circuit does not contain Cit, CD can be easly calculated from CHF. Once C<sub>D</sub> is known, ψ<sub>s</sub> can be calculated from theory and the ψ<sub>s</sub>-V relationship is obtained. Equation 1 is then used to determine D<sub>it</sub>.
 
+In the low frequency method, the following equations are used:
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20%5Cfrac%7Bd%5Cpsi_s%7D%7BdV%7D%20%3D%20%5Cfrac%7BC_i%7D%7BC_i&plus;C_D&plus;C_%7Bit%7D%7D%20%3D%201%20-%5Cfrac%7BC_D&plus;C_%7Bit%7D%7D%7BC_i&plus;C_D&plus;C_%7Bit%7D%7D%20%5C%5C%5C%5C%20%3D%201%20-%20%5Cfrac%7BC_%7BLF%7D%7D%7BC_i%7D%20%5C%5C%5C%5C%20%5Cpsi_s%28V_2%29%20-%20%5Cpsi_s%28V_1%29%20%3D%20%5Cint_%7BV_1%7D%5E%7BV_2%7D%281%20-%20%5Cfrac%7BC_%7BLF%7D%7D%7BC_i%7D%29dV%20&plus;%20Cons.)
+
+The integrand constant can be the starting point at accumulation or strong inversion where w, is known and it has weak dependence on the applied voltage. Once ψ<sub>s</sub> is known, D<sub>it</sub> can be calculated from Eq. 1, provided that the doping profile is known. One disadvantage of the low-frequency capacitance method is the measurement difficulty in the presence of increased dc leakage for thinner oxides.
+
+In the High-Low-Frequency capacitance method, the following equation is used:
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20D_%7Bit%7D%3D%5Cfrac%7B%5CDelta%20C%7D%7Bq%5E2%7D%281%20-%20%5Cfrac%7BC_%7BHF%7D&plus;%5CDelta%20C%7D%7BC_i%7D%29%5E%7B-1%7D%281%20-%20%5Cfrac%7BC_%7BHF%7D%7D%7BC_i%7D%29%5E%7B-1%7D)
+
+where ΔC is the capacitance gap as CHF - CLF for each bias point. As shown in this equation, the trap density, on the first order, is proportional to the capacitance gap ΔC. If the energy spectrum of Dj, is to be determined, either the low-frequency capacitance integration approach or the high-frequency method can be applied to determine ψ<sub>s</sub>.
+
 
