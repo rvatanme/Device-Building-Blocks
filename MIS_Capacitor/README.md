@@ -176,4 +176,5 @@ Either capacitance measurement or conductance measurement can be used to evaluat
 
 The following figure a shows qualitatively the high-frequency and low-frequency C-V characteristics with and without interface traps. A very noticeable effect of the interface traps is that the curves are stretched out in the voltage direction. This is due to the fact that extra charge has to fill the traps, so it takes more total charge or applied voltage to accomplish the same surface potential ψ<sub>s</sub> (or band bending). This is demonstrated more clearly in below figure b where ψ<sub>s</sub> is plotted against the apply voltage directly, with and without interface traps.
 
-![]()
+![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/MIS_Capacitor/CV_trap_ideal.png)
+
