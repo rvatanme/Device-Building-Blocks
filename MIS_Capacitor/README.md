@@ -239,3 +239,9 @@ Oxide trapped charge is associated with defects in SiO,. The oxide traps are usu
 
 In modern integrated-circuit processing, heavily doped polysilicon has been used to replace Al as the gate electrode. For an n+-polysilicon gate, the Fermi level essentially coincides with the bottom of the conduction band EC, and the effective work function φm is equal to the Si electron affinity (χsi = 4.05 V). For a p+-polysilicon gate, the Fermi level coincides with the top of the valence band EV, and the effective workfunction φm is equal to the sum of χsi and Eg/q (5.17 V). This is one of the advantages of using poly-Si gates in MOSFETs since the same material can give different work functions by doping.
 
+![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/MIS_Capacitor/Workfun.png)
+
+## Carrier Transport
+In an ideal MIS capacitor the conductance ofthe insulating film is assumed to be zero. Real insulators, however, show some degree of carrier conduction when the electric field or temperature is sufficiently high. The below table summarizes the basic conduction processes in insulators. It also emphasizes the voltage and temperature dependence of each process that are used often to identify the exact conduction mechanism experimentally.
+
+![]()
