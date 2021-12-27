@@ -244,4 +244,6 @@ In modern integrated-circuit processing, heavily doped polysilicon has been used
 ## Carrier Transport
 In an ideal MIS capacitor the conductance ofthe insulating film is assumed to be zero. Real insulators, however, show some degree of carrier conduction when the electric field or temperature is sufficiently high. The below table summarizes the basic conduction processes in insulators. It also emphasizes the voltage and temperature dependence of each process that are used often to identify the exact conduction mechanism experimentally.
 
-![]()
+![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/MIS_Capacitor/Table.png)
+
+Tunneling is the most-common conduction mechanism through insulators under high fields. The tunnel emission is a result of quantum mechanics by which the electron wave function can penetrate through a potential barrier. It has the strongest dependence on the applied voltage but is essentially independent of the temperature. According to the following figure tunneling can be divided into direct tunneling and Fowler-Nordheim tunneling where carriers tunnel through only a partial width of the barrier.
