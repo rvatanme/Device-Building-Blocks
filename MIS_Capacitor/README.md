@@ -178,3 +178,8 @@ The following figure a shows qualitatively the high-frequency and low-frequency 
 
 ![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/MIS_Capacitor/CV_trap_ideal.png)
 
+One other helpful point is that interface traps affect the total capacitance in two ways. A direct impact is through the extra circuit elements Cit and R<sub>it</sub>. A second impact is indirectly on C<sub>D</sub>. For a fixed bias, since some charge will be needed to fill the interface traps, the remaining charge to be put in the depletion layer is reduced and this will reduce the surface potential or band bending. But since the relationship
+between C<sub>D</sub> and ψ<sub>s</sub> is fixed (Eq. 22 or 28), changing ψ<sub>s</sub> means changing C<sub>D</sub> also. This explains that for the high-frequency limit, even though the equivalent circuit does not contain the C<sub>it</sub> element, the high-frequency C-V curve is still affected by interface traps, through C<sub>D</sub>.
+
+Before discussing the capacitance method to measure Dit, we derive some useful equations to extrat this information from a C-V curve. First the relationship between C<sub>it</sub>, and D<sub>it</sub>, is derived as follows. Since dQ<sub>it</sub> = qD<sub>it</sub>dE, and dE = qdψ<sub>s</sub>, we obtain:
+
