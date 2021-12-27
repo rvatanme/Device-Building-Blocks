@@ -217,6 +217,15 @@ Interface traps in the Si-SiO, system comprise of many levels. These are so clos
 
 The following figure shows the variation of the time constant τ<sub>it</sub>, versus surface potential (or trap level) for MOS capacitors with steam-grown oxides on (100) silicon substrates, where is the average surface potential. These curves can be fitted by the following expressions:
 
-![]()
+![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/MIS_Capacitor/time_constant.png)
 
 ![](https://latex.codecogs.com/svg.latex?%5CLARGE%20%5Ctau%20_%7Bit%7D%20%3D%20%5Cfrac%7B1%7D%7B%5Cbar%7B%5Cnu%7D%5Csigma_pn_i%7Dexp%5B-%5Cfrac%7Bq%28%5Cpsi_%7BBp%7D-%5Cbar%7B%5Cpsi_s%7D%29%7D%7BkT%7D%5D%20%5C%3B%5C%3B%5C%3B%5C%3B%20for%5C%3Bp%5C%3Btype%20%5C%5C%5C%5C%20%5Ctau%20_%7Bit%7D%20%3D%20%5Cfrac%7B1%7D%7B%5Cbar%7B%5Cnu%7D%5Csigma_nn_i%7Dexp%5B-%5Cfrac%7Bq%28%5Cpsi_%7BBn%7D-%5Cbar%7B%5Cpsi_s%7D%29%7D%7BkT%7D%5D%20%5C%3B%5C%3B%5C%3B%5C%3B%20for%5C%3Bn%5C%3Btype)
+
+where σ<sub>p</sub> and σ<sub>n</sub>, are the capture cross sections of holes and electrons respectively, and ν is the average thermal velocity. These results indicate that the capture cross section is independent of energy. The capture cross sections obtained from the above figure are σ<sub>p</sub> =
+4.3E-16 cm2 and σ<sub>n</sub> = 8.1E-16 cm2, where the value of ν = lE7 cm/s has been used. For (111)-oriented silicon the variation of time constant versus surface potential is similar to that of (100) and the measured capture cross sections are smaller with σ<sub>p</sub> = 2.2E-16 cm2 and σ<sub>n</sub> = 5.9E-16 cm2. We must also consider the statistical fluctuation of surface potential due to surface charges which include the fixed oxide charges Q<sub>f</sub> and the interface-trapped charges Q<sub>it</sub>. From the above equation, a small fluctuation in ψ<sub>s</sub> causes a large fluctuation in τ<sub>it</sub>. Assuming that surface charges are randomly distributed in the plane of the interface, the electric field at the semiconductor surface will fluctuate over the plane of the interface. 
+
+Oxide charges, other than that of the interface traps, include the fixed oxide charge Q<sub>f</sub>, the mobile ionic charge Q<sub>m</sub>, and the oxide trapped charge Q<sub>ot</sub>. In general, unlike interface-trapped charges, these oxide charges are independent of bias, so they cause a parallel shift in
+the gate-bias direction including difference work function, given by:
+
+![]()
+
