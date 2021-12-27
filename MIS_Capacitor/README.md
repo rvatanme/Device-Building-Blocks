@@ -149,4 +149,4 @@ Similar to bulk impurities, an interface trap is considered a donor if it is neu
 
 where FSD, FSA, and Et are distribution fuction for donor type trap states, distribution function for acceptor type trap states, and the energy of trap stated, respectively. Here the degeneracy for donors gD is 2 and for acceptors gA is 4. Presumably every insulater-semiconductor interface has both kinds of traps. A convenient notation is to interpret the sum of these by an equivalent Dit, distribution, with an energy level called neutral level E0 above which the states are of acceptor type, and below which are of donor type, as shown in the following figure.
 
-![]()
+![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/MIS_Capacitor/Accep_dono_trap.png)
