@@ -135,3 +135,6 @@ n-type silicon is achieved simply by changing the sign of the voltage axes. Conv
 where d<sub>c</sub>, is the equivalent SiO<sub>2</sub>, thickness to be used in these curves, d<sub>i</sub> and ε<sub>i</sub> are the thickness and permittivity of the new insulator. 
 
 At high frequency and with a fast sweeping ramp in the direction toward strong inversion, the semiconductor does not have enough time to come to equilibrium even with the large-signal variation. Deep depletion is said to occur when the depletion width is wider than the maximum value at equilibrium. This is the condition which CCDs are operated under when they are driven with large bias pulses. At even higher voltages, impact ionization can occur in the semiconductor. Under light illumination, however, extra minority carriers can be generated quickly and curve (d) will collapse to curve (c).
+
+## Silicon MOS Capacitor
+Of all the MIS capacitors, the metal-oxide-silicon (MOS) capacitor is by far the most practical and important. For a practical MOS capacitor, interface traps and oxide charges exist that will, in one way or another, affect the ideal MOS characteristics.
