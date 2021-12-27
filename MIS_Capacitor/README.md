@@ -183,3 +183,12 @@ between C<sub>D</sub> and ψ<sub>s</sub> is fixed (Eq. 22 or 28), changing ψ<su
 
 Before discussing the capacitance method to measure Dit, we derive some useful equations to extrat this information from a C-V curve. First the relationship between C<sub>it</sub>, and D<sub>it</sub>, is derived as follows. Since dQ<sub>it</sub> = qD<sub>it</sub>dE, and dE = qdψ<sub>s</sub>, we obtain:
 
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20C_%7Bit%7D%20%5Cequiv%20%5Cfrac%7BdQ_%7Bit%7D%7D%7Bd%5Cpsi_s%7D%20%3D%20q%5E2D_%7Bit%7D)
+
+Next we will derive the stretch out of the ψ<sub>s</sub>-V curve in relationship to interface traps. Using the low-frequency equivalent circuits, the applied voltage is partitioned between the oxide layer and the semiconductor layer. The portion of the voltage across the semiconductor ψ<sub>s</sub> is simply given by the voltage divider of the capacitor network, i.e.:
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20%5Cfrac%7Bd%5Cpsi_s%7D%7BdV%7D%20%3D%20%5Cfrac%7BC_i%7D%7BC_i&plus;%28C_D&plus;C_%7Bit%7D%29%7D%20%5C%5C%5C%5C%5C%5C%20D_%7Bit%7D%20%3D%20%5Cfrac%7BC_i%7D%7Bq%5E2%7D%5B%28%5Cfrac%7Bd%5Cpsi_s%7D%7BdV%7D%29%5E%7B-1%7D-1%5D-%5Cfrac%7BC_D%7D%7Bq%5E2%7D%20%5C%3B%5C%3B%5C%3B%5C%3B%5C%3B%5C%3B%20%281%29)
+
+In the high frequancy capacitance method, first the total capacitance (CHF) of MOS is measured and since the equivalent circuit does not contain Cit, CD can be easly calculated from CHF. Once C<sub>D</sub> is known, ψ<sub>s</sub> can be calculated from theory and the ψ<sub>s</sub>-V relationship is obtained. Equation 1 is then used to determine D<sub>it</sub>.
+
+
