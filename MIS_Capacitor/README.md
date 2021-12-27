@@ -237,3 +237,5 @@ Mobile ionic charges can move back and forth through the oxide layer, depending 
 
 Oxide trapped charge is associated with defects in SiO,. The oxide traps are usually initially neutral and are charged by introducing electrons and holes into the oxide layer. This can occur from any current passing through the oxide layer, hot-carrier injection, or by photon excitation.
 
+In modern integrated-circuit processing, heavily doped polysilicon has been used to replace Al as the gate electrode. For an n+-polysilicon gate, the Fermi level essentially coincides with the bottom of the conduction band EC, and the effective work function φm is equal to the Si electron affinity (χsi = 4.05 V). For a p+-polysilicon gate, the Fermi level coincides with the top of the valence band EV, and the effective workfunction φm is equal to the sum of χsi and Eg/q (5.17 V). This is one of the advantages of using poly-Si gates in MOSFETs since the same material can give different work functions by doping.
+
