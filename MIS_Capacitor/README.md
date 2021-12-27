@@ -142,3 +142,11 @@ Of all the MIS capacitors, the metal-oxide-silicon (MOS) capacitor is by far the
 ![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/MIS_Capacitor/trap_fig.png)
 
 Interface traps that are historically also called interface states, fast states or surface states exists exists within the forbidden gap due to the interruption of the periodic lattice structure at the surface of a crystal. It has been exprimentally found that the Dit in a clean surface of Si can be as high as 1E15 /cm2, on the order of density of surface atoms (1E15/cm3). For the present MOS capacitors having thermally grown SiO2 on Si, The total surface traps can be as low as 1E10 cm-2, which amounts to about one interface trap per lE5 surface atoms.
+
+Similar to bulk impurities, an interface trap is considered a donor if it is neutral and can become positively charged by donating (giving up) an electron. An acceptor interface trap is neutral and becomes negatively charged by accepting an electron. The distribution functions (occupancy) for the interface traps are govern by Fermi-Dirac distribution:
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20F_%7BSD%7D%28E_t%29%20%3D%20%5Cfrac%7B1%7D%7B1&plus;g_Dexp%5B%28E_F-E_t%29/kT%5D%7D%20%5C%5C%5C%5C%5C%5C%20F_%7BSA%7D%20%3D%20%5Cfrac%7B1%7D%7B1&plus;g_Aexp%5B%28E_t-E_F%29/kT%5D%7D)
+
+where FSD, FSA, and Et are distribution fuction for donor type trap states, distribution function for acceptor type trap states, and the energy of trap stated, respectively. Here the degeneracy for donors gD is 2 and for acceptors gA is 4. Presumably every insulater-semiconductor interface has both kinds of traps. A convenient notation is to interpret the sum of these by an equivalent Dit, distribution, with an energy level called neutral level E0 above which the states are of acceptor type, and below which are of donor type, as shown in the following figure.
+
+![]()
