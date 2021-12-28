@@ -252,6 +252,6 @@ The Schottky emission process is similar to the process discussed in the Schottk
 
 The Frenkel-Poole emission shown in the following figure, is due to emission of trapped electrons into the conduction band. The supply of electrons from the traps is through thermal excitation. For trap states with Coulomb potentials, the expression is similar to that of the Schottky emission. The barrier height, however, is the depth of the trap potential well. The barrier reduction is larger than in the case of Schottky emission by a factor of 2, since the barrier lowering is twice as large due to the immobility of the positive charge.
 
-![]()
+![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/MIS_Capacitor/Carrier_Transport.png)
 
 ## Nonequilibrium and Avalanche
