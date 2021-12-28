@@ -282,3 +282,25 @@ Under optical illumination, the main effect on the MIS capacitance curves is tha
 sponding increase of the capacitance. The second mechanism is dominant when the measurement frequency is high. Also under the condition of deep depletion caused by a fast gate sweep [curve-(d) in Fig. 71, the extra electron-holes pairs can supply carriers for maintaining equilibrium and curve-(d) will collapse to curve-(c)]
 
 ## Accumulation- and Inversion-Layer Thickness
+For an MIS capacitor, the maximum capacitance is equal to εi/d which implies that charges on both sides of the electrodes cling to the two interfaces of the insulator. While such an assumption is valid on the metal-insulator interface, detailed examination on the insulator-semiconductor interface reveals that it can lead to considerable error, especially for thin oxides. This is due to charges on the semiconductor side, either accumulation or strong-inversion charges, have a distribution as a hnction of distance from the interface. Effectively this would reduce the maximum capacitance given by εi/d.
+
+In the classical physics, the charge distribution is controlled by the Poisson equation. Using Boltzmann statistics, the Poisson equation become:
+
+![](https://latex.codecogs.com/svg.latex?%5CLARGE%20%5Crho%28x%29%20%3D%20N_Aexp%28-%5Cfrac%7Bq%5Cpsi_p%7D%7BkT%7D%29%20%5C%5C%5C%5C%20%5Cfrac%7Bd%5E2%5Cpsi%7D%7Bdx%5E2%7D%20%3D%20-%5Cfrac%7B%5Crho%28x%29%7D%7B%5Cepsilon%20_s%7D%20%3D%20-%5Cfrac%7BqN_A%7D%7B%5Cepsilon%20_s%7Dexp%28-%5Cfrac%7Bq%5Cpsi_p%7D%7BkT%7D%29)
+
+The solution of the above equation is:
+
+![](https://latex.codecogs.com/svg.latex?%5Cinline%20%5CLARGE%20%5Cpsi_p%28x%29%20%3D%20-%5Cfrac%7BkT%7D%7Bq%7Dln%28sec%5E2%5C%7Bcos%5E%7B-1%7D%5Bexp%28-%5Cfrac%7Bq%5Cpsi_p%7D%7B2kT%7D%5D-%5Cfrac%7Bx%7D%7B%5Csqrt2L_D%7D%5C%7D%29%20%5C%5C%5C%5C)
+
+The total accumulation layer thickness where y, approaches zero is equal to πLD/sqrt(2) which is in the order of a few tens of nm. However, most of the carriers are confined very close to the surface. Figure 28 shows the potential and carrier distributions for two different biases. It shows that although the concentration peaks at the surface, it spreads out with an effective distance of the order of a few nm. This spread is also a function of the bias; higher bias forces the carriers to be closer to the interface.
+
+In quantum mechanics, the wavefunction associated with the carriers is near zero at the insulator-semiconductor interface because of the high barrier of the insulator. As a consequence, the carrier concentration peaks at some finite distance from the interface. This distance is approximately 10 Ang. Macroscopically, this effect can be interpreted as a degradation in oxide capacitance (or thicker oxide). Ten ang of Si is equivalent to 3 ang of SiO2,
+taking into account the difference in dielectric constant. This amount adds to the oxide thickness and lowers the capacitance. Also shown in the figure is the classical calculation. The quantum effect is shown to cause more pronounced degradation than the classical model. Another factor that
+causes further reduction of the capacitance is the polysilicon gates widely used in commercial technologies. Even if the polysilicon is degenerately doped, the depletion-layer and accumulation-layer thicknesses are still finite.
+
+## Dielectric Breakdown
+One common concern for an MOS device is reliability. Under a large bias, some current will conduct through the insulator, most commonly a tunneling current. These energetic carriers cause defects in the bulk of the dielectric film. When these defects reach a critical density level, catastrophic breakdown occurs. Microscopically, a percolation theory is used to explain breakdown (the following figure). On the passage of energetic
+carriers, defects are generated randomly. When defects are dense enough to form a continuous chain connecting the gate to the semiconductor, a conduction path is created and catastrophic breakdown occurs.
+
+A measure to quantify reliability is time to breakdown, tBD, which is the total stress time until breakdown occurs. An alternate quantity is called charge to break-down qBD, which is the total charge (integrating the current) passed through the device within tBD. Obviously tBD and q B D are both function of applied bias. The plots of qBD would show similar shapes and trend. A few key points can be noticed in this figure. First, tBD is a function of bias. Even for a small bias, eventually the oxide will break down, taking a very long time. Conversely, a large field can be sustained for a very short time without breaking down. To search for the breakdown field quickly, typically a voltage ramp is applied until a large current is detected. For a common measurement, the ramping rate is typically in the order of 1 V/s. The figure shows that for this time frame, the breakdown field is around 10 MV/cm. As the
+oxide thickness becomes thinner, the breakdown field increases. More-recent results, however, show that this breakdown field would drop for thicknesses below = 4 nm, due to an increase of tunneling current.
