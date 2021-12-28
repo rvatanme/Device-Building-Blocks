@@ -248,4 +248,10 @@ In an ideal MIS capacitor the conductance ofthe insulating film is assumed to be
 
 Tunneling is the most-common conduction mechanism through insulators under high fields. The tunnel emission is a result of quantum mechanics by which the electron wave function can penetrate through a potential barrier. It has the strongest dependence on the applied voltage but is essentially independent of the temperature. According to the following figure tunneling can be divided into direct tunneling and Fowler-Nordheim tunneling where carriers tunnel through only a partial width of the barrier.
 
+The Schottky emission process is similar to the process discussed in the Schottky diode. In the table, the term subtracting from φB is due to image-force lowering. A plot of In(J/T2) versus 1/T yields a straight line with a slope determined by the net barrier height.
+
+The Frenkel-Poole emission shown in the following figure, is due to emission of trapped electrons into the conduction band. The supply of electrons from the traps is through thermal excitation. For trap states with Coulomb potentials, the expression is similar to that of the Schottky emission. The barrier height, however, is the depth of the trap potential well. The barrier reduction is larger than in the case of Schottky emission by a factor of 2, since the barrier lowering is twice as large due to the immobility of the positive charge.
+
+![]()
+
 ## Nonequilibrium and Avalanche
