@@ -254,4 +254,14 @@ The Frenkel-Poole emission shown in the following figure, is due to emission of 
 
 ![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/MIS_Capacitor/Carrier_Transport.png)
 
+At low voltage and high temperature, current is carried by thermally excited electrons hopping from one isolated state to the next. This mechanism yields an ohmic characteristic exponentially dependent on temperature.
+
+The ionic conduction is similar to a diffusion process. Generally, the dc ionic conductivity decreases during the time the electric field is applied because ions cannot be readily injected into or extracted from the insulator. After an initial current flow, positive and negative space charges will build up near the metal-insulator and the semiconductor-insulator interfaces, causing a distortion of the potential distribution. When the applied field is removed, large internal fields remain which cause some, but not all, ions to flow back toward their equilibrium position. Because of this, hysteresis results in I-V traces.
+
+The space-charge-limited current results from carriers injected into a lightly doped semiconductor or an insulator, where no compensating charge is present. The current for the unipolar trap-free case is proportional to the square of the applied voltage. Notice that the mobility regime is relevant here  since mobility is typically very low in insulators. 
+
+For ultra-thin insulators, tunneling increases such that the conduction approaches that of the metal-semiconductor contact where the barrier is measured at the semiconductor surface instead of the insulator and the thermionic-emission current is multiplied by a tunneling factor.
+
+For a given insulator, each conduction process may dominate in certain temperature and voltage range. The processes are also not exactly independent of one another and should be carefully examined. For example, for the large space-charge effect, the tunneling characteristic is found to be very similar to the Schottky-type emission. At high temperatures (and high fields), the current J , is due to Frenkel-Poole emission. At low temperatures, the conduction is tunneling limited (J2) which is temperature insensitive. One can also observe that the tunneling current strongly depends on the barrier height, which is related to the energy gap of the insulators. At intermediate temperatures, the current J3 is ohmic in nature.
+
 ## Nonequilibrium and Avalanche
