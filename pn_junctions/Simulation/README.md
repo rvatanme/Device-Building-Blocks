@@ -61,4 +61,6 @@ Then, at least one electrode should be defined using the syntax of "electr name=
  
 The final step for defining the device structure is to specify doping concentration and type for each region using the syntax of "doping <doping type> conc <location> <distribution function>". Example: "doping  p.type conc=1e17 x.min=0 x.max=0.4 y.top=0.0 y.bottom=0.6 uniform".
     
-Once the device structure and properties are defined, one can modify the characteristic of electrodes (CONTACT syntax), change the defualt materials (MATERIAL syntax), and choose physical models (MODEL syntax) the models that Atlas use during the device simulation. Example: "model    conmob  fldmob  srh  auger  bgn". 
+Once the device structure and properties are defined, one can modify the characteristic of electrodes (CONTACT syntax), change the defualt materials (MATERIAL syntax), and choose physical models (MODEL syntax) the models that Atlas use during the device simulation. Impact ionization model can be enabled by "IMPACT" syntax and the interface properties can be defined by "INTERFACE" syntax. Example: "model  conmob  fldmob  srh  auger  bgn". 
+
+    
