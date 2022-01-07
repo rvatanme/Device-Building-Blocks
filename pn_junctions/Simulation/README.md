@@ -28,6 +28,13 @@ Silvaco-2017 software were used in order to simulate the diode. The input file i
     #....   N-epi doping
     doping  p.type conc=1e17 x.min=0 x.max=0.4 y.top=0.0 y.bottom=0.6 uniform 
     doping  n.type conc=1e17 x.min=0 x.max=0.4 y.top=0.6 y.bottom=1.29 uniform
+    
+
+    model    conmob  fldmob  srh  auger  bgn
+
+    method newton
+
+    solve      init
 
     solve vanode=0.0
     save outf=pn01_0.str
@@ -36,13 +43,6 @@ Silvaco-2017 software were used in order to simulate the diode. The input file i
     solve vanode=0.5
     save outf=pn02_0.str
     tonyplot pn02_0.str -set pn02_0.set
-
-
-    model    conmob  fldmob  srh  auger  bgn
-
-    solve      init
-
-    method newton
 
     log   outfile=pn01.log
     solve      vanode=0.05  vstep=0.05  vfinal=1  name=anode
