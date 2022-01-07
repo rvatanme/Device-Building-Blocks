@@ -4,7 +4,7 @@ Here different characteristic of different pn junctions are simulated and are co
 ## Abrupt Parallel pn Junction
 In this section, the plan is to simulate a parrallel abrupt Si pn diode where the acceptor and donor concentrations are the same at the both side of the junction. The schematic of the mentioned junction is shown in the following figure. 
 
-
+![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/pn_junctions/Simulation/pn_diode_str.png)
 
 Silvaco-2017 software were used in order to simulate the diode. The input file is as following:
 
@@ -14,10 +14,10 @@ Silvaco-2017 software were used in order to simulate the diode. The input file i
     mesh  space.mult=1.0
     # 
     y.mesh loc=0.00 spac=0.01 
-    y.mesh loc=1.29 spac=0.2
+    y.mesh loc=1.29 spac=0.01
     #
-    x.mesh loc=0.00 spac=0.016
-    x.mesh loc=0.4 spac=0.1
+    x.mesh loc=0.00 spac=0.01
+    x.mesh loc=0.4 spac=0.01
 
 
     region  num=1  silicon
@@ -50,3 +50,7 @@ Silvaco-2017 software were used in order to simulate the diode. The input file i
     quit
 
 The first line "go atlas" specifies which subrouting the user desire to call. The "atlas" is a subroutin that simulate the electrical properties of a given semicodutor device. 
+
+The "mesh space.mult=1.0" line gives the factor that mesh sizes should be multiplied by. For this case, when its value is one, the mesh sizes given after this line remains unchanged.
+
+The line "y.mesh loc=0.00 spac=0.01" specifies the mesh size (0.01 um) in the y direction [from top (y=0) to bottom] starting from 0 to the next start location of the next "mesh" syntax line. Here, the next mesh line is "y.mesh loc=1.29 spac=0.01", therefore the mesh size from 0 to 1.29 um is 0.01 um. The mesh size of the last "mesh" syntax line should be the same as the mesh size of the one before last "mesh" syntax one, otherwise the mesh size of the one before the last one would be gradualy increased or decreased in order to match the last mesh size. 
