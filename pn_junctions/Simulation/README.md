@@ -49,4 +49,4 @@ Silvaco-2017 software were used in order to simulate the diode. The input file i
     tonyplot pn01.log -set pn01_log.set
     quit
 
-The first line "go atlas" specifies which subrouting the user desire to call. The "atlas" is a subroutin that simulate the electrical properties of the given semicodutor device. 
+The first line "go atlas" specifies which subrouting the user desire to call. The "atlas" is a subroutin that simulate the electrical properties of a given semicodutor device. 
