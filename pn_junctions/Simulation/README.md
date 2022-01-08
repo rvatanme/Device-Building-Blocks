@@ -63,8 +63,10 @@ The final step for defining the device structure is to specify doping concentrat
     
 Once the device structure and properties are defined, one can modify the characteristic of electrodes (CONTACT syntax), change the defualt materials (MATERIAL syntax), and choose physical models (MODEL syntax) the models that Atlas use during the device simulation. Impact ionization model can be enabled by "IMPACT" syntax and the interface properties can be defined by "INTERFACE" syntax. Example: "model  conmob  fldmob  srh  auger  bgn". 
 
-The following figure shows the potential profile obtained from Silvaco for a pn junction with different doping concentration ranging from 1E15 to 1E18 /cm3 under no bias. As seen, the built in potential increases monotically from 0.6 to 0.9 V. 
+The following figure a shows the potential profile obtained from Silvaco for a pn junction with different doping concentration ranging from 1E15 to 1E18 /cm3 under no bias. As seen, the built in potential increases monotically from 0.6 to 0.9 V. 
     
 ![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/pn_junctions/Simulation/pot-iv-pn-diode.png)
 
-The almost same built-in potentials are obtained using analytical equation provided in this chapter, but the maximum electric field and the total depletion width shows relatively positive and negative deviations, respectively, from the numerical results (builtin.py). These deviotions are larger at lower doping concentrations and due to unvalid box approximation for depletion region. 
+The almost same built-in potentials are obtained using analytical equation provided in this chapter, but the maximum electric field and the total depletion width shows relatively positive and negative deviations, respectively, from the numerical results (builtin.py). These deviotions are larger at lower doping concentrations and due to unvalid box approximation for depletion region. The above figure b indicates the I-V characteristics of the simulated pn juction, as expected the turn on voltages change regarding the built-in potential of each junction. 
+    
+yt
