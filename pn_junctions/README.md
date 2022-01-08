@@ -37,11 +37,12 @@ where ψ<sub>i</sub> is the potential. The electric field is then obtained by in
  
  ![](https://latex.codecogs.com/svg.latex?%5CLARGE%20%7C%5Cxi%20_m%7C%20%3D%20%5Cfrac%7B2%5Cpsi%20_%7Bbi%7D%7D%7BW_D%7D%20%3D%20%5Csqrt%7B%5Cfrac%7B2qN_AN_D%5Cpsi%20_%7Bbi%7D%7D%7B%5Cepsilon%20_s%28N_A&plus;N_D%29%7D%7D)
  
+ ![](https://latex.codecogs.com/svg.latex?%5CLARGE%20W_%7BDp%7D%20%3D%20%5Csqrt%7B%5Cfrac%7B2%5Cepsilon_s%5Cpsi_%7Bbi%7D%7D%7Bq%7D%5Cfrac%7BN_D%7D%7BN_A%28N_A&plus;N_D%29%7D%7D%20%5C%5C%5C%5C%5C%5C%20W_%7BDn%7D%20%3D%20%5Csqrt%7B%5Cfrac%7B2%5Cepsilon_s%5Cpsi_%7Bbi%7D%7D%7Bq%7D%5Cfrac%7BN_A%7D%7BN_D%28N_A&plus;N_D%29%7D%7D%20%5C%5C%5C%5C%5C%5C%20W_%7BD%7D%20%3D%20%5Csqrt%7B%5Cfrac%7B2%5Cepsilon_s%5Cpsi_%7Bbi%7D%7D%7Bq%7D%28%5Cfrac%7BN_A&plus;N_D%7D%7BN_AN_D%7D%29%7D) 
  
  ![](https://latex.codecogs.com/svg.latex?%5CLARGE%20W_D%20%3D%20W_%7BDp%7D%20&plus;%20W_%7BDn%7D%20%5C%3B%5C%3B%5C%3B%5C%3B%20%5Cfrac%7BW_%7BDn%7D%7D%7BW_D%7D%20%3D%20%5Cfrac%7BN_A%7D%7BN_A%20&plus;%20N_D%7D)
  
  
- ![](https://latex.codecogs.com/svg.latex?%5CLARGE%20%5Cpsi%20_bi%20%3D%20%5Cpsi%20_%7BBp%7D%20&plus;%20%5Cpsi%20_%7BBn%7D%20%5C%3B%5C%3B%5C%3B%5C%3B%20%5Cfrac%7B%5Cpsi%20_%7BBn%7D%7D%7B%5Cpsi%20_%7Bbi%7D%7D%20%3D%20%5Cfrac%7BN_A%7D%7BN_A%20&plus;%20N_D%7D)
+ ![](https://latex.codecogs.com/svg.latex?%5CLARGE%20%5Cpsi%20_%7Bbi%7D%20%3D%20%5Cpsi%20_%7BBp%7D%20&plus;%20%5Cpsi%20_%7BBn%7D%20%5C%3B%5C%3B%5C%3B%5C%3B%20%5Cfrac%7B%5Cpsi%20_%7BBn%7D%7D%7B%5Cpsi%20_%7Bbi%7D%7D%20%3D%20%5Cfrac%7BN_A%7D%7BN_A%20&plus;%20N_D%7D)
  
  
  This discussion uses depletion approximation where it's assumed that n(x) ≈ p(x) ≈ 0. In reality, due to the majority-carrier distribution tail, there is a low concentration of majority carrier in both sides of the junction. Therefore, a more accurate result for the depletion-layer properties can be obtained by considering this contribution in the Poisson equation, that is, ρ = q[N<sub>A</sub> - p(x)]  on the p-side and ρ = q[N<sub>D</sub> - n(x)] on the n-side. By solving Poisson equation with the new expression, it's reaveld that all the previous equation is true with this difference that the ψ<sub>bi</sub> should be replaced by ψ<sub>bi</sub> - 2kT/q and ψ<sub>bi</sub> - V - 2kT/q under no bias and bias V, respectively.
