@@ -65,6 +65,6 @@ Once the device structure and properties are defined, one can modify the charact
 
 The following figure shows the potential profile obtained from Silvaco for a pn junction with different doping concentration ranging from 1E15 to 1E18 /cm3 under no bias. As seen, the built in potential increases monotically from 0.6 to 0.9 V. 
     
-![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/pn_junctions/Simulation/pot-pn-silv.png)
+![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/pn_junctions/Simulation/pot-iv-pn-diode.png)
 
 The almost same built-in potentials are obtained using analytical equation provided in this chapter, but the maximum electric field and the total depletion width shows relatively positive and negative deviations, respectively, from the numerical results (builtin.py). These deviotions are larger at lower doping concentrations and due to unvalid box approximation for depletion region. 
