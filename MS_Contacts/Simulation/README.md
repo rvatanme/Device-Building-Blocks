@@ -3,3 +3,5 @@ Here, silvaco software is used to simulate the I-V curve of a Schottky diod and 
 
 ## I-V Characteristic of a Schottky Diode
 The following schottky diode is simulated.
+
+![]()
