@@ -67,4 +67,4 @@ The following figure shows the potential profile obtained from Silvaco for a pn 
     
 ![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/pn_junctions/Simulation/pot-pn-silv.png)
 
-The almost same built-in potentials are obtained using analytical equation provided in this chapter, but the maximum electric field and the total depletion width shows relatively positive and negative deviation, respectively, from the numerical results (builtin.py). This deviotions are larger at lower doping concentrations and due to unvalid box approximation for depletion region. 
+The almost same built-in potentials are obtained using analytical equation provided in this chapter, but the maximum electric field and the total depletion width shows relatively positive and negative deviations, respectively, from the numerical results (builtin.py). These deviotions are larger at lower doping concentrations and due to unvalid box approximation for depletion region. 
