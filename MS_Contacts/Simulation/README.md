@@ -63,4 +63,4 @@ This input almost the same as the input used to simulate a p-n junction, except 
 
 The following figure a and b shows the potential profile and IV characteristic of the simulated schottky diod, respectively, from cathode to anode. As expected and concluded from analytical form, the depletion width is decreased by increasing doping concentration in the semiconductor side. The turn-on potential is found to be around 0.4 V which is half of the barrier hight.
 
-![]()
+![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/MS_Contacts/Simulation/Schot-diode-char.png)
