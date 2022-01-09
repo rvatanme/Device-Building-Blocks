@@ -13,49 +13,50 @@ The input silvaco file for a schottky diode is as following:
 
     mesh  space.mult=1.0
     # 
-   x.mesh loc=0.00 spac=0.5
-   x.mesh loc=3.00 spac=0.2
-   x.mesh loc=5.00 spac=0.25
-   x.mesh loc=7.00 spac=0.25
-   x.mesh loc=9.00 spac=0.2
-   x.mesh loc=12.00 spac=0.5
-   #
-   y.mesh loc=0.00 spac=0.1
-   y.mesh loc=1.00 spac=0.1
-   y.mesh loc=2.00 spac=0.2
-   y.mesh loc=5.00 spac=0.4
+    x.mesh loc=0.00 spac=0.5
+    x.mesh loc=3.00 spac=0.2
+    x.mesh loc=5.00 spac=0.25
+    x.mesh loc=7.00 spac=0.25
+    x.mesh loc=9.00 spac=0.2
+    x.mesh loc=12.00 spac=0.5
+    #
+    y.mesh loc=0.00 spac=0.1
+    y.mesh loc=1.00 spac=0.1
+    y.mesh loc=2.00 spac=0.2
+    y.mesh loc=5.00 spac=0.4
 
 
-   region  num=1  silicon
+    region  num=1  silicon
 
-   electr  name=anode  top
-   #electr  name=anode  x.min=5  length=2
-   electr  name=cathode  bot
+    electr  name=anode  top
+    #electr  name=anode  x.min=5  length=2
+    electr  name=cathode  bot
 
-   #....   N-epi doping 
-   doping  n.type conc=1e16 uniform
+    #....   N-epi doping 
+    doping  n.type conc=1e16 uniform
 
-   #....   Guardring doping 
-   #doping   p.type conc=1e19 x.min=0  x.max=3  junc=1 rat=0.6 gauss
-   #doping   p.type conc=1e19 x.min=9 x.max=12 junc=1 rat=0.6 gauss
+    #....   Guardring doping 
+    #doping   p.type conc=1e19 x.min=0  x.max=3  junc=1 rat=0.6 gauss
+    #doping   p.type conc=1e19 x.min=9 x.max=12 junc=1 rat=0.6 gauss
 
-   #....   N+ doping 
-   #doping  n.type conc=1e20 x.min=0 x.max=12 y.top=2 y.bottom=5 uniform
+    #....   N+ doping 
+    #doping  n.type conc=1e20 x.min=0 x.max=12 y.top=2 y.bottom=5 uniform
 
-   model    conmob  fldmob  srh  auger  bgn 
-   contact    name=anode workf=4.97
+    model    conmob  fldmob  srh  auger  bgn 
+    contact    name=anode workf=4.97
 
-   solve      init
+    solve      init
 
-   method newton
+    method newton
 
-   solve vanode=0.0
-   save outf=diodeex01_0.str
-   tonyplot diodeex01_0.str -set diodeex01_0.set
+    solve vanode=0.0
+    save outf=diodeex01_0.str
+    tonyplot diodeex01_0.str -set diodeex01_0.set
 
-   log   outfile=diodeex01.log
-   solve      vanode=0.05  vstep=0.05  vfinal=1  name=anode
-   tonyplot diodeex01.log -set diodeex01_log.set
-   quit
+    log   outfile=diodeex01.log
+    solve      vanode=0.05  vstep=0.05  vfinal=1  name=anode
+    tonyplot diodeex01.log -set diodeex01_log.set
+    quit
    
    
+This input almost the same as the input used to simulate a p-n junction, except that the anode contact is a schottky contact with the workfunction of 4.97 eV. Since the electron affinity of Si is 4.17, the schottky contact barrier is 0.8 eV. The schottky contact is defined in silvaco by "contact    name=anode workf=4.97" syntax.
