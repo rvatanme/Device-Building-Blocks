@@ -60,3 +60,7 @@ The input silvaco file for a schottky diode is as following:
    
    
 This input almost the same as the input used to simulate a p-n junction, except that the anode contact is a schottky contact with the workfunction of 4.97 eV. Since the electron affinity of Si is 4.17, the schottky contact barrier is 0.8 eV. The schottky contact is defined in silvaco by "contact    name=anode workf=4.97" syntax.
+
+The following figure a and b shows the potential profile and IV characteristic of the simulated schottky diod, respectively, from cathode to anode. As expected and concluded from analytical form, the depletion width is decreased by increasing doping concentration in the semiconductor side. The turn-on potential is found to be around 0.4 V which is half of the barrier hight.
+
+![]()
