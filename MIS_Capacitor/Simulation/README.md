@@ -64,5 +64,12 @@ The following silvaco input file was used to simulate the mentioned device.
     quit
 
 
-I'm sure that I will find a great job in the near future.
+In this example, first the device structure is defined and save in the quantumex02.str file and later this file is loaded for DC analysis.
+
+Under DC bias and no current flow, the "trap" method is used to overcome the poor convergence. One should take care of this convergence issue particulary in devices such as MOS that operate under different regimes in a wide range of voltage ramp. The effect of "trap" is to reduce the bias step if convergence problems are detected. TRAP automatically cuts the bias step in half and tries to obtain a solution for the bias that the convergence have been not achieved. If this solution does not converge, the bias step will be halved again. This procedure is repeated up to a maximum number of tries set by the
+METHOD parameter MAXTRAPS. The default for MAXTRAPS is 4. 
+
+The following figure shows the potential profile of the mentioned MOS in three diffent bias -0.5, 0, 0.5 V.
+
+![]()
 
