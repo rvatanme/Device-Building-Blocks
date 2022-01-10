@@ -71,5 +71,5 @@ METHOD parameter MAXTRAPS. The default for MAXTRAPS is 4.
 
 The following figure shows the potential profile of the mentioned MOS in three diffent bias -0.5, 0, 0.5 V.
 
-![]()
+![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/MIS_Capacitor/Simulation/mos-pot.png)
 
