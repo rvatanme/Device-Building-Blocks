@@ -68,5 +68,24 @@ The following figure a shows the potential profile obtained from Silvaco for a p
 ![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/pn_junctions/Simulation/pot-iv-pn-diode.png)
 
 The almost same built-in potentials are obtained using analytical equation provided in this chapter, but the maximum electric field and the total depletion width shows relatively positive and negative deviations, respectively, from the numerical results (builtin.py). These deviotions are larger at lower doping concentrations and due to unvalid box approximation for depletion region. The above figure b indicates the I-V characteristics of the simulated pn juction, as expected the turn on voltages change regarding the built-in potential of each junction. 
+
     
-yt
+## PN Junction Under Reverse Bias
+the following silvaco input file was used for modeling the pn junction under reverse bias.
+    
+Reza
+Reza
+Reza
+Reza
+Reza
+Reza
+Reza
+Reza
+Reza
+Reza
+Reza
+Reza
+Reza
+Reza
+Reza
+Reza
