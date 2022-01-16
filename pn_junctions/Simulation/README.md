@@ -77,4 +77,8 @@ the following potential profile for the p-n junction with 1e17 doping concentrat
     
 ![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/pn_junctions/Simulation/pn_back_17.png)
     
+The electron and hole quasi Fermi level for the p-n junction with 1e17 doping concentration was obtained from simulation under 0.625 V forward bias and compared with the Shockley form. 
+    
+![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/pn_junctions/Simulation/QFL.png)
+    
 
