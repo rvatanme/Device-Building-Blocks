@@ -73,6 +73,6 @@ The almost same built-in potentials are obtained using analytical equation provi
 ## PN Junction Under Reverse Bias
 the following potential profile for the p-n junction with 1e17 doping concentration was obtained from simulation of the juntion under reverse bias using silvaco.
     
-![]()
+![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/pn_junctions/Simulation/pn_back_17.png)
     
 
