@@ -34,7 +34,7 @@ Silvaco-2017 software were used in order to simulate the diode. The input file i
 
     method newton
 
-    solve      init
+    solve init
 
     solve vanode=0.0
     save outf=pn01_0.str
@@ -62,7 +62,9 @@ Then, at least one electrode should be defined using the syntax of "electr name=
 The final step for defining the device structure is to specify doping concentration and type for each region using the syntax of "doping <doping type> conc <location> <distribution function>". Example: "doping  p.type conc=1e17 x.min=0 x.max=0.4 y.top=0.0 y.bottom=0.6 uniform".
     
 Once the device structure and properties are defined, one can modify the characteristic of electrodes (CONTACT syntax), change the defualt materials (MATERIAL syntax), and choose physical models (MODEL syntax) the models that Atlas use during the device simulation. Impact ionization model can be enabled by "IMPACT" syntax and the interface properties can be defined by "INTERFACE" syntax. Example: "model  conmob  fldmob  srh  auger  bgn". 
-
+    
+The "bgn" model include bandgap narrowing due to high doping concentration. It is important in heavily doped regions and critical for bipolar gain. Use Klaassen Model. The "srh" is the abbreviation for Shockley-Read-Hall model which uses fixed minority carrier lifetimes and should be used in most simulations. The "auger" is a recombination model and is the reverse of impact ionization. It happens when two carriers are recombined and the released energy is transfered to a third carrier.     
+    
 The following figure a shows the potential profile obtained from Silvaco for a pn junction with different doping concentration ranging from 1E15 to 1E18 /cm3 under no bias. As seen, the built in potential increases monotically from 0.6 to 0.9 V. 
     
 ![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/pn_junctions/Simulation/pot-iv-pn-diode.png)
