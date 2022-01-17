@@ -82,3 +82,12 @@ The device properties of the p-n junction with 1e17 doping concentration was obt
 ![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/pn_junctions/Simulation/QFL.png)
     
 ![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/pn_junctions/Simulation/Ele_Hol_Con.png)
+
+    
+The ac analysis of the pn junction using silvaco can be performed using following syntax:
+    
+    solve vanode=0.05 vstep=0.05 vfinal=1 ac.analysis freq=1.0e2 name=anode
+ 
+The following diffusion conductance and capacitance were obtained from the simulation.
+    
+![]()
