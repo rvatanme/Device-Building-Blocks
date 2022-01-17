@@ -90,4 +90,4 @@ The ac analysis of the pn junction using silvaco can be performed using followin
  
 The following diffusion conductance and capacitance were obtained from the simulation.
     
-![]()
+![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/pn_junctions/Simulation/dif_conduc_capac.png)
