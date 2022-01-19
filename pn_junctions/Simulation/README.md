@@ -91,3 +91,107 @@ The ac analysis of the pn junction using silvaco can be performed using followin
 The following diffusion conductance and capacitance were obtained from the simulation.
     
 ![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/pn_junctions/Simulation/dif_conduc_capac.png)
+    
+The following diode was simulated for the breakdown voltage simulation.
+    
+![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/pn_junctions/Simulation/diode_BD.png)
+    
+The silvaco input file is as follows:
+    
+    # (c) Silvaco Inc., 2017
+    go atlas
+    TITLE PN Diode Breakdown with Energy Balance and Nonisothermal Energy Balance Models
+
+    # EB simulation
+
+    mesh    
+    x.m  l=0.0 spac=1.0
+    x.m  l=1.0 spac=1.0
+    y.m  l=0   spac=1.0
+    y.m  l=5.0  spac=0.005
+    y.m  l=15  spac=2
+
+
+    region num=1 silicon
+ 
+    electrode  top name=emitter
+electrode  bottom name=base
+
+doping uniform conc=1e17 p.type 
+doping uniform n.type conc=1.e19  x.l=0. x.r=1 y.t=0.0 y.b=5.0 
+
+#contact name=emitter resis=1.e10
+
+models srh conmob bgn auger fldmob  hcte 
+
+impact  selb  length.rel lrel.ho=0.025  lrel.el=0.025
+
+material  taurel.el=0.25e-12 taumob.el=0.25e-12 taurel.ho=0.25e-12 taumob.ho=0.25e-12
+
+
+method  block newton climit=1.e-5  
+   
+solve vemitter=0.0 
+
+log outf=diodeex02_eb.log
+
+solve  vemitter=0.5 vstep=0.5 vfinal=25 name=emitter cname=emitter compl=1e-12
+save outf=diodeex02_eb.str
+
+contact name=emitter current
+method newton climit=1e-5
+solve imult istep=2  ifinal=1e-3 name=emitter
+
+
+go atlas
+
+# NEB simulation
+
+mesh    
+x.m  l=0.0 spac=1.0
+x.m  l=1.0 spac=1.0
+y.m  l=0   spac=1.0
+y.m  l=5.0  spac=0.005
+y.m  l=15  spac=2
+
+
+region num=1 silicon
+
+electrode  top name=emitter
+electrode  bottom name=base
+ 
+
+doping uniform conc=1e17 p.type 
+doping uniform n.type conc=1.e19  x.l=0. x.r=1 y.t=0.0 y.b=5.0 
+
+
+thermcontact num=1 x.min=0 x.max=1 y.min=0 y.max=0  alpha=100
+thermcontact num=2  x.min=0 x.max=1 y.min=15 y.max=15  alpha=100
+
+
+models srh conmob bgn auger fldmob  hcte lat.temp
+
+impact  selb  length.rel lrel.ho=0.025  lrel.el=0.025
+
+material  taurel.el=0.25e-12 taumob.el=0.25e-12 taurel.ho=0.25e-12 taumob.ho=0.25e-12
+
+
+method  block newton climit=1.e-5  
+   
+solve vemitter=0.0 
+
+log outf=diodeex02_neb.log
+
+solve  vemitter=0.5 vstep=0.5 vfinal=25 name=emitter cname=emitter compl=1e-12
+save outf=diodeex02_neb.str
+
+contact name=emitter current
+method newton climit=1e-5
+solve imult istep=2  ifinal=1e-3 name=emitter
+
+tonyplot diodeex02_neb.str -set diodeex02_0.set
+tonyplot diodeex02_eb.log -overlay diodeex02_neb.log -set diodeex02.set
+quit
+    
+
+
