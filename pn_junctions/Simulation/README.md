@@ -193,5 +193,32 @@ The silvaco input file is as follows:
     tonyplot diodeex02_eb.log -overlay diodeex02_neb.log -set diodeex02.set
     quit
     
+The "x.m" and "l" syntax in mesh section is are the abbrivations for "x.mesh" and "loc", respectively. The "x.l" and "x.r" are the abbrevations for "x.left" and "x.right", respectively and can be used instead of "x.min" and "x.max". The "y.t" and "y.b" are the abbrevations for "y.top" and "y.bottom", respectively and can be used instead of "y.min" and "y.max".
+
+To enable the energy balance transport model, use the HCTE, HCTE.EL, or HCTE.HO parameters in the MODELS statement. These parameters enable the energy transport model for both carriers, electrons only, or holes only respectively. For example, the statement: MODELS MOS HCTE.   
+    
+All models with the exception of impact ionization are specified on the MODELS statement. Impact ionization is specified on the IMPACT statement. The "selb" is the abbreviation for Selberherr impact ionization model. The "length.rel" specifies the use of energy relaxation length for the impact ionization model with the energy balance model. If LENGTH.REL is specified, TAUSN and TAUSP cannot be specified and have any affect. The "lrel.el" and "lrel.ho" specify an energy relaxation length for electrons and holes, respectively, if LENGTH.REL is specified. 
+    
+In the "material" section, the TAUREL.EL and TAUREL.HO are the electron and hole energy relaxation times. The relaxation parameters are user-definable on the MATERIAL statement and their default values are 4.0e-13 s. The relaxation times are extremely important as they determine the time constant for the rate of energy exchange and therefore precise values are required if the model is to be accurate. But, this is an unmeasurable parameter and Monte Carlo analysis is the favored method through which values can be extracted for the relaxation time. The "taumob.el" and "taumob.hol" specify the relaxation time for electrons and hole in the temperature dependent mobility model and their default values are 2.5e-13 s.    
+    
+The CLIMIT or CLIM.DD specify minimal values of concentrations to be resolved by the solver. Sometimes, you need to reduce this value to aid solutions of breakdown characteristics. A value of CLIMIT=1e-4 is recommended for all simulations of breakdown, where the pre-breakdown current is small. CLIM.DD is equivalent to CLIMIT but uses the more convenient units of cm-3 for the critical concentration. CLIM.DD and CLIMIT are related by the following expression: CLIMIT*(NcNd)^1/2.
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
 
