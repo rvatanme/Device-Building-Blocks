@@ -195,6 +195,8 @@ The silvaco input file is as follows:
     
 The "x.m" and "l" syntax in mesh section is are the abbrivations for "x.mesh" and "loc", respectively. The "x.l" and "x.r" are the abbrevations for "x.left" and "x.right", respectively and can be used instead of "x.min" and "x.max". The "y.t" and "y.b" are the abbrevations for "y.top" and "y.bottom", respectively and can be used instead of "y.min" and "y.max".
 
+Ssince in this example the dimension of the device is close to submicron, the breakdown simulation should be simulated using the Energy Balance Model due to nonlocal impact ionization effects, which can substantially influence device characteristics. For high current levels the thermal self-heating effects can also play an important role by decreasing the mobility and impact ionization rate. This example demonstrates a comparison of breakdown calculations obtained with Energy Balance and Nonisothermal Energy Balance Models. 
+    
 To enable the energy balance transport model, use the HCTE, HCTE.EL, or HCTE.HO parameters in the MODELS statement. These parameters enable the energy transport model for both carriers, electrons only, or holes only respectively. For example, the statement: MODELS MOS HCTE.   
     
 All models with the exception of impact ionization are specified on the MODELS statement. Impact ionization is specified on the IMPACT statement. The "selb" is the abbreviation for Selberherr impact ionization model. The "length.rel" specifies the use of energy relaxation length for the impact ionization model with the energy balance model. If LENGTH.REL is specified, TAUSN and TAUSP cannot be specified and have any affect. The "lrel.el" and "lrel.ho" specify an energy relaxation length for electrons and holes, respectively, if LENGTH.REL is specified. 
@@ -215,6 +217,34 @@ current since linear ramps are inconvenient when several orders of magnitude in 
 When you switch a device on, there can be significant current density within the silicon. This could generate a significant amount of heat. In bulk MOS devices, the silicon substrates behaves like a good heat conductor. This generated heat is then quickly removed. But this isn’t the case with SOI substrates as the buried oxide layer allows this generated heat to be retained. For SOI MOSFETs, this can be a significant amount and can drastically affect the operation of the device. In such cases, take account of this by using the G IGA module. Note that when you switch on lattice heating by using the LAT.TEMP parameter in the MODELS statement, you also need to specify a thermal boundary condition with the THERMCONTACT statement. In deep submicron designs, you may need to switch on the additional energy balance equations. These take into account the exchange of energy between carriers and between the carriers and the lattice. The units of the thermal resistance parameter "ALPHA" are scaled in 3D to W/(cm.K) [watt/centimetre.kelvin]. Thermal resistance is a heat property and a measurement of a temperature difference by which an object or material resists a heat flow. Thermal resistance is the reciprocal of thermal conductance.    
     
 In some cases, lattice heating may be important to MOS simulation. This typically occurs in cases with very high currents, just like the case with ESD simulation. To enable heat flow simulation, set the LAT.TEMP parameter of the MODEL statement (a license for G IGA is required). For example, the statement: MODEL LAT.TEMP enables heat-flow simulation.    
+    
+The following results is obtained from running the above silvaco input file:
+    
+![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/pn_junctions/Simulation/BD_EB_NEB.png)
+    
+jt    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     
