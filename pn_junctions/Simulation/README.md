@@ -354,7 +354,7 @@ In the "material" statement, eg300 is the band gap of the material in the 300 K.
     
 In the "material num=1" statement, "mun0" and "mup0" specifies low-field electron mobility. This parameter is only used if no concentration dependent mobility model is specified. The "taun0" and "taup0" specify the electron and hole lifetime.      
     
-    
+In the "impact" statement, the "sleb" syntax activates Selberherr’s Impact Ionization Model. The ionization rate model proposed by Selberherr [207] is a variation of the classical Chynoweth model. The fitting parameters in Chynoweth model are also a function of the lattice temperature in this model [150]. The temperature dependence of these coefficients is specified by an1, an2, bn1, bn2, ap1, ap2, bp1, and bp2.     
     
     
     
