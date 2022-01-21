@@ -343,17 +343,16 @@ The following silvaco input file was used in order to simulate the IV characteri
 
     quit
 
-The input file starts by defining the mesh. The location and grid spacing along x and y directions are specified in the x.m and y.m statements. This simulation employs cylindrical symmetry and is therefore quasi-3-dimensional. To activate this feature, the parameter cylindrical is included in the mesh statement. 
-
+In the "mesh" statement, the "rect" syntax initiates the generation of a rectangular mesh. The "SMOOTH.KEY" is an integer value and specifies a smoothing index. The digits of the index are read in reverse: 1) Triangle smoothing. All region boundaries remain fixed. 2) Triangle smoothing. Only material boundaries are maintained. 3) Node averaging. 4) Improved triangle smoothing method. This method uses diagonal flipping to reduce the number of obtuse triangles. 5) Triangle smoothing by flipping diagonals according to electric field. Usually option 1 is sufficient. Option 2 is useful only if a device has
+several regions of the same material and the border between different regions is unimportant. order and interpreted as followsThe "diag.flip" flips the diagonals in a square mesh about the center of the grid. If the parameter is negated, using DIAG.FLIP is specified, all diagonals will be in the same direction. Therefore this simulation employs cylindrical symmetry and is therefore quasi-3-dimensional. To activate this feature, the parameter cylindrical is included in the mesh statement. The "cylindrical" syntax specifies that the mesh contains cylindrical symetry. The exact meaning also depends on the state of the THREE.D parameter. If THREE.D is not set, the simulation will assume that a 2D mesh in X and Y coordinates is rotated by 360° about the Y axis. In this case, do not define mesh locations with negative X coordinates. Also, note that if such a structure is saved and re-loaded in subsequent simulations, the state of the CYLINDRICAL flag is lost and should be specified in each successive input deck.   
     
+In the "elec" section, by default the electrod is located at the top of the device if the "y" location is not specified.     
     
+In the "save" statment, the "master" syntax specifies that the output file will be written in a standard structure format. Files in this format can be plotted in tonyplot.    
     
+In the "material" statement, eg300 is the band gap of the material in the 300 K. The "egbeta" and "egalpha" are the parameters for temperature depence bandgap model (manual page: 94). The "augn" and "augp" are the parameters for electrons and holes in recombination model (manual page: 180) and their default values are 2.8e-31 and 9.9e-32 (manual page: 306). The "tmun" and "tmup" are the parameters for electrons and holes in temperature dependence low field mobility model. GIGA can account for the temperature dependence of the minority carrier lifetimes for electrons or holes or both. The LT.TAUN (electrons) and LT.TAUP (holes) parameters of the MATERIAL statement are used to select this model. This model is turned on whenever the value of LT.TAUN or LT.TAUP is greater than 0, which is the default (manual page: 359).    
     
-    
-    
-    
-    
-    
+In the "material num=1" statement, "mun0" and "mup0" specifies low-field electron mobility. This parameter is only used if no concentration dependent mobility model is specified. The "taun0" and "taup0" specify the electron and hole lifetime.      
     
     
     
