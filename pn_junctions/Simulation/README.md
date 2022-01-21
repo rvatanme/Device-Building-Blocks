@@ -221,9 +221,9 @@ The following results is obtained from running the above silvaco input file:
     
 ![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/pn_junctions/Simulation/BD_EB_NEB.png)
     
-The second example of breakdown voltage is related to SiC diode. a SiC diode is simulated to demonstrate the Atlas capabilities to handle wide band gap semiconductor devices under room and elevated temperature conditions. The interest toward SiC technologies is growing due to the thermal and electronic properties of the material potentially leading to very high figures of merit for high-power, high-speed, high-temperature, and radiation hard applications.    
+The second example of breakdown voltage is related to SiC diode. a SiC diode is simulated to demonstrate the Atlas capabilities to handle wide band gap semiconductor devices under room and elevated temperature conditions. The interest toward SiC technologies is growing due to the thermal and electronic properties of the material potentially leading to very high figures of merit for high-power, high-speed, high-temperature, and radiation hard applications. The following micron-scale PIN diode is simulated using silvaco.    
     
-    
+![]()    
     
     
     
