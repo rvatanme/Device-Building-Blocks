@@ -195,7 +195,7 @@ The silvaco input file is as follows:
     
 The "x.m" and "l" syntax in mesh section is are the abbrivations for "x.mesh" and "loc", respectively. The "x.l" and "x.r" are the abbrevations for "x.left" and "x.right", respectively and can be used instead of "x.min" and "x.max". The "y.t" and "y.b" are the abbrevations for "y.top" and "y.bottom", respectively and can be used instead of "y.min" and "y.max".
 
-Ssince in this example the dimension of the device is close to submicron, the breakdown simulation should be simulated using the Energy Balance Model due to nonlocal impact ionization effects, which can substantially influence device characteristics. For high current levels the thermal self-heating effects can also play an important role by decreasing the mobility and impact ionization rate. This example demonstrates a comparison of breakdown calculations obtained with Energy Balance and Nonisothermal Energy Balance Models. 
+Since in this example the dimension of the device is close to the submicron scale, the breakdown simulation should be simulated using the Energy Balance Model due to nonlocal impact ionization effects, which can substantially influence device characteristics. For high current levels the thermal self-heating effects can also play an important role by decreasing the mobility and impact ionization rate.
     
 To enable the energy balance transport model, use the HCTE, HCTE.EL, or HCTE.HO parameters in the MODELS statement. These parameters enable the energy transport model for both carriers, electrons only, or holes only respectively. For example, the statement: MODELS MOS HCTE.   
     
