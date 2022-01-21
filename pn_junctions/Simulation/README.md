@@ -223,10 +223,128 @@ The following results is obtained from running the above silvaco input file:
     
 The second example of breakdown voltage is related to SiC diode. a SiC diode is simulated to demonstrate the Atlas capabilities to handle wide band gap semiconductor devices under room and elevated temperature conditions. The interest toward SiC technologies is growing due to the thermal and electronic properties of the material potentially leading to very high figures of merit for high-power, high-speed, high-temperature, and radiation hard applications. The following micron-scale PIN diode is simulated using silvaco.    
     
-![]()    
+![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/pn_junctions/Simulation/PIN_str.png)    
     
+The following silvaco input file was used in order to simulate the IV characteristics of the mentioned PIN diode and consequently breakdown voltage.     
     
-    
+    # (c) Silvaco Inc., 2017
+    go atlas
+    #
+    Title alpha-SiC Diode DC Forward, Reverse, and Breakdown Characteristics
+    #
+    # SECTION 1: Mesh Input
+    #
+    mesh       rect    smooth=1 diag.flip cylindrical 
+    x.m        l=0.0    spac=20
+    x.m        l=80.0   spac=10
+    x.m        l=200.0  spac=50
+    #
+    y.m        l=0.0   spac=1.0
+    y.m        l=3.2   spac=0.1
+    y.m        l=5.0   spac=0.5
+    y.m        l=7.0   spac=0.1
+    y.m        l=15.0  spac=3.0
+    #
+    # SECTION 2: Regions & Electrodes 
+    #
+    region     num=1   material=a-SiC            y.max=3.2
+    region     num=2   material=a-SiC y.min=3.2  y.max=7.0
+    region     num=3   material=a-SiC y.min=7.0  
+    #
+    elec       name=anode  x.max=100.0  
+    elec       name=cathode  bottom
+    #
+    # SECTION 3: Doping Definition
+    #
+    # p+ emitter
+    doping     region=1  uniform conc=2.0e19 p.type 
+    # n-base
+    doping     region=2  uniform conc=1.0e16 n.type 
+    # n+ emitter
+    doping     region=3  uniform conc=5.0e18 n.type 
+    #
+    save outf=diodeex04.str master
+    #
+    # SECTION 4: Material & Models Definitions
+    #
+    material   permittivity=9.66 eg300=3.00 egbeta=0. egalpha=3.3e-4 \
+               augn=2.8e-31 augp=9.9e-32 vsat=2.0e7 \
+               tmun=2.25 tmup=2.25 lt.taun=2.3 lt.taup=2.3
+    #
+    material num=1 mun0= 35.0 mup0= 25.0 taun0=1.e-9 taup0=1.e-9
+    material num=2 mun0=330.0 mup0= 60.0 taun0=1.e-7 taup0=1.e-7
+    material num=3 mun0=120.0 mup0= 35.0 taun0=5.e-9 taup0=5.e-9
+    #
+    model    fldmob srh auger bgn print temperature=300 
+    impact selb an1=1.66e6 an2=1.66e6 bn1=1.273e7 bn2=1.273e7 \
+                 ap1=5.18e6 ap2=5.18e6 bp1=1.4e7   bp2=1.4e7
+
+    #
+    #
+    # SECTION 5: Forward I-V Characteristic  Room Temperature
+    #
+    solve init
+    log outf=diodeex04_1.log
+    solve vanode=0.2 vstep=0.2 name=anode vfinal= 4.0
+    #
+    #
+
+    go atlas
+    #
+    # Simulation at Elevated Temperature
+    #
+    # SECTION 6: Read in Mesh and Structure Data
+    #
+    mesh inf=diodeex04.str cylindrical
+    #
+    # SECTION 7: Set Material, Models Definitions & Temperature
+    #
+    material   permittivity=9.66 eg300=3.00 egbeta=0. egalpha=3.3e-4 \
+                augn=2.8e-31 augp=9.9e-32 vsat=2.0e7 \
+                tmun=2.25 tmup=2.25 lt.taun=2.3 lt.taup=2.3
+    #
+    material num=1 mun0= 35.0 mup0= 25.0 taun0=1.e-9 taup0=1.e-9
+    material num=2 mun0=330.0 mup0= 60.0 taun0=1.e-7 taup0=1.e-7
+    material num=3 mun0=120.0 mup0= 35.0 taun0=5.e-9 taup0=5.e-9
+    #
+    model    fldmob srh auger bgn print temperature=623 
+    impact  selb an1=1.66e6 an2=1.66e6 bn1=1.273e7 bn2=1.273e7 \
+                 ap1=5.18e6 ap2=5.18e6 bp1=1.4e7   bp2=1.4e7
+
+    #
+    # SECTION 8: Forward I-V Characteristic  623K
+    #
+
+    solve init 
+    log outf=diodeex04_2.log
+    solve vanode=0.2 vstep=0.2 name=anode vfinal= 4.0
+
+    #
+    # SECTION 10: Calculate Reverse I-V Characteristic & Breakdown
+    #
+
+    method newton dvmax=1e8 climit=1.e-5
+    log off
+    solve init
+
+    log outf=diodeex04_3.log 
+    curvetrace end.val=1e-9 contr.name=anode curr.cont  \
+                mincur=1e-11 nextst.ratio=1.1 step.init=-0.5
+
+    solve curvetrace
+    save outf=diodeex04_1.str
+
+    # Forward Characteristics at 300K and 623K
+    tonyplot -overlay diodeex04_1.log diodeex04_2.log -set diodeex04_log1.set
+
+
+    # Reverse and Breakdown Characteristic at 623K
+    tonyplot diodeex04_3.log -set diodeex04_log2.set
+
+    quit
+
+The input file starts by defining the mesh. The location and grid spacing along x and y directions are specified in the x.m and y.m statements. This simulation employs cylindrical symmetry and is therefore quasi-3-dimensional. To activate this feature, the parameter cylindrical is included in the mesh statement. 
+
     
     
     
