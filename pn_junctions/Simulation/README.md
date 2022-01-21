@@ -356,13 +356,17 @@ In the "material num=1" statement, "mun0" and "mup0" specifies low-field electro
     
 In the "impact" statement, the "sleb" syntax activates Selberherr’s Impact Ionization Model. The ionization rate model proposed by Selberherr [207] is a variation of the classical Chynoweth model. The fitting parameters in Chynoweth model are also a function of the lattice temperature in this model [150]. The temperature dependence of these coefficients is specified by an1, an2, bn1, bn2, ap1, ap2, bp1, and bp2.     
     
+In the second run, the mesh is loaded by "mesh inf=diodeex04.str cylindrical" command line.     
     
+In the "method" statement, DVMAX controls the maximum update of potential per iteration of Newton’s method. The default corresponds to 1V. For power devices requiring large voltages, you may need an increased value of DVMAX. DVMAX=1e8 can improve the speed of high voltage bias ramps.    
     
+In the "log" statement, OFF parameter is used to not save the terminal characteristics to the current saved file, use another LOG statement with either a different log filename.    
     
+The "curvetrace" is used to trace a diode breakdown curve using current value as a termination criteria by the "CURR.CONT" syntax. MINCUR sets a small current value above that activates the dynamic load line algorithm. Below the MINCUR level, using the STEP.INIT and NEXTST.RATIO determines the next solution bias. END.VAL stops the tracing if the voltage or current of the ramped electrode equals or exceeds END.VAL. 
     
+The following IV curve under reverse bias is obtained by running the above silvaco input file.
     
-    
-    
+![]()
     
     
     
