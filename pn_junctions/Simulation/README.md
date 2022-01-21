@@ -366,7 +366,7 @@ The "curvetrace" is used to trace a diode breakdown curve using current value as
     
 The following IV curve under reverse bias is obtained by running the above silvaco input file.
     
-![]()
+![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/pn_junctions/Simulation/VBD_SiC.png)
     
     
     
