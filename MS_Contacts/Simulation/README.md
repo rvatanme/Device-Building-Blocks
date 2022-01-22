@@ -70,3 +70,7 @@ The following figure shows the change of build-in potential and forward IV chara
 ![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/MS_Contacts/Simulation/schot_IV_wf.png)
 
 It is clear from the figure that both build-in potential and turn-on voltage increase with increasing the workfunction of the metal. The change of build in potential and turn-on voltage are both equal to the change in workfunction value. The same prediction is concluded from the analytical form provided in MS-Contact chapter. Since the qφ</sub>n</sub> is constant and the barrier hight is increased due to increasing the workfunction, the build-in potential must be increased in order to keep the thermal equilibrium. The turn-on voltage is dependent on the barrier hight, as the barrier hight increases the turn-on voltage also increases. This voltage is 0.5, 0.75 and 1 for the workfunction of 5, 5.25 and 5.5 eV. The diode with a lower barrier hight shows highr current compared to that with higher barrier hight before the turn-on voltage. The turn-on voltage is lower than the original barrier hight due to image force lowering phenomena.
+
+The following figure shows the depletion width of the schottky diode under three different reverse biases. The WD2 graph is corresponded to the depletion capacitance of the diode in the unit of F/cm2.
+
+![]()
