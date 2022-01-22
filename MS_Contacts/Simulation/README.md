@@ -73,4 +73,5 @@ It is clear from the figure that both build-in potential and turn-on voltage inc
 
 The following figure shows the depletion width of the schottky diode under three different reverse biases. The WD2 graph is corresponded to the depletion capacitance of the diode in the unit of F/cm2.
 
-![]()
+![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/MS_Contacts/Simulation/dep_width_schot.png)
+
