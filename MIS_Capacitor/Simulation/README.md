@@ -75,5 +75,5 @@ The following figure shows the potential and electron concentration profile of t
 
 The following figure obtained for C-V curve of the mentioned MOS in low and high frequency ac analysis.
 
-![]()
+![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/MIS_Capacitor/Simulation/MOS_ac_analysis.png)
 
