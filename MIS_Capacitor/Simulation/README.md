@@ -71,5 +71,9 @@ METHOD parameter MAXTRAPS. The default for MAXTRAPS is 4.
 
 The following figure shows the potential and electron concentration profile of the mentioned MOS along y direction in three diffent bias -2, 0, 2 V.
 
+![](https://github.com/rvatanme/Device-Building-Blocks/blob/main/MIS_Capacitor/Simulation/MOS_pot_ele.png)
+
+The following figure obtained for C-V curve of the mentioned MOS in low and high frequency ac analysis.
+
 ![]()
 
